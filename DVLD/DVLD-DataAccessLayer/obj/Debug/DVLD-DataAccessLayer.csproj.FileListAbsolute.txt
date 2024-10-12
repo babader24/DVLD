@@ -1,0 +1,6 @@
+F:\تاسيس ابو هدهود\كورس رقم 19 مشروع رخص السيارات\DVLD\DVLD-DataAccessLayer\bin\Debug\DVLD-DataAccessLayer.dll
+F:\تاسيس ابو هدهود\كورس رقم 19 مشروع رخص السيارات\DVLD\DVLD-DataAccessLayer\bin\Debug\DVLD-DataAccessLayer.pdb
+F:\تاسيس ابو هدهود\كورس رقم 19 مشروع رخص السيارات\DVLD\DVLD-DataAccessLayer\obj\Debug\DVLD-DataAccessLayer.csproj.AssemblyReference.cache
+F:\تاسيس ابو هدهود\كورس رقم 19 مشروع رخص السيارات\DVLD\DVLD-DataAccessLayer\obj\Debug\DVLD-DataAccessLayer.csproj.CoreCompileInputs.cache
+F:\تاسيس ابو هدهود\كورس رقم 19 مشروع رخص السيارات\DVLD\DVLD-DataAccessLayer\obj\Debug\DVLD-DataAccessLayer.dll
+F:\تاسيس ابو هدهود\كورس رقم 19 مشروع رخص السيارات\DVLD\DVLD-DataAccessLayer\obj\Debug\DVLD-DataAccessLayer.pdb

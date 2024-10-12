@@ -1,0 +1,32 @@
+F:\تاسيس ابو هدهود\كورس رقم 18 ربط قواعد بيانات ادو زوت نت\Contact App Windos version\DVLD\bin\Debug\DVLD.exe.config
+F:\تاسيس ابو هدهود\كورس رقم 18 ربط قواعد بيانات ادو زوت نت\Contact App Windos version\DVLD\bin\Debug\DVLD.exe
+F:\تاسيس ابو هدهود\كورس رقم 18 ربط قواعد بيانات ادو زوت نت\Contact App Windos version\DVLD\bin\Debug\DVLD.pdb
+F:\تاسيس ابو هدهود\كورس رقم 18 ربط قواعد بيانات ادو زوت نت\Contact App Windos version\DVLD\obj\Debug\DVLD.csproj.AssemblyReference.cache
+F:\تاسيس ابو هدهود\كورس رقم 18 ربط قواعد بيانات ادو زوت نت\Contact App Windos version\DVLD\obj\Debug\DVLD.Properties.Resources.resources
+F:\تاسيس ابو هدهود\كورس رقم 18 ربط قواعد بيانات ادو زوت نت\Contact App Windos version\DVLD\obj\Debug\DVLD.csproj.GenerateResource.cache
+F:\تاسيس ابو هدهود\كورس رقم 18 ربط قواعد بيانات ادو زوت نت\Contact App Windos version\DVLD\obj\Debug\DVLD.csproj.CoreCompileInputs.cache
+F:\تاسيس ابو هدهود\كورس رقم 18 ربط قواعد بيانات ادو زوت نت\Contact App Windos version\DVLD\obj\Debug\DVLD.exe
+F:\تاسيس ابو هدهود\كورس رقم 18 ربط قواعد بيانات ادو زوت نت\Contact App Windos version\DVLD\obj\Debug\DVLD.pdb
+F:\تاسيس ابو هدهود\كورس رقم 18 ربط قواعد بيانات ادو زوت نت\Contact App Windos version\DVLD\obj\Debug\DVLD.frmDVLD.resources
+F:\تاسيس ابو هدهود\كورس رقم 18 ربط قواعد بيانات ادو زوت نت\Contact App Windos version\DVLD\obj\Debug\DVLD.frmManage_People.resources
+F:\تاسيس ابو هدهود\كورس رقم 19 مشروع رخص السيارات\DVLD\bin\Debug\DVLD.exe.config
+F:\تاسيس ابو هدهود\كورس رقم 19 مشروع رخص السيارات\DVLD\bin\Debug\DVLD.exe
+F:\تاسيس ابو هدهود\كورس رقم 19 مشروع رخص السيارات\DVLD\bin\Debug\DVLD.pdb
+F:\تاسيس ابو هدهود\كورس رقم 19 مشروع رخص السيارات\DVLD\bin\Debug\DVLD-BusneissLayer.dll
+F:\تاسيس ابو هدهود\كورس رقم 19 مشروع رخص السيارات\DVLD\bin\Debug\DVLD-DataAccessLayer.dll
+F:\تاسيس ابو هدهود\كورس رقم 19 مشروع رخص السيارات\DVLD\bin\Debug\DVLD-BusneissLayer.pdb
+F:\تاسيس ابو هدهود\كورس رقم 19 مشروع رخص السيارات\DVLD\bin\Debug\DVLD-DataAccessLayer.pdb
+F:\تاسيس ابو هدهود\كورس رقم 19 مشروع رخص السيارات\DVLD\obj\Debug\DVLD.csproj.AssemblyReference.cache
+F:\تاسيس ابو هدهود\كورس رقم 19 مشروع رخص السيارات\DVLD\obj\Debug\DVLD.frmDVLD.resources
+F:\تاسيس ابو هدهود\كورس رقم 19 مشروع رخص السيارات\DVLD\obj\Debug\DVLD.frmManage_People.resources
+F:\تاسيس ابو هدهود\كورس رقم 19 مشروع رخص السيارات\DVLD\obj\Debug\DVLD.Properties.Resources.resources
+F:\تاسيس ابو هدهود\كورس رقم 19 مشروع رخص السيارات\DVLD\obj\Debug\DVLD.csproj.GenerateResource.cache
+F:\تاسيس ابو هدهود\كورس رقم 19 مشروع رخص السيارات\DVLD\obj\Debug\DVLD.csproj.CoreCompileInputs.cache
+F:\تاسيس ابو هدهود\كورس رقم 19 مشروع رخص السيارات\DVLD\obj\Debug\DVLD.csproj.Up2Date
+F:\تاسيس ابو هدهود\كورس رقم 19 مشروع رخص السيارات\DVLD\obj\Debug\DVLD.exe
+F:\تاسيس ابو هدهود\كورس رقم 19 مشروع رخص السيارات\DVLD\obj\Debug\DVLD.pdb
+F:\تاسيس ابو هدهود\كورس رقم 19 مشروع رخص السيارات\DVLD\obj\Debug\DVLD.PersonInfo.resources
+F:\تاسيس ابو هدهود\كورس رقم 19 مشروع رخص السيارات\DVLD\obj\Debug\DVLD.frmPersonDetails.resources
+F:\تاسيس ابو هدهود\كورس رقم 19 مشروع رخص السيارات\DVLD\obj\Debug\DVLD.frmAddEdit.resources
+F:\تاسيس ابو هدهود\كورس رقم 19 مشروع رخص السيارات\DVLD\obj\Debug\DVLD.ucAddEdit.resources
+F:\تاسيس ابو هدهود\كورس رقم 19 مشروع رخص السيارات\DVLD\obj\Debug\DVLD.FrmLoginScreen.resources

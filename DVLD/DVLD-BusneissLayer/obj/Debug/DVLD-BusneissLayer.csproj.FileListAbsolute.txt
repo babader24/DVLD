@@ -1,0 +1,9 @@
+F:\تاسيس ابو هدهود\كورس رقم 19 مشروع رخص السيارات\DVLD\DVLD-BusneissLayer\bin\Debug\DVLD-BusneissLayer.dll
+F:\تاسيس ابو هدهود\كورس رقم 19 مشروع رخص السيارات\DVLD\DVLD-BusneissLayer\bin\Debug\DVLD-BusneissLayer.pdb
+F:\تاسيس ابو هدهود\كورس رقم 19 مشروع رخص السيارات\DVLD\DVLD-BusneissLayer\bin\Debug\DVLD-DataAccessLayer.dll
+F:\تاسيس ابو هدهود\كورس رقم 19 مشروع رخص السيارات\DVLD\DVLD-BusneissLayer\bin\Debug\DVLD-DataAccessLayer.pdb
+F:\تاسيس ابو هدهود\كورس رقم 19 مشروع رخص السيارات\DVLD\DVLD-BusneissLayer\obj\Debug\DVLD-BusneissLayer.csproj.AssemblyReference.cache
+F:\تاسيس ابو هدهود\كورس رقم 19 مشروع رخص السيارات\DVLD\DVLD-BusneissLayer\obj\Debug\DVLD-BusneissLayer.csproj.CoreCompileInputs.cache
+F:\تاسيس ابو هدهود\كورس رقم 19 مشروع رخص السيارات\DVLD\DVLD-BusneissLayer\obj\Debug\DVLD-Bus.42634999.Up2Date
+F:\تاسيس ابو هدهود\كورس رقم 19 مشروع رخص السيارات\DVLD\DVLD-BusneissLayer\obj\Debug\DVLD-BusneissLayer.dll
+F:\تاسيس ابو هدهود\كورس رقم 19 مشروع رخص السيارات\DVLD\DVLD-BusneissLayer\obj\Debug\DVLD-BusneissLayer.pdb
