@@ -46,11 +46,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="frmAddEdit.cs">
+    <Compile Include="Filter.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Filter.Designer.cs">
+      <DependentUpon>Filter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAddEditPerson.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmAddEdit.Designer.cs">
-      <DependentUpon>frmAddEdit.cs</DependentUpon>
+    <Compile Include="frmAddEditPerson.Designer.cs">
+      <DependentUpon>frmAddEditPerson.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAddEditUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddEditUser.Designer.cs">
+      <DependentUpon>frmAddEditUser.cs</DependentUpon>
     </Compile>
     <Compile Include="frmDVLD.cs">
       <SubType>Form</SubType>
@@ -69,6 +81,12 @@
     </Compile>
     <Compile Include="frmManage-People.Designer.cs">
       <DependentUpon>frmManage-People.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmManage-Users.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmManage-Users.Designer.cs">
+      <DependentUpon>frmManage-Users.cs</DependentUpon>
     </Compile>
     <Compile Include="frmPersonDetails.cs">
       <SubType>Form</SubType>
@@ -90,8 +108,14 @@
     <Compile Include="ucAddEdit.Designer.cs">
       <DependentUpon>ucAddEdit.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="frmAddEdit.resx">
-      <DependentUpon>frmAddEdit.cs</DependentUpon>
+    <EmbeddedResource Include="Filter.resx">
+      <DependentUpon>Filter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddEditPerson.resx">
+      <DependentUpon>frmAddEditPerson.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddEditUser.resx">
+      <DependentUpon>frmAddEditUser.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmDVLD.resx">
       <DependentUpon>frmDVLD.cs</DependentUpon>
@@ -101,6 +125,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmManage-People.resx">
       <DependentUpon>frmManage-People.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmManage-Users.resx">
+      <DependentUpon>frmManage-Users.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmPersonDetails.resx">
       <DependentUpon>frmPersonDetails.cs</DependentUpon>
@@ -187,6 +214,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\car_400px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\export_240px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pincode_keyboard_480px.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

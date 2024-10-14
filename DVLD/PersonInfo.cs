@@ -62,7 +62,7 @@ namespace DVLD
                 picPhoto.Load(_Person.ImagePath);
 
             }
-            catch (Exception ex)
+            catch /*(Exception ex)*/
             {
                 picPhoto.Load(defualtIMG);
             }

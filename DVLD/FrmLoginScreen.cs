@@ -19,6 +19,7 @@ namespace DVLD
         public FrmLoginScreen()
         {
             InitializeComponent();
+            
             loadUserInfo();
         }
 
@@ -28,9 +29,11 @@ namespace DVLD
             {
                 if(clsUser.IsActive(tbUserName.Text))
                 {
+                    this.Hide();
                     Form frm = new frmDVLD();
-                    frm.ShowDialog();
-                    this.Close();
+                    frm.Closed += (s, arags) => this.Close();
+                    frm.Show();
+                    
                 }
                 else
                 {
@@ -58,17 +61,13 @@ namespace DVLD
 
         private void picCloseLoginScreen_Click(object sender, EventArgs e)
         {
-            this.Close();
+            Environment.Exit(1);
         }
 
-        private void cbRemember_CheckedChanged(object sender, EventArgs e)
-        {
-
-                
-        }
         private void loadUserInfo()
         {
-            if(File.Exists(path))
+            
+            if (File.Exists(path))
             {
                 var lines = File.ReadAllLines(path);
                 if (lines.Length == 2)
@@ -76,8 +75,11 @@ namespace DVLD
                     tbUserName.Text = lines[0];
                     tbPassword.Text = lines[1];
                     cbRemember.Checked = true;
+                    
                 }
             }
+           
+                
         }
 
         private void saveUserInfo()
@@ -88,5 +90,7 @@ namespace DVLD
                 writer.WriteLine(tbPassword.Text);
             }
         }
+
+
     }
 }

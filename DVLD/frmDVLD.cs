@@ -30,5 +30,25 @@ namespace DVLD
             Form frmPeople = new frmManage_People();
             frmPeople.ShowDialog();
         }
+
+        private void signOutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+            this.Hide();
+            Form frm = new FrmLoginScreen();
+            frm.Show();
+
+        }
+
+        private void frmDVLD_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Environment.Exit(0);
+        }
+
+        private void usersToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form frm = new frmManage_Users();
+            frm.ShowDialog();
+        }
     }
 }

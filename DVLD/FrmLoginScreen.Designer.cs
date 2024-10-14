@@ -60,8 +60,10 @@
             // 
             this.tbPassword.Location = new System.Drawing.Point(571, 228);
             this.tbPassword.Name = "tbPassword";
+            this.tbPassword.PasswordChar = '*';
             this.tbPassword.Size = new System.Drawing.Size(192, 24);
-            this.tbPassword.TabIndex = 1;
+            this.tbPassword.TabIndex = 2;
+            this.tbPassword.TabStop = false;
             // 
             // label1
             // 
@@ -120,10 +122,10 @@
             this.cbRemember.Location = new System.Drawing.Point(571, 274);
             this.cbRemember.Name = "cbRemember";
             this.cbRemember.Size = new System.Drawing.Size(106, 21);
-            this.cbRemember.TabIndex = 4;
+            this.cbRemember.TabIndex = 3;
+            this.cbRemember.TabStop = false;
             this.cbRemember.Text = "Remeber Me";
             this.cbRemember.UseVisualStyleBackColor = true;
-            this.cbRemember.CheckedChanged += new System.EventHandler(this.cbRemember_CheckedChanged);
             // 
             // btnLogin
             // 
@@ -133,7 +135,7 @@
             this.btnLogin.Location = new System.Drawing.Point(610, 324);
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.Size = new System.Drawing.Size(152, 42);
-            this.btnLogin.TabIndex = 5;
+            this.btnLogin.TabIndex = 4;
             this.btnLogin.Text = "Login";
             this.btnLogin.UseVisualStyleBackColor = false;
             this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);

@@ -121,8 +121,8 @@
   <data name="show_property_480px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\show_property_480px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="calendar_30_480px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\calendar_30_480px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="people_400px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\people_400px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="man400px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\man400px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -132,6 +132,9 @@
   </data>
   <data name="add_user_480px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\add_user_480px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="calendar_30_480px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\calendar_30_480px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="send_480px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\send_480px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -150,6 +153,9 @@
   </data>
   <data name="orcid_512px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\orcid_512px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="export_240px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\export_240px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="location_320px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\location_320px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -178,11 +184,11 @@
   <data name="people_480px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\people_480px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="people_400px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\people_400px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="settings_480px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\settings_480px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cancel_480px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cancel_480px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="bill_480px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bill_480px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -199,7 +205,7 @@
   <data name="delete_document_480px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\delete_document_480px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="cancel_480px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\cancel_480px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="pincode_keyboard_480px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pincode_keyboard_480px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

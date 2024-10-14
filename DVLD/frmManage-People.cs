@@ -111,7 +111,10 @@ namespace DVLD
                 tbFilter.Text = "";
             }
             else
+            {
                 tbFilter.Visible = true;
+                tbFilter.Focus();
+            }
         }
 
         private void SearchBySearchBar(string sentenceToSearch)

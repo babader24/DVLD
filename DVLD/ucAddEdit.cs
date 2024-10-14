@@ -104,9 +104,7 @@ namespace DVLD
            
 
 
-        }
-
-        
+        }        
 
         private void linkLabelRemove_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
