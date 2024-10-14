@@ -31,9 +31,9 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.applicationToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.peopleToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.driversToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.usersToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.accountSettingsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.driversToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -70,6 +70,13 @@
             this.peopleToolStripMenuItem.Text = "People";
             this.peopleToolStripMenuItem.Click += new System.EventHandler(this.peopleToolStripMenuItem_Click);
             // 
+            // driversToolStripMenuItem
+            // 
+            this.driversToolStripMenuItem.Image = global::DVLD.Properties.Resources.car_400px;
+            this.driversToolStripMenuItem.Name = "driversToolStripMenuItem";
+            this.driversToolStripMenuItem.Size = new System.Drawing.Size(150, 54);
+            this.driversToolStripMenuItem.Text = "Drivers";
+            // 
             // usersToolStripMenuItem
             // 
             this.usersToolStripMenuItem.Image = global::DVLD.Properties.Resources.people_480px;
@@ -83,13 +90,6 @@
             this.accountSettingsToolStripMenuItem.Name = "accountSettingsToolStripMenuItem";
             this.accountSettingsToolStripMenuItem.Size = new System.Drawing.Size(247, 54);
             this.accountSettingsToolStripMenuItem.Text = "Account Settings";
-            // 
-            // driversToolStripMenuItem
-            // 
-            this.driversToolStripMenuItem.Image = global::DVLD.Properties.Resources.car_400px;
-            this.driversToolStripMenuItem.Name = "driversToolStripMenuItem";
-            this.driversToolStripMenuItem.Size = new System.Drawing.Size(150, 54);
-            this.driversToolStripMenuItem.Text = "Drivers";
             // 
             // frmDVLD
             // 
