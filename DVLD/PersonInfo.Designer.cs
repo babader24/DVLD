@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.Closebtn = new System.Windows.Forms.Button();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
@@ -74,7 +73,6 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.Closebtn);
             this.groupBox1.Controls.Add(this.pictureBox7);
             this.groupBox1.Controls.Add(this.pictureBox6);
             this.groupBox1.Controls.Add(this.pictureBox5);
@@ -111,18 +109,6 @@
             this.groupBox1.TabIndex = 4;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Personal Informations";
-            // 
-            // Closebtn
-            // 
-            this.Closebtn.BackColor = System.Drawing.Color.White;
-            this.Closebtn.BackgroundImage = global::DVLD.Properties.Resources.close_pane_320px;
-            this.Closebtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.Closebtn.Location = new System.Drawing.Point(775, 267);
-            this.Closebtn.Name = "Closebtn";
-            this.Closebtn.Size = new System.Drawing.Size(104, 43);
-            this.Closebtn.TabIndex = 9;
-            this.Closebtn.UseVisualStyleBackColor = false;
-            this.Closebtn.Click += new System.EventHandler(this.Closebtn_Click);
             // 
             // pictureBox7
             // 
@@ -227,6 +213,7 @@
             // 
             // picPhoto
             // 
+            this.picPhoto.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.picPhoto.Location = new System.Drawing.Point(742, 76);
             this.picPhoto.Name = "picPhoto";
             this.picPhoto.Size = new System.Drawing.Size(151, 169);
@@ -422,6 +409,7 @@
             this.Controls.Add(this.groupBox1);
             this.Name = "PersonInfo";
             this.Size = new System.Drawing.Size(972, 349);
+            this.Load += new System.EventHandler(this.PersonInfo_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
@@ -470,6 +458,5 @@
         private System.Windows.Forms.Label lpersonID;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button Closebtn;
     }
 }

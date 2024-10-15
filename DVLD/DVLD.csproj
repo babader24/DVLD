@@ -221,5 +221,14 @@
   <ItemGroup>
     <None Include="Resources\pincode_keyboard_480px.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add_user_480px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\enter_key1_35px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\man400px1.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

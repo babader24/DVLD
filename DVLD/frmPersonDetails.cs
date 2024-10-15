@@ -13,15 +13,30 @@ namespace DVLD
 {
     public partial class frmPersonDetails : Form
     {
+        
        
         public frmPersonDetails(int ID)
         {
 
-            PersonInfo._ID = ID;
+            //PersonInfo._ID = ID;
             InitializeComponent();
+            SendID(ID);
             
         }
 
+        private void SendID(int PersonID)
+        {
+            PersonInfo person = this.Controls.OfType<PersonInfo>().FirstOrDefault();
+            if (person != null)
+            {
+                person._ID = PersonID;
+                person._LaodData();
+            }
+        }
 
+        private void Closebtn_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

@@ -25,7 +25,7 @@ namespace DVLD
         public ucAddEdit()
         {
             InitializeComponent();
-            loadata();
+            
         }
 
         private void LoadCountries()
@@ -56,7 +56,7 @@ namespace DVLD
 
             _Person = clsPerson.Find(ID);
 
-            if( _Person == null )
+            if (_Person == null)
             {
                 MessageBox.Show("This form will be closed because No Contact with ID = " + ID);
                 ((Form)this.TopLevelControl).Close();
@@ -81,7 +81,7 @@ namespace DVLD
             {
                 rbMale.Checked = true;
                 defaultImg = TheDefualtImg.ManPhotoPath;
-            }   
+            }
             else
             {
                 rbFemale.Checked = true;
@@ -97,14 +97,14 @@ namespace DVLD
             {
                 picPhoto.Load(defaultImg);
             }
-            
-                
+
+
 
             linkLabelRemove.Visible = (picPhoto.ImageLocation != null);
-           
 
 
-        }        
+
+        }
 
         private void linkLabelRemove_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
@@ -119,18 +119,18 @@ namespace DVLD
             openFileDialog1.RestoreDirectory = true;
             openFileDialog1.Title = "Select an image file";
 
-            if(openFileDialog1.ShowDialog() == DialogResult.OK)
+            if (openFileDialog1.ShowDialog() == DialogResult.OK)
             {
                 string SelectedImahePath = openFileDialog1.FileName;
                 string uniqueFileName = $"{Path.GetFileNameWithoutExtension(SelectedImahePath)}_{Guid.NewGuid()}{Path.GetExtension(SelectedImahePath)}";
 
-                string newFilePath = Path.Combine("F:\\تاسيس ابو هدهود\\كورس رقم 19 مشروع رخص السيارات\\DVLD\\Images",uniqueFileName);
+                string newFilePath = Path.Combine("F:\\تاسيس ابو هدهود\\كورس رقم 19 مشروع رخص السيارات\\DVLD\\Images", uniqueFileName);
 
                 try
                 {
                     File.Copy(SelectedImahePath, newFilePath, true);
                     picPhoto.Load(newFilePath);
-                    linkLabelRemove.Visible = true; 
+                    linkLabelRemove.Visible = true;
                 }
                 catch (Exception ex)
                 {
@@ -176,12 +176,12 @@ namespace DVLD
             else
                 _Person.Gendor = 0;
 
-            if(_Person.Save())
+            if (_Person.Save())
             {
                 MessageBox.Show("Data Saved Successfully :-)");
                 _Mode = enMode.Update;
                 lPersonid.Text = _Person.PersonID.ToString();
-                lTitle.Text = "Edit Person ID = "+_Person.PersonID;
+                lTitle.Text = "Edit Person ID = " + _Person.PersonID;
             }
             else
                 MessageBox.Show("Error: Data Is not Saved Successfully.");
@@ -190,7 +190,7 @@ namespace DVLD
 
         private bool ValidateTextBox(TextBox textBox, string errorMessage)
         {
-            if(string.IsNullOrWhiteSpace(textBox.Text))
+            if (string.IsNullOrWhiteSpace(textBox.Text))
             {
                 errorProvider1.SetError(textBox, errorMessage);
                 return false;
@@ -200,9 +200,9 @@ namespace DVLD
 
         private bool ValidateEmailBox(TextBox textBox)
         {
-            if (string.IsNullOrWhiteSpace(textBox.Text) || Regex.IsMatch(textBox.Text,@"^[^@\s]+@[^@\s]+\.[^@\s]+$"))
+            if (string.IsNullOrWhiteSpace(textBox.Text) || Regex.IsMatch(textBox.Text, @"^[^@\s]+@[^@\s]+\.[^@\s]+$"))
             {
-                errorProvider1.SetError(textBox, "Please Enter a Valid Email"); 
+                errorProvider1.SetError(textBox, "Please Enter a Valid Email");
                 return false;
             }
             return true;
@@ -210,7 +210,7 @@ namespace DVLD
 
         private bool ValidateNumericBox(TextBox textBox)
         {
-            if (!int.TryParse(textBox.Text,out _))
+            if (!int.TryParse(textBox.Text, out _))
             {
                 errorProvider1.SetError(textBox, "Please Enter a Valid Number");
                 return false;
@@ -239,7 +239,7 @@ namespace DVLD
                 IsValid = false;
             }
 
-                return IsValid;
+            return IsValid;
         }
 
         private void tbFirst_TextChanged(object sender, EventArgs e)
@@ -286,8 +286,8 @@ namespace DVLD
 
         private void tbPhone_TextChanged(object sender, EventArgs e)
         {
-            if(!string.IsNullOrWhiteSpace(tbPhone.Text))
-                errorProvider1.SetError(tbPhone,string.Empty);
+            if (!string.IsNullOrWhiteSpace(tbPhone.Text))
+                errorProvider1.SetError(tbPhone, string.Empty);
         }
 
         private void rbMale_CheckedChanged(object sender, EventArgs e)
@@ -298,6 +298,12 @@ namespace DVLD
         private void rbFemale_CheckedChanged(object sender, EventArgs e)
         {
             picPhoto.Load(TheDefualtImg.WomanPhotoPath);
+        }
+
+        private void ucAddEdit_Load(object sender, EventArgs e)
+        {
+            //loadata();
+
         }
     }
 }

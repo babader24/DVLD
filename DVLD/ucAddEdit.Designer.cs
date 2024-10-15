@@ -566,6 +566,7 @@
             this.Controls.Add(this.lTitle);
             this.Name = "ucAddEdit";
             this.Size = new System.Drawing.Size(930, 481);
+            this.Load += new System.EventHandler(this.ucAddEdit_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();

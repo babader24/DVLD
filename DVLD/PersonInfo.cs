@@ -14,12 +14,12 @@ namespace DVLD
 {
     public partial class PersonInfo : UserControl
     {
-        public static int _ID { get; set; }
+        public delegate void DataBackEventHaandler(object sender, int ID);
+        public event DataBackEventHaandler DataBack;
+        public  int _ID { get; set; }
         public PersonInfo()
         {
-            InitializeComponent();
-           
-            _LaodData();
+            InitializeComponent();  
         }
 
         //public delegate void CloseFormEventHandlar(object sender);
@@ -38,12 +38,13 @@ namespace DVLD
             clsPerson _Person = clsPerson.Find(_ID);
             lpersonID.Text = _Person.PersonID.ToString();
             lFullName.Text = _Person.FirstName + " " + _Person.SecondName + " " + _Person.ThirdName + " " + _Person.LastName;
-            lNational.Text = _Person.NationalNo;
+           
             lEmail.Text = _Person.Email;
             lAddress.Text = _Person.Address;
             lDateOfBirth.Text = _Person.BirthDate.ToString("dd/MM/yyyy");
             lPhone.Text = _Person.Phone;
             lCountry.Text = _Person.Country;
+            lNational.Text = _Person.NationalNo;
 
             if (_Person.Gendor == 0)
             {
@@ -67,7 +68,6 @@ namespace DVLD
                 picPhoto.Load(defualtIMG);
             }
             
-
         }
 
         private void Closebtn_Click(object sender, EventArgs e)
@@ -81,6 +81,11 @@ namespace DVLD
             ((Form)this.TopLevelControl).Close();
             frm.ShowDialog();
             
+        }
+
+        private void PersonInfo_Load(object sender, EventArgs e)
+        {
+            //_LaodData();
         }
     }
 }

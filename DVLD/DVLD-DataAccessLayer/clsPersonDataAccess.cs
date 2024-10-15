@@ -236,6 +236,67 @@ namespace DVLD_DataAccessLayer
             return IsFound;
         }
 
+        public static bool GetPersonInfoByNationalNo(ref int PersonID, string NationalNo, ref string FirstName,
+        ref string SecondName, ref string ThirdName, ref string LastName, ref DateTime DateOfBirth,
+        ref byte Gendor, ref string Address, ref string Phone, ref string Email, ref string ImagePath, ref string Country)
+        {
+            bool IsFound;
+
+            SqlConnection connection = new SqlConnection(clsDataAccessSetting.ConnetionString);
+
+            string query = @"SELECT PersonID, NationalNo, FirstName, SecondName, ThirdName, LastName,DateOfBirth, Gendor, Address,CountryName, Phone, Email,ImagePath 
+                             FROM People
+                            inner join Countries on People.NationalityCountryID = Countries.CountryID
+                            where NationalNo = @NationalNo";
+
+            SqlCommand command = new SqlCommand(query, connection);
+            command.Parameters.AddWithValue("@NationalNo", NationalNo);
+
+            try
+            {
+                connection.Open();
+
+                SqlDataReader reader = command.ExecuteReader();
+
+                if (reader.Read())
+                {
+                    IsFound = true;
+
+                    PersonID = (int)reader["PersonID"];
+                    FirstName = (string)reader["FirstName"];
+                    SecondName = (string)reader["SecondName"];
+                    ThirdName = (string)reader["ThirdName"];
+                    LastName = (string)reader["LastName"];
+                    DateOfBirth = (DateTime)reader["DateOfBirth"];
+                    Address = (string)reader["Address"];
+                    Phone = (string)reader["Phone"];
+                    Email = (string)reader["Email"];
+                    Country = (string)reader["CountryName"];
+                    Gendor = (byte)reader["Gendor"];
+
+                    //if ( == 0)
+                    //    Gendor = "Male";
+                    //else
+                    //    Gendor = "Female";
+
+
+                    if (reader["ImagePath"] != DBNull.Value)
+                        ImagePath = (string)reader["ImagePath"];
+                    else
+                        ImagePath = "";
+                }
+                else
+                {
+                    IsFound = false;
+                }
+            }
+            catch (Exception ex)
+            {
+                IsFound = false;
+            }
+            return IsFound;
+        }
+
         public static DataTable GetAllCountries( )
         {
             DataTable dt = new DataTable();

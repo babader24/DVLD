@@ -73,6 +73,16 @@ namespace DVLD.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap add_user_480px1 {
+            get {
+                object obj = ResourceManager.GetObject("add_user_480px1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap add_user_group_woman_man_480px {
             get {
                 object obj = ResourceManager.GetObject("add_user_group_woman_man_480px", resourceCulture);
@@ -183,6 +193,16 @@ namespace DVLD.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap enter_key1_35px1 {
+            get {
+                object obj = ResourceManager.GetObject("enter_key1_35px1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap export_240px {
             get {
                 object obj = ResourceManager.GetObject("export_240px", resourceCulture);
@@ -246,6 +266,16 @@ namespace DVLD.Properties {
         internal static System.Drawing.Bitmap man400px {
             get {
                 object obj = ResourceManager.GetObject("man400px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap man400px1 {
+            get {
+                object obj = ResourceManager.GetObject("man400px1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -146,6 +146,21 @@ namespace DVLD_BusneissLayer
             else return null;
         }
 
+        public static clsPerson FindByNationalNo(string NationalNo)
+        {
+            int PersonID = 0;
+            string FirstName = "", SecondName = "", ThirdName = "", LastName = "",
+             Address = "", Phone = "", Email = "", ImagePath = "", Country = "";
+            DateTime DateOfBirth = DateTime.Now;
+            byte Gendor = 0;
+
+            if (clsPersonDataAccess.GetPersonInfoByNationalNo(ref PersonID, NationalNo, ref FirstName, ref SecondName,
+                ref ThirdName, ref LastName, ref DateOfBirth, ref Gendor, ref Address, ref Phone, ref Email, ref ImagePath, ref Country))
+                return new clsPerson(PersonID, NationalNo, FirstName, SecondName, ThirdName, LastName,
+                    DateOfBirth, Gendor, Address, Phone, Email, ImagePath, Country);
+            else return null;
+        }
+
         public static int GetCountryIDByname(string Name)
         {
             int ID = 0;

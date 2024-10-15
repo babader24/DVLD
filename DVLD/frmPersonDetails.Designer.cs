@@ -30,6 +30,7 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.personInfo = new DVLD.PersonInfo();
+            this.Closebtn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -45,16 +46,30 @@
             // 
             // personInfo
             // 
+            this.personInfo._ID = 0;
             this.personInfo.Location = new System.Drawing.Point(12, 98);
             this.personInfo.Name = "personInfo";
             this.personInfo.Size = new System.Drawing.Size(961, 340);
             this.personInfo.TabIndex = 0;
+            // 
+            // Closebtn
+            // 
+            this.Closebtn.BackColor = System.Drawing.Color.White;
+            this.Closebtn.BackgroundImage = global::DVLD.Properties.Resources.close_pane_320px;
+            this.Closebtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.Closebtn.Location = new System.Drawing.Point(802, 377);
+            this.Closebtn.Name = "Closebtn";
+            this.Closebtn.Size = new System.Drawing.Size(104, 43);
+            this.Closebtn.TabIndex = 10;
+            this.Closebtn.UseVisualStyleBackColor = false;
+            this.Closebtn.Click += new System.EventHandler(this.Closebtn_Click);
             // 
             // frmPersonDetails
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(987, 450);
+            this.Controls.Add(this.Closebtn);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.personInfo);
             this.Name = "frmPersonDetails";
@@ -69,5 +84,6 @@
 
         private PersonInfo personInfo;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button Closebtn;
     }
 }
