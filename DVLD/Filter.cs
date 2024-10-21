@@ -14,8 +14,9 @@ namespace DVLD
     public partial class Filter : UserControl
     {
 
-        public delegate void DataBackEventHaandler(object sender, int NationalNo);
+        public delegate void DataBackEventHaandler(object sender, int PersonID);
         public event DataBackEventHaandler dataBack;
+
         clsPerson _Person;
         public Filter()
         {
@@ -30,18 +31,27 @@ namespace DVLD
 
         private bool GetPersonByNationalNo(string nationalNo)
         {
-            return clsPerson.FindByNationalNo(nationalNo) != null;
+            _Person = clsPerson.FindByNationalNo(nationalNo);
+            return _Person != null;
         }
 
         private void picFindPerson_Click(object sender, EventArgs e)
         {
             if(GetPersonByNationalNo(tbFindPerson.Text))
             {
-                //PersonInfo._ID = _Person.PersonID;
+                dataBack?.Invoke(this,_Person.PersonID);
+                
                 
             }
             else
                 MessageBox.Show("The Person Not Exists","Error",MessageBoxButtons.OK,MessageBoxIcon.Error);
+        }
+
+        private void picAddPerson_Click(object sender, EventArgs e)
+        {
+            Form frm = new frmAddEdit(-1);
+            
+            frm.ShowDialog();
         }
     }
 }

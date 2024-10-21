@@ -228,6 +228,7 @@ namespace DVLD_DataAccessLayer
                 {
                     IsFound = false;
                 }
+                reader.Close();
             }
             catch (Exception ex)
             {

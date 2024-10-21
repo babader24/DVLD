@@ -178,6 +178,9 @@
   <data name="enter_key1_35px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\enter_key1_35px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="gendor_480px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gendor_480px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="enter_key_96px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\enter_key_96px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -186,6 +189,9 @@
   </data>
   <data name="people_480px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\people_480px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="man400px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\man400px1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="settings_480px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\settings_480px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -208,13 +214,10 @@
   <data name="enter_key1_35px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\enter_key1_35px1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="gendor_480px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\gendor_480px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="delete_document_480px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\delete_document_480px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="man400px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\man400px1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="login_rounded_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\login_rounded_32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

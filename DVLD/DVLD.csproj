@@ -64,6 +64,12 @@
     <Compile Include="frmAddEditUser.Designer.cs">
       <DependentUpon>frmAddEditUser.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmChangePassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmChangePassword.Designer.cs">
+      <DependentUpon>frmChangePassword.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmDVLD.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -108,6 +114,12 @@
     <Compile Include="ucAddEdit.Designer.cs">
       <DependentUpon>ucAddEdit.cs</DependentUpon>
     </Compile>
+    <Compile Include="ucLoginInfo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucLoginInfo.Designer.cs">
+      <DependentUpon>ucLoginInfo.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Filter.resx">
       <DependentUpon>Filter.cs</DependentUpon>
     </EmbeddedResource>
@@ -116,6 +128,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmAddEditUser.resx">
       <DependentUpon>frmAddEditUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmChangePassword.resx">
+      <DependentUpon>frmChangePassword.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmDVLD.resx">
       <DependentUpon>frmDVLD.cs</DependentUpon>
@@ -147,6 +162,9 @@
     </Compile>
     <EmbeddedResource Include="ucAddEdit.resx">
       <DependentUpon>ucAddEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucLoginInfo.resx">
+      <DependentUpon>ucLoginInfo.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -229,6 +247,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\man400px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login_rounded_32px.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

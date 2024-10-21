@@ -16,10 +16,13 @@ namespace DVLD
 {
     public partial class ucAddEdit : UserControl
     {
+        public delegate void DataBackEventHaandler(object sender, int PersonID);
+        public event DataBackEventHaandler dataBack;
+
         public enum enMode { AddNew = 0,Update = 1 };
         enMode _Mode = enMode.AddNew;
         clsPerson _Person;
-        public static int ID {  get; set; }
+        public  int ID {  get; set; }
 
 
         public ucAddEdit()
@@ -37,7 +40,7 @@ namespace DVLD
             }
         }
 
-        private void loadata()
+        public void _Loadata()
         {
             LoadCountries();
 
@@ -151,10 +154,10 @@ namespace DVLD
                 MessageBox.Show("Validate All");
             else
             {
-                MessageBox.Show("Error Not Validate All");
+                MessageBox.Show("Error Not Validate All Feilds");
                 return;
             }
-
+            dataBack?.Invoke(this, _Person.PersonID);
 
             int countryId = clsPerson.GetCountryIDByname(cbCountries.Text);
 
@@ -178,13 +181,13 @@ namespace DVLD
 
             if (_Person.Save())
             {
-                MessageBox.Show("Data Saved Successfully :-)");
+                MessageBox.Show("Data Saved Successfully :-)","Saved", MessageBoxButtons.OK,MessageBoxIcon.Information);
                 _Mode = enMode.Update;
                 lPersonid.Text = _Person.PersonID.ToString();
                 lTitle.Text = "Edit Person ID = " + _Person.PersonID;
             }
             else
-                MessageBox.Show("Error: Data Is not Saved Successfully.");
+                MessageBox.Show("Data Is not Saved Successfully!", "Error",MessageBoxButtons.OK,MessageBoxIcon.Error);
 
         }
 

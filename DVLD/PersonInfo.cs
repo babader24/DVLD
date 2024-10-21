@@ -36,51 +36,56 @@ namespace DVLD
             string defualtIMG;
 
             clsPerson _Person = clsPerson.Find(_ID);
-            lpersonID.Text = _Person.PersonID.ToString();
-            lFullName.Text = _Person.FirstName + " " + _Person.SecondName + " " + _Person.ThirdName + " " + _Person.LastName;
-           
-            lEmail.Text = _Person.Email;
-            lAddress.Text = _Person.Address;
-            lDateOfBirth.Text = _Person.BirthDate.ToString("dd/MM/yyyy");
-            lPhone.Text = _Person.Phone;
-            lCountry.Text = _Person.Country;
-            lNational.Text = _Person.NationalNo;
-
-            if (_Person.Gendor == 0)
+            if (_Person != null)
             {
-                lGendor.Text = "Male";
-                defualtIMG = man;
+                lpersonID.Text = _Person.PersonID.ToString();
+                lFullName.Text = _Person.FirstName + " " + _Person.SecondName + " " + _Person.ThirdName + " " + _Person.LastName;
+
+                lEmail.Text = _Person.Email;
+                lAddress.Text = _Person.Address;
+                lDateOfBirth.Text = _Person.BirthDate.ToString("dd/MM/yyyy");
+                lPhone.Text = _Person.Phone;
+                lCountry.Text = _Person.Country;
+                lNational.Text = _Person.NationalNo;
+
+                if (_Person.Gendor == 0)
+                {
+                    lGendor.Text = "Male";
+                    defualtIMG = man;
+                }
+                else
+                {
+                    lGendor.Text = "Female";
+                    defualtIMG = woman;
+                }
+
+
+                try
+                {
+                    picPhoto.Load(_Person.ImagePath);
+
+                }
+                catch /*(Exception ex)*/
+                {
+                    picPhoto.Load(defualtIMG);
+                }
             }
             else
-            {
-                lGendor.Text = "Female";
-                defualtIMG = woman;
-            }
-
-
-            try
-            {
-                picPhoto.Load(_Person.ImagePath);
-
-            }
-            catch /*(Exception ex)*/
-            {
-                picPhoto.Load(defualtIMG);
-            }
-            
+                MessageBox.Show("The Person maybe deleted or corrupted","Error",MessageBoxButtons.OK, MessageBoxIcon.Error);
         }
 
-        private void Closebtn_Click(object sender, EventArgs e)
-        {
-            ((Form)this.TopLevelControl).Close();
-        }
 
         private void linkLabelEdit_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            Form frm = new frmAddEdit(_ID);
-            ((Form)this.TopLevelControl).Close();
-            frm.ShowDialog();
-            
+            if(_ID >0)
+            {
+                Form frm = new frmAddEdit(_ID);
+                ((Form)this.TopLevelControl).Close();
+                frm.ShowDialog();
+            }
+            else
+                MessageBox.Show("Select a Person First!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
         }
 
         private void PersonInfo_Load(object sender, EventArgs e)

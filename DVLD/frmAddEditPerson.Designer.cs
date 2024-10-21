@@ -33,6 +33,7 @@
             // 
             // ucAddEdit1
             // 
+            this.ucAddEdit1.ID = 0;
             this.ucAddEdit1.Location = new System.Drawing.Point(2, -7);
             this.ucAddEdit1.Name = "ucAddEdit1";
             this.ucAddEdit1.Size = new System.Drawing.Size(919, 478);
@@ -44,6 +45,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(927, 480);
             this.Controls.Add(this.ucAddEdit1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "frmAddEdit";
             this.Text = "frmAddEdit";
             this.ResumeLayout(false);

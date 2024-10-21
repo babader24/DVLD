@@ -14,10 +14,19 @@ namespace DVLD
     {
         
         public frmAddEdit(int ID)
-        {
-            ucAddEdit.ID = ID;
-            
+        {                  
             InitializeComponent();
+            SendID(ID); 
+        }
+
+        private void SendID(int PersonID)
+        {
+            ucAddEdit person = this.Controls.OfType<ucAddEdit>().FirstOrDefault();
+            if (person != null)
+            {
+                person.ID = PersonID;
+                person._Loadata();
+            }
         }
 
     }

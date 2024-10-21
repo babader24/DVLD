@@ -55,6 +55,7 @@
             // 
             // picAddPerson
             // 
+            this.picAddPerson.Cursor = System.Windows.Forms.Cursors.Hand;
             this.picAddPerson.Image = global::DVLD.Properties.Resources.add_user_480px;
             this.picAddPerson.Location = new System.Drawing.Point(738, 24);
             this.picAddPerson.Name = "picAddPerson";
@@ -62,9 +63,11 @@
             this.picAddPerson.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.picAddPerson.TabIndex = 3;
             this.picAddPerson.TabStop = false;
+            this.picAddPerson.Click += new System.EventHandler(this.picAddPerson_Click);
             // 
             // picFindPerson
             // 
+            this.picFindPerson.Cursor = System.Windows.Forms.Cursors.Hand;
             this.picFindPerson.Image = global::DVLD.Properties.Resources.gendor_480px;
             this.picFindPerson.Location = new System.Drawing.Point(682, 23);
             this.picFindPerson.Name = "picFindPerson";

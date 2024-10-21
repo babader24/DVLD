@@ -72,6 +72,7 @@
             this.Controls.Add(this.Closebtn);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.personInfo);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "frmPersonDetails";
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
             this.Text = "frmPersonDetails";

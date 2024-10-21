@@ -23,7 +23,8 @@ namespace DVLD
         {
             DisplayAllPeople();
 
-            dgvUsers.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
+            dgvUsers.SelectionMode = DataGridViewSelectionMode.FullRowSelect;            
+            dgvUsers.Columns[2].Width = 300;
             tbFilter.Visible = false;
             cbIsActive.SelectedIndex = 0;
             lRecordCount.Text = RecordesCount();
@@ -123,7 +124,9 @@ namespace DVLD
 
         private void btnAddPerson_Click(object sender, EventArgs e)
         {
-
+            Form frm  = new frmAddEditUser(-1);
+            frm.ShowDialog();
+            RefreshData();
         }
 
         private void tbFilter_KeyPress(object sender, KeyPressEventArgs e)
@@ -187,6 +190,36 @@ namespace DVLD
                 }
 
             }
+        }
+
+        private void showDetailsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form frm = new frmPersonDetails((int)dgvUsers.CurrentRow.Cells[0].Value);
+            frm.ShowDialog();
+            
+        }
+
+        private void addPersonToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form frm = new frmAddEditUser(-1);
+            frm.ShowDialog();
+            RefreshData();
+        }
+
+        private void editToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form frm = new frmAddEditUser((int)dgvUsers.CurrentRow.Cells[0].Value);
+            frm.ShowDialog();
+            RefreshData();
+        }
+
+        private void deleteToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+           if(clsUser.DeleteUser((int)dgvUsers.CurrentRow.Cells[0].Value))
+                MessageBox.Show("User Deleted Successfully","Deleted",MessageBoxButtons.OK, MessageBoxIcon.Information);
+           else
+                MessageBox.Show("User Deleted Failed", "Deleted", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            RefreshData();
         }
     }
 }
