@@ -133,6 +133,26 @@ namespace DVLD.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap card_exchange_480px {
+            get {
+                object obj = ResourceManager.GetObject("card_exchange_480px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap card_security_400px {
+            get {
+                object obj = ResourceManager.GetObject("card_security_400px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap close_pane_320px {
             get {
                 object obj = ResourceManager.GetObject("close_pane_320px", resourceCulture);
@@ -203,6 +223,16 @@ namespace DVLD.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap expensive_512px {
+            get {
+                object obj = ResourceManager.GetObject("expensive_512px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap export_240px {
             get {
                 object obj = ResourceManager.GetObject("export_240px", resourceCulture);
@@ -226,6 +256,16 @@ namespace DVLD.Properties {
         internal static System.Drawing.Bitmap home_480px {
             get {
                 object obj = ResourceManager.GetObject("home_480px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap imac_settings_500px {
+            get {
+                object obj = ResourceManager.GetObject("imac_settings_500px", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -286,6 +326,16 @@ namespace DVLD.Properties {
         internal static System.Drawing.Bitmap man400px1 {
             get {
                 object obj = ResourceManager.GetObject("man400px1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap mastercard_credit_card_480px {
+            get {
+                object obj = ResourceManager.GetObject("mastercard_credit_card_480px", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -363,6 +413,26 @@ namespace DVLD.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap postcard_with_barcode_480px {
+            get {
+                object obj = ResourceManager.GetObject("postcard_with_barcode_480px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap renew_480px {
+            get {
+                object obj = ResourceManager.GetObject("renew_480px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap save_480px {
             get {
                 object obj = ResourceManager.GetObject("save_480px", resourceCulture);
@@ -396,6 +466,46 @@ namespace DVLD.Properties {
         internal static System.Drawing.Bitmap show_property_480px {
             get {
                 object obj = ResourceManager.GetObject("show_property_480px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap smart_card_480px {
+            get {
+                object obj = ResourceManager.GetObject("smart_card_480px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap taxi_license_512px {
+            get {
+                object obj = ResourceManager.GetObject("taxi_license_512px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap test_passed_500px {
+            get {
+                object obj = ResourceManager.GetObject("test_passed_500px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap window_settings_400px {
+            get {
+                object obj = ResourceManager.GetObject("window_settings_400px", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

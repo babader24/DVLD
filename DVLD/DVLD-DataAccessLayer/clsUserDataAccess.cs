@@ -281,6 +281,47 @@ namespace DVLD_DataAccessLayer
         }
 
 
+        public static bool FindUserByName(ref int UserID, ref int PersonID, string UserName, ref string Password, ref bool isActive)
+        {
+            bool IsFoend;
+
+            SqlConnection connection = new SqlConnection(clsDataAccessSetting.ConnetionString);
+
+            string query = @"Select UserID, PersonID, Password, IsActive From Users
+                             Where UserName = @UserName";
+
+            SqlCommand command = new SqlCommand(query, connection);
+            command.Parameters.AddWithValue("@UserName", UserName);
+
+            try
+            {
+                connection.Open();
+
+                SqlDataReader reader = command.ExecuteReader();
+                if (reader.Read())
+                {
+                    IsFoend = true;
+
+                    PersonID = (int)reader["PersonID"];
+                    UserID = (int)reader["UserID"];
+                    Password = (string)reader["Password"];
+                    isActive = (bool)reader["IsActive"];
+                }
+                else
+                    IsFoend = false;
+
+                reader.Close();
+            }
+            catch (Exception ex)
+            {
+                IsFoend = false;
+            }
+            finally
+            {
+                connection.Close();
+            }
+            return IsFoend;
+        }
 
     }
 }

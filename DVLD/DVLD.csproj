@@ -76,6 +76,18 @@
     <Compile Include="frmDVLD.Designer.cs">
       <DependentUpon>frmDVLD.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmEditApplicationTypecs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEditApplicationTypecs.Designer.cs">
+      <DependentUpon>frmEditApplicationTypecs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmEditTestType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEditTestType.Designer.cs">
+      <DependentUpon>frmEditTestType.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmLoginScreen.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -94,11 +106,35 @@
     <Compile Include="frmManage-Users.Designer.cs">
       <DependentUpon>frmManage-Users.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmManageApplicationsTypes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmManageApplicationsTypes.Designer.cs">
+      <DependentUpon>frmManageApplicationsTypes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmManageTestType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmManageTestType.Designer.cs">
+      <DependentUpon>frmManageTestType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmNewLocalDrivingLicenseApplication.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNewLocalDrivingLicenseApplication.Designer.cs">
+      <DependentUpon>frmNewLocalDrivingLicenseApplication.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmPersonDetails.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmPersonDetails.Designer.cs">
       <DependentUpon>frmPersonDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmUserInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUserInfo.Designer.cs">
+      <DependentUpon>frmUserInfo.cs</DependentUpon>
     </Compile>
     <Compile Include="PersonInfo.cs">
       <SubType>UserControl</SubType>
@@ -135,6 +171,12 @@
     <EmbeddedResource Include="frmDVLD.resx">
       <DependentUpon>frmDVLD.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmEditApplicationTypecs.resx">
+      <DependentUpon>frmEditApplicationTypecs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEditTestType.resx">
+      <DependentUpon>frmEditTestType.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmLoginScreen.resx">
       <DependentUpon>FrmLoginScreen.cs</DependentUpon>
     </EmbeddedResource>
@@ -144,8 +186,20 @@
     <EmbeddedResource Include="frmManage-Users.resx">
       <DependentUpon>frmManage-Users.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmManageApplicationsTypes.resx">
+      <DependentUpon>frmManageApplicationsTypes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmManageTestType.resx">
+      <DependentUpon>frmManageTestType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNewLocalDrivingLicenseApplication.resx">
+      <DependentUpon>frmNewLocalDrivingLicenseApplication.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmPersonDetails.resx">
       <DependentUpon>frmPersonDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUserInfo.resx">
+      <DependentUpon>frmUserInfo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PersonInfo.resx">
       <DependentUpon>PersonInfo.cs</DependentUpon>
@@ -250,6 +304,39 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\login_rounded_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\taxi_license_512px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\window_settings_400px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\renew_480px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imac_settings_500px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\test_passed_500px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\expensive_512px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\postcard_with_barcode_480px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mastercard_credit_card_480px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\card_exchange_480px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\smart_card_480px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\card_security_400px.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

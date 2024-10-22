@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "F:\\\u062A\u0627\u0633\u064A\u0633 \u0627\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\\u0643\u0648\u0631\u0633 \u0631\u0642\u0645 19 \u0645\u0634\u0631\u0648\u0639 \u0631\u062E\u0635 \u0627\u0644\u0633\u064A\u0627\u0631\u0627\u062A\\DVLD\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A130D878-0542-41CE-A5B1-A7287BB839EF}|DVLD.csproj|f:\\\u062A\u0627\u0633\u064A\u0633 \u0627\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\\u0643\u0648\u0631\u0633 \u0631\u0642\u0645 19 \u0645\u0634\u0631\u0648\u0639 \u0631\u062E\u0635 \u0627\u0644\u0633\u064A\u0627\u0631\u0627\u062A\\dvld\\frmchangepassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A130D878-0542-41CE-A5B1-A7287BB839EF}|DVLD.csproj|solutionrelative:frmchangepassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{A130D878-0542-41CE-A5B1-A7287BB839EF}|DVLD.csproj|f:\\\u062A\u0627\u0633\u064A\u0633 \u0627\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\\u0643\u0648\u0631\u0633 \u0631\u0642\u0645 19 \u0645\u0634\u0631\u0648\u0639 \u0631\u062E\u0635 \u0627\u0644\u0633\u064A\u0627\u0631\u0627\u062A\\dvld\\frmdvld.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A130D878-0542-41CE-A5B1-A7287BB839EF}|DVLD.csproj|solutionrelative:frmdvld.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A130D878-0542-41CE-A5B1-A7287BB839EF}|DVLD.csproj|F:\\\u062A\u0627\u0633\u064A\u0633 \u0627\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\\u0643\u0648\u0631\u0633 \u0631\u0642\u0645 19 \u0645\u0634\u0631\u0648\u0639 \u0631\u062E\u0635 \u0627\u0644\u0633\u064A\u0627\u0631\u0627\u062A\\DVLD\\uclogininfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A130D878-0542-41CE-A5B1-A7287BB839EF}|DVLD.csproj|solutionrelative:uclogininfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{A130D878-0542-41CE-A5B1-A7287BB839EF}|DVLD.csproj|f:\\\u062A\u0627\u0633\u064A\u0633 \u0627\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\\u0643\u0648\u0631\u0633 \u0631\u0642\u0645 19 \u0645\u0634\u0631\u0648\u0639 \u0631\u062E\u0635 \u0627\u0644\u0633\u064A\u0627\u0631\u0627\u062A\\dvld\\frmaddedituser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A130D878-0542-41CE-A5B1-A7287BB839EF}|DVLD.csproj|solutionrelative:frmaddedituser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A130D878-0542-41CE-A5B1-A7287BB839EF}|DVLD.csproj|f:\\\u062A\u0627\u0633\u064A\u0633 \u0627\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\\u0643\u0648\u0631\u0633 \u0631\u0642\u0645 19 \u0645\u0634\u0631\u0648\u0639 \u0631\u062E\u0635 \u0627\u0644\u0633\u064A\u0627\u0631\u0627\u062A\\dvld\\frmnewlocaldrivinglicenseapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A130D878-0542-41CE-A5B1-A7287BB839EF}|DVLD.csproj|solutionrelative:frmnewlocaldrivinglicenseapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A130D878-0542-41CE-A5B1-A7287BB839EF}|DVLD.csproj|f:\\\u062A\u0627\u0633\u064A\u0633 \u0627\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\\u0643\u0648\u0631\u0633 \u0631\u0642\u0645 19 \u0645\u0634\u0631\u0648\u0639 \u0631\u062E\u0635 \u0627\u0644\u0633\u064A\u0627\u0631\u0627\u062A\\dvld\\frmnewlocaldrivinglicenseapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A130D878-0542-41CE-A5B1-A7287BB839EF}|DVLD.csproj|solutionrelative:frmnewlocaldrivinglicenseapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A130D878-0542-41CE-A5B1-A7287BB839EF}|DVLD.csproj|F:\\\u062A\u0627\u0633\u064A\u0633 \u0627\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\\u0643\u0648\u0631\u0633 \u0631\u0642\u0645 19 \u0645\u0634\u0631\u0648\u0639 \u0631\u062E\u0635 \u0627\u0644\u0633\u064A\u0627\u0631\u0627\u062A\\DVLD\\frmaddedituser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{A130D878-0542-41CE-A5B1-A7287BB839EF}|DVLD.csproj|solutionrelative:frmaddedituser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A130D878-0542-41CE-A5B1-A7287BB839EF}|DVLD.csproj|F:\\\u062A\u0627\u0633\u064A\u0633 \u0627\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\\u0643\u0648\u0631\u0633 \u0631\u0642\u0645 19 \u0645\u0634\u0631\u0648\u0639 \u0631\u062E\u0635 \u0627\u0644\u0633\u064A\u0627\u0631\u0627\u062A\\DVLD\\frmmanage-users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A130D878-0542-41CE-A5B1-A7287BB839EF}|DVLD.csproj|solutionrelative:frmmanage-users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A130D878-0542-41CE-A5B1-A7287BB839EF}|DVLD.csproj|F:\\\u062A\u0627\u0633\u064A\u0633 \u0627\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\\u0643\u0648\u0631\u0633 \u0631\u0642\u0645 19 \u0645\u0634\u0631\u0648\u0639 \u0631\u062E\u0635 \u0627\u0644\u0633\u064A\u0627\u0631\u0627\u062A\\DVLD\\frmmanage-users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A130D878-0542-41CE-A5B1-A7287BB839EF}|DVLD.csproj|solutionrelative:frmmanage-users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -39,59 +39,64 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "frmChangePassword.cs [Design]",
-              "DocumentMoniker": "F:\\\u062A\u0627\u0633\u064A\u0633 \u0627\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\\u0643\u0648\u0631\u0633 \u0631\u0642\u0645 19 \u0645\u0634\u0631\u0648\u0639 \u0631\u062E\u0635 \u0627\u0644\u0633\u064A\u0627\u0631\u0627\u062A\\DVLD\\frmChangePassword.cs",
-              "RelativeDocumentMoniker": "frmChangePassword.cs",
-              "ToolTip": "F:\\\u062A\u0627\u0633\u064A\u0633 \u0627\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\\u0643\u0648\u0631\u0633 \u0631\u0642\u0645 19 \u0645\u0634\u0631\u0648\u0639 \u0631\u062E\u0635 \u0627\u0644\u0633\u064A\u0627\u0631\u0627\u062A\\DVLD\\frmChangePassword.cs [Design]",
-              "RelativeToolTip": "frmChangePassword.cs [Design]",
+              "Title": "frmDVLD.cs [Design]",
+              "DocumentMoniker": "F:\\\u062A\u0627\u0633\u064A\u0633 \u0627\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\\u0643\u0648\u0631\u0633 \u0631\u0642\u0645 19 \u0645\u0634\u0631\u0648\u0639 \u0631\u062E\u0635 \u0627\u0644\u0633\u064A\u0627\u0631\u0627\u062A\\DVLD\\frmDVLD.cs",
+              "RelativeDocumentMoniker": "frmDVLD.cs",
+              "ToolTip": "F:\\\u062A\u0627\u0633\u064A\u0633 \u0627\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\\u0643\u0648\u0631\u0633 \u0631\u0642\u0645 19 \u0645\u0634\u0631\u0648\u0639 \u0631\u062E\u0635 \u0627\u0644\u0633\u064A\u0627\u0631\u0627\u062A\\DVLD\\frmDVLD.cs [Design]",
+              "RelativeToolTip": "frmDVLD.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T12:25:54.994Z",
+              "WhenOpened": "2024-10-22T18:15:07.928Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ucLoginInfo.cs [Design]",
-              "DocumentMoniker": "F:\\\u062A\u0627\u0633\u064A\u0633 \u0627\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\\u0643\u0648\u0631\u0633 \u0631\u0642\u0645 19 \u0645\u0634\u0631\u0648\u0639 \u0631\u062E\u0635 \u0627\u0644\u0633\u064A\u0627\u0631\u0627\u062A\\DVLD\\ucLoginInfo.cs",
-              "RelativeDocumentMoniker": "ucLoginInfo.cs",
-              "ToolTip": "F:\\\u062A\u0627\u0633\u064A\u0633 \u0627\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\\u0643\u0648\u0631\u0633 \u0631\u0642\u0645 19 \u0645\u0634\u0631\u0648\u0639 \u0631\u062E\u0635 \u0627\u0644\u0633\u064A\u0627\u0631\u0627\u062A\\DVLD\\ucLoginInfo.cs [Design]",
-              "RelativeToolTip": "ucLoginInfo.cs [Design]",
+              "Title": "frmAddEditUser.cs",
+              "DocumentMoniker": "F:\\\u062A\u0627\u0633\u064A\u0633 \u0627\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\\u0643\u0648\u0631\u0633 \u0631\u0642\u0645 19 \u0645\u0634\u0631\u0648\u0639 \u0631\u062E\u0635 \u0627\u0644\u0633\u064A\u0627\u0631\u0627\u062A\\DVLD\\frmAddEditUser.cs",
+              "RelativeDocumentMoniker": "frmAddEditUser.cs",
+              "ToolTip": "F:\\\u062A\u0627\u0633\u064A\u0633 \u0627\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\\u0643\u0648\u0631\u0633 \u0631\u0642\u0645 19 \u0645\u0634\u0631\u0648\u0639 \u0631\u062E\u0635 \u0627\u0644\u0633\u064A\u0627\u0631\u0627\u062A\\DVLD\\frmAddEditUser.cs",
+              "RelativeToolTip": "frmAddEditUser.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAQwKcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-19T08:03:57.446Z"
+              "WhenOpened": "2024-10-22T18:05:41.759Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "frmNewLocalDrivingLicenseApplication.cs",
+              "DocumentMoniker": "F:\\\u062A\u0627\u0633\u064A\u0633 \u0627\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\\u0643\u0648\u0631\u0633 \u0631\u0642\u0645 19 \u0645\u0634\u0631\u0648\u0639 \u0631\u062E\u0635 \u0627\u0644\u0633\u064A\u0627\u0631\u0627\u062A\\DVLD\\frmNewLocalDrivingLicenseApplication.cs",
+              "RelativeDocumentMoniker": "frmNewLocalDrivingLicenseApplication.cs",
+              "ToolTip": "F:\\\u062A\u0627\u0633\u064A\u0633 \u0627\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\\u0643\u0648\u0631\u0633 \u0631\u0642\u0645 19 \u0645\u0634\u0631\u0648\u0639 \u0631\u062E\u0635 \u0627\u0644\u0633\u064A\u0627\u0631\u0627\u062A\\DVLD\\frmNewLocalDrivingLicenseApplication.cs",
+              "RelativeToolTip": "frmNewLocalDrivingLicenseApplication.cs",
+              "ViewState": "AQIAAFQAAAAAAAAAAAAUwIEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T17:29:58.72Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmNewLocalDrivingLicenseApplication.cs [Design]",
+              "DocumentMoniker": "F:\\\u062A\u0627\u0633\u064A\u0633 \u0627\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\\u0643\u0648\u0631\u0633 \u0631\u0642\u0645 19 \u0645\u0634\u0631\u0648\u0639 \u0631\u062E\u0635 \u0627\u0644\u0633\u064A\u0627\u0631\u0627\u062A\\DVLD\\frmNewLocalDrivingLicenseApplication.cs",
+              "RelativeDocumentMoniker": "frmNewLocalDrivingLicenseApplication.cs",
+              "ToolTip": "F:\\\u062A\u0627\u0633\u064A\u0633 \u0627\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\\u0643\u0648\u0631\u0633 \u0631\u0642\u0645 19 \u0645\u0634\u0631\u0648\u0639 \u0631\u062E\u0635 \u0627\u0644\u0633\u064A\u0627\u0631\u0627\u062A\\DVLD\\frmNewLocalDrivingLicenseApplication.cs [Design]",
+              "RelativeToolTip": "frmNewLocalDrivingLicenseApplication.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T17:23:28.29Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "frmAddEditUser.cs [Design]",
               "DocumentMoniker": "F:\\\u062A\u0627\u0633\u064A\u0633 \u0627\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\\u0643\u0648\u0631\u0633 \u0631\u0642\u0645 19 \u0645\u0634\u0631\u0648\u0639 \u0631\u062E\u0635 \u0627\u0644\u0633\u064A\u0627\u0631\u0627\u062A\\DVLD\\frmAddEditUser.cs",
               "RelativeDocumentMoniker": "frmAddEditUser.cs",
               "ToolTip": "F:\\\u062A\u0627\u0633\u064A\u0633 \u0627\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\\u0643\u0648\u0631\u0633 \u0631\u0642\u0645 19 \u0645\u0634\u0631\u0648\u0639 \u0631\u062E\u0635 \u0627\u0644\u0633\u064A\u0627\u0631\u0627\u062A\\DVLD\\frmAddEditUser.cs [Design]",
               "RelativeToolTip": "frmAddEditUser.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-19T07:48:03.231Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "frmManage-Users.cs",
-              "DocumentMoniker": "F:\\\u062A\u0627\u0633\u064A\u0633 \u0627\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\\u0643\u0648\u0631\u0633 \u0631\u0642\u0645 19 \u0645\u0634\u0631\u0648\u0639 \u0631\u062E\u0635 \u0627\u0644\u0633\u064A\u0627\u0631\u0627\u062A\\DVLD\\frmManage-Users.cs",
-              "RelativeDocumentMoniker": "frmManage-Users.cs",
-              "ToolTip": "F:\\\u062A\u0627\u0633\u064A\u0633 \u0627\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\\u0643\u0648\u0631\u0633 \u0631\u0642\u0645 19 \u0645\u0634\u0631\u0648\u0639 \u0631\u062E\u0635 \u0627\u0644\u0633\u064A\u0627\u0631\u0627\u062A\\DVLD\\frmManage-Users.cs",
-              "RelativeToolTip": "frmManage-Users.cs",
-              "ViewState": "AQIAAMoAAAAAAAAAAAAAAN0AAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-19T07:15:16.791Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "frmManage-Users.cs [Design]",
-              "DocumentMoniker": "F:\\\u062A\u0627\u0633\u064A\u0633 \u0627\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\\u0643\u0648\u0631\u0633 \u0631\u0642\u0645 19 \u0645\u0634\u0631\u0648\u0639 \u0631\u062E\u0635 \u0627\u0644\u0633\u064A\u0627\u0631\u0627\u062A\\DVLD\\frmManage-Users.cs",
-              "RelativeDocumentMoniker": "frmManage-Users.cs",
-              "ToolTip": "F:\\\u062A\u0627\u0633\u064A\u0633 \u0627\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\\u0643\u0648\u0631\u0633 \u0631\u0642\u0645 19 \u0645\u0634\u0631\u0648\u0639 \u0631\u062E\u0635 \u0627\u0644\u0633\u064A\u0627\u0631\u0627\u062A\\DVLD\\frmManage-Users.cs [Design]",
-              "RelativeToolTip": "frmManage-Users.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-19T07:15:09.039Z"
+              "WhenOpened": "2024-10-22T15:56:16.238Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }

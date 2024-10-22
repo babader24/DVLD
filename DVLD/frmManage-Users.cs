@@ -221,5 +221,11 @@ namespace DVLD
                 MessageBox.Show("User Deleted Failed", "Deleted", MessageBoxButtons.OK, MessageBoxIcon.Error);
             RefreshData();
         }
+
+        private void toolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            Form frm = new frmChangePassword((int)dgvUsers.CurrentRow.Cells[0].Value);
+            frm.ShowDialog();
+        }
     }
 }

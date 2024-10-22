@@ -9,6 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static DVLD.frmDVLD;
 
 namespace DVLD
 {
@@ -16,6 +17,9 @@ namespace DVLD
     {
         private const string remeberMeFile = "rememberMe.txt";
         private const string path = "F:\\تاسيس ابو هدهود\\كورس رقم 19 مشروع رخص السيارات\\DVLD\\bin\\Debug\\rememberMe.txt";
+
+
+
         public FrmLoginScreen()
         {
             InitializeComponent();
@@ -29,8 +33,13 @@ namespace DVLD
             {
                 if(clsUser.IsActive(tbUserName.Text))
                 {
+
+                    Globals._gUser = clsUser.FindByName(tbUserName.Text);
+                    Globals._gPerson = clsPerson.Find(Globals._gUser.personID);
+
                     this.Hide();
                     Form frm = new frmDVLD();
+
                     frm.Closed += (s, arags) => this.Close();
                     frm.Show();
                     

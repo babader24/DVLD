@@ -81,6 +81,20 @@ namespace DVLD_BusneissLayer
 
         }
 
+        public static clsUser FindByName( string UserName)
+        {
+             string Password = "";
+            int PersonID = -1, UserID = -1;
+            bool isActive = false;
+
+            if (clsUserDataAccess.FindUserByName(ref UserID, ref PersonID,  UserName, ref Password, ref isActive))
+            {
+                return new clsUser(UserID, PersonID, UserName, Password, isActive);
+            }
+            else
+                return null;
+
+        }
 
         private bool _AddNewUser()
         {

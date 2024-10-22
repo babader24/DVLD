@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DVLD_BusneissLayer;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -7,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static DVLD.FrmLoginScreen;
 
 namespace DVLD
 {
@@ -16,9 +18,14 @@ namespace DVLD
         {
             public const string WomanPhotoPath = "F:\\تاسيس ابو هدهود\\كورس رقم 19 مشروع رخص السيارات\\img\\woman400px.png";
             public const string ManPhotoPath = "F:\\تاسيس ابو هدهود\\كورس رقم 19 مشروع رخص السيارات\\img\\man400px.png";
-            
-            
+                     
         }
+        public static class Globals
+        {
+            public static clsPerson _gPerson { get; set; }
+            public static clsUser _gUser { get; set; }
+        }
+
 
         public frmDVLD()
         {
@@ -50,5 +57,31 @@ namespace DVLD
             Form frm = new frmManage_Users();
             frm.ShowDialog();
         }
+
+        private void currentUserInfoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form frm = new frmUserInfo(Globals._gUser.userID);
+            frm.ShowDialog();
+        }
+
+        private void changePasswordToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form frm = new frmChangePassword(Globals._gUser.userID);
+            frm.ShowDialog();
+        }
+
+        private void manageApplicationsTypesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form frm = new frmManageApplicationsTypes();
+            frm.ShowDialog();
+        }
+
+        private void manageTestTypesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form frm = new frmManageTestType();
+            frm.ShowDialog();
+        }
+
+
     }
 }
