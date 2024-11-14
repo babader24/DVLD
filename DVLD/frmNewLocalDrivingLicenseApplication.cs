@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static DVLD.frmDVLD;
 
 namespace DVLD
 {
@@ -18,46 +19,54 @@ namespace DVLD
 
         public int thisID;
         private bool allowTabChange = false;
-        clsUser _User;
+        //clsUser _User;
+        clsLocalDLA _LDLA;
 
         public frmNewLocalDrivingLicenseApplication(int ID)
         {
             InitializeComponent();
-
+ 
             thisID = ID;
             Config();
         }
 
         private void Config()
         {
-            if (thisID == -1)
-            {
-                GetIdFromFilter();
-                _User = new clsUser();
-                return;
-            }
-            _User = clsUser.Find(thisID);
-            if (_User == null)
-            {
-                MessageBox.Show("Error The User Data Is Null", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                return;
-            }
-
-
-            //set Filter Config
-            filter1.Enabled = false;
-
-            //set Personal details 
-            personInfoUser1._ID = _User.personID;
-            personInfoUser1._LaodData();
-
-            //set User Details
             _Mode = enMode.updatMode;
             lApplicationDate.Text = DateTime.Now.ToString("dd/M/yyyy");
             _LoadLicensesClassNames();
             lApplicationFees.Text = "15";
-            lApplicationUser.Text = _User.userName;
-           
+            lApplicationUser.Text = Globals._gUser.userName;
+            if (thisID == -1)
+            {
+                GetIdFromFilter();
+               // _User = new clsUser();
+                _LDLA = new clsLocalDLA();
+                return;
+            }
+
+             _LDLA = clsLocalDLA.Find(thisID);
+            if (_LDLA == null)
+            {
+                MessageBox.Show("Error The Local Driving License Aplication Data Is Null", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
+            //set Filter Config
+            filter1.Enabled = false;
+
+
+            personInfoUser1._ID = _LDLA.ApplicantPersonID;
+            personInfoUser1._LaodData();
+
+            //set Form Config
+            _Mode = enMode.updatMode;
+            lApplicationID.Text = _LDLA.LDLAID.ToString();
+            lTitle.Text = "Update Local Driving License Application ";
+
+            //Set Member License
+            cbClassNames.SelectedIndex = _LDLA.LicenceID - 1;
+
 
         }
 
@@ -85,32 +94,29 @@ namespace DVLD
         private void SendIDToShowDetails(int PersonID)
         {
             personInfoUser1._ID = PersonID;
-            //thisID = PersonID;
-            _User.personID = PersonID;
+            _LDLA.ApplicantPersonID = PersonID;
             personInfoUser1._LaodData();
 
 
         }
 
+
+        private bool CheckStatus()
+        {
+            return (_LDLA.checkLincenseStatus(personInfoUser1._NationalNo, cbClassNames.SelectedIndex + 1));
+
+        }
+
         private void btnNext_Click(object sender, EventArgs e)
         {
-            if (_User.personID != -1)
+            if (_LDLA.ApplicantPersonID != -1 || _Mode == enMode.updatMode)
             {
-                if (!clsUser.IsExsist(thisID))
-                {
-                    allowTabChange = true;
-                    tabControl1.SelectedTab = tabPage2;
-                }
-                else if (_Mode == enMode.updatMode)
-                {
-                    allowTabChange = true;
-                    tabControl1.SelectedTab = tabPage2;
-                }
-                else
-                    MessageBox.Show("This Person is already a User", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                allowTabChange = true;
+                tabControl1.SelectedTab = tabPage2;
             }
             else
-                MessageBox.Show("Please select a Person To Make It a User", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Please select a Person First", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
 
         }
 
@@ -127,6 +133,38 @@ namespace DVLD
             allowTabChange = false;
         }
 
+        private void btnClose_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
 
+        private void Savebtn_Click(object sender, EventArgs e)
+        {
+            if(CheckStatus())
+            { MessageBox.Show(@"Choes another licenseClass, The selected Person already have an Active 
+                       applicatio for the selected licenseclass", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
+            _LDLA.ApplicationDate = Convert.ToDateTime(lApplicationDate.Text);
+            _LDLA.ApplicationStatus = 1;
+            _LDLA.ApplicantPersonID = personInfoUser1._ID;
+            _LDLA.ApplicationTypeID = 1;
+            _LDLA.CreatedByUserID = Globals._gUser.userID;
+            _LDLA.LastStatusDate = Convert.ToDateTime(lApplicationDate.Text);
+            _LDLA.LicenceID = cbClassNames.SelectedIndex + 1;
+            
+            if(_LDLA.Save())
+            {
+                MessageBox.Show("Data Saved Successfully :-)", "Saved", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                _Mode = enMode.updatMode;
+                lApplicationID.Text = _LDLA.LDLAID.ToString();
+                lTitle.Text = "Update Local Driving License Application ";
+            }
+            else
+                MessageBox.Show("Data Is not Saved!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
+
+        }
     }
 }

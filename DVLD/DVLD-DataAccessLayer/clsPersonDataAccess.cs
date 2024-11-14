@@ -234,6 +234,10 @@ namespace DVLD_DataAccessLayer
             {
                 IsFound = false;
             }
+            finally
+            {
+                connection.Close();
+            }
             return IsFound;
         }
 

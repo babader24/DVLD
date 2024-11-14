@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DVLD_DataAccessLayer;
+using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Linq;
@@ -11,7 +12,7 @@ namespace DVLD_BusneissLayer
     {
         public static DataTable GetAllLicenseNames()
         {
-            return clsLicenClasses.GetAllLicenseNames();
+            return clsLicenseClassesDataAccess.GatAllLicenseClassesNames();
         }
     }
 }

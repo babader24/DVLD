@@ -57,11 +57,11 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Georgia", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.Red;
-            this.label4.Location = new System.Drawing.Point(111, 33);
+            this.label4.Location = new System.Drawing.Point(176, 29);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(303, 27);
+            this.label4.Size = new System.Drawing.Size(216, 27);
             this.label4.TabIndex = 29;
-            this.label4.Text = "Update Application Type";
+            this.label4.Text = "Update Test Type";
             // 
             // lUserID
             // 

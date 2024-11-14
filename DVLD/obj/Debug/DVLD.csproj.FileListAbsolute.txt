@@ -40,3 +40,5 @@ F:\تاسيس ابو هدهود\كورس رقم 19 مشروع رخص السيا�
 F:\تاسيس ابو هدهود\كورس رقم 19 مشروع رخص السيارات\DVLD\obj\Debug\DVLD.frmEditApplicationTypecs.resources
 F:\تاسيس ابو هدهود\كورس رقم 19 مشروع رخص السيارات\DVLD\obj\Debug\DVLD.frmEditTestType.resources
 F:\تاسيس ابو هدهود\كورس رقم 19 مشروع رخص السيارات\DVLD\obj\Debug\DVLD.frmManageTestType.resources
+F:\تاسيس ابو هدهود\كورس رقم 19 مشروع رخص السيارات\DVLD\obj\Debug\DVLD.frmNewLocalDrivingLicenseApplication.resources
+F:\تاسيس ابو هدهود\كورس رقم 19 مشروع رخص السيارات\DVLD\obj\Debug\DVLD.frmLocalDrivingLicenseApplication.resources

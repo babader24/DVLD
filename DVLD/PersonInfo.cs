@@ -17,6 +17,9 @@ namespace DVLD
         public delegate void DataBackEventHaandler(object sender, int ID);
         public event DataBackEventHaandler DataBack;
         public  int _ID { get; set; }
+
+        public string _NationalNo { get; set; }
+
         public PersonInfo()
         {
             InitializeComponent();  
@@ -47,6 +50,7 @@ namespace DVLD
                 lPhone.Text = _Person.Phone;
                 lCountry.Text = _Person.Country;
                 lNational.Text = _Person.NationalNo;
+                _NationalNo = _Person.NationalNo;
 
                 if (_Person.Gendor == 0)
                 {

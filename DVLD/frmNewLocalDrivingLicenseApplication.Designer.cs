@@ -31,36 +31,36 @@
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.btnNext = new System.Windows.Forms.Button();
-            this.personInfoUser1 = new DVLD.PersonInfo();
-            this.filter1 = new DVLD.Filter();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.cbClassNames = new System.Windows.Forms.ComboBox();
+            this.lApplicationUser = new System.Windows.Forms.Label();
+            this.lApplicationFees = new System.Windows.Forms.Label();
+            this.lApplicationDate = new System.Windows.Forms.Label();
+            this.lApplicationID = new System.Windows.Forms.Label();
             this.btnBack = new System.Windows.Forms.Button();
+            this.label6 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox10 = new System.Windows.Forms.PictureBox();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.btnClose = new System.Windows.Forms.Button();
             this.Savebtn = new System.Windows.Forms.Button();
-            this.lApplicationID = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.lApplicationDate = new System.Windows.Forms.Label();
-            this.lApplicationFees = new System.Windows.Forms.Label();
-            this.lApplicationUser = new System.Windows.Forms.Label();
-            this.cbClassNames = new System.Windows.Forms.ComboBox();
-            this.label5 = new System.Windows.Forms.Label();
+            this.lTitle = new System.Windows.Forms.Label();
+            this.personInfoUser1 = new DVLD.PersonInfo();
+            this.filter1 = new DVLD.Filter();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -100,21 +100,6 @@
             this.btnNext.UseVisualStyleBackColor = false;
             this.btnNext.Click += new System.EventHandler(this.btnNext_Click);
             // 
-            // personInfoUser1
-            // 
-            this.personInfoUser1._ID = 0;
-            this.personInfoUser1.Location = new System.Drawing.Point(-4, 76);
-            this.personInfoUser1.Name = "personInfoUser1";
-            this.personInfoUser1.Size = new System.Drawing.Size(967, 339);
-            this.personInfoUser1.TabIndex = 1;
-            // 
-            // filter1
-            // 
-            this.filter1.Location = new System.Drawing.Point(6, 0);
-            this.filter1.Name = "filter1";
-            this.filter1.Size = new System.Drawing.Size(947, 70);
-            this.filter1.TabIndex = 0;
-            // 
             // tabPage2
             // 
             this.tabPage2.Controls.Add(this.cbClassNames);
@@ -141,6 +126,55 @@
             this.tabPage2.Text = " Application Info";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
+            // cbClassNames
+            // 
+            this.cbClassNames.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbClassNames.FormattingEnabled = true;
+            this.cbClassNames.Location = new System.Drawing.Point(375, 141);
+            this.cbClassNames.Name = "cbClassNames";
+            this.cbClassNames.Size = new System.Drawing.Size(279, 24);
+            this.cbClassNames.TabIndex = 9;
+            // 
+            // lApplicationUser
+            // 
+            this.lApplicationUser.AutoSize = true;
+            this.lApplicationUser.Font = new System.Drawing.Font("Georgia", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lApplicationUser.Location = new System.Drawing.Point(371, 228);
+            this.lApplicationUser.Name = "lApplicationUser";
+            this.lApplicationUser.Size = new System.Drawing.Size(50, 21);
+            this.lApplicationUser.TabIndex = 8;
+            this.lApplicationUser.Text = "????";
+            // 
+            // lApplicationFees
+            // 
+            this.lApplicationFees.AutoSize = true;
+            this.lApplicationFees.Font = new System.Drawing.Font("Georgia", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lApplicationFees.Location = new System.Drawing.Point(371, 187);
+            this.lApplicationFees.Name = "lApplicationFees";
+            this.lApplicationFees.Size = new System.Drawing.Size(50, 21);
+            this.lApplicationFees.TabIndex = 8;
+            this.lApplicationFees.Text = "????";
+            // 
+            // lApplicationDate
+            // 
+            this.lApplicationDate.AutoSize = true;
+            this.lApplicationDate.Font = new System.Drawing.Font("Georgia", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lApplicationDate.Location = new System.Drawing.Point(371, 94);
+            this.lApplicationDate.Name = "lApplicationDate";
+            this.lApplicationDate.Size = new System.Drawing.Size(50, 21);
+            this.lApplicationDate.TabIndex = 8;
+            this.lApplicationDate.Text = "????";
+            // 
+            // lApplicationID
+            // 
+            this.lApplicationID.AutoSize = true;
+            this.lApplicationID.Font = new System.Drawing.Font("Georgia", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lApplicationID.Location = new System.Drawing.Point(371, 49);
+            this.lApplicationID.Name = "lApplicationID";
+            this.lApplicationID.Size = new System.Drawing.Size(50, 21);
+            this.lApplicationID.TabIndex = 8;
+            this.lApplicationID.Text = "????";
+            // 
             // btnBack
             // 
             this.btnBack.BackColor = System.Drawing.Color.White;
@@ -153,6 +187,16 @@
             this.btnBack.Text = "Back";
             this.btnBack.UseVisualStyleBackColor = false;
             this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Georgia", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(168, 228);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(111, 21);
+            this.label6.TabIndex = 1;
+            this.label6.Text = "Created By";
             // 
             // label4
             // 
@@ -204,6 +248,16 @@
             this.pictureBox1.TabIndex = 4;
             this.pictureBox1.TabStop = false;
             // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = global::DVLD.Properties.Resources.calendar_30_480px;
+            this.pictureBox3.Location = new System.Drawing.Point(301, 94);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(36, 28);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox3.TabIndex = 4;
+            this.pictureBox3.TabStop = false;
+            // 
             // pictureBox2
             // 
             this.pictureBox2.Image = global::DVLD.Properties.Resources.man400px1;
@@ -244,6 +298,7 @@
             this.btnClose.Size = new System.Drawing.Size(104, 43);
             this.btnClose.TabIndex = 12;
             this.btnClose.UseVisualStyleBackColor = false;
+            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
             // Savebtn
             // 
@@ -256,86 +311,33 @@
             this.Savebtn.TabIndex = 13;
             this.Savebtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.Savebtn.UseVisualStyleBackColor = false;
+            this.Savebtn.Click += new System.EventHandler(this.Savebtn_Click);
             // 
-            // lApplicationID
+            // lTitle
             // 
-            this.lApplicationID.AutoSize = true;
-            this.lApplicationID.Font = new System.Drawing.Font("Georgia", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lApplicationID.Location = new System.Drawing.Point(371, 49);
-            this.lApplicationID.Name = "lApplicationID";
-            this.lApplicationID.Size = new System.Drawing.Size(50, 21);
-            this.lApplicationID.TabIndex = 8;
-            this.lApplicationID.Text = "????";
+            this.lTitle.AutoSize = true;
+            this.lTitle.Font = new System.Drawing.Font("Georgia", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lTitle.ForeColor = System.Drawing.Color.Red;
+            this.lTitle.Location = new System.Drawing.Point(250, 43);
+            this.lTitle.Name = "lTitle";
+            this.lTitle.Size = new System.Drawing.Size(469, 27);
+            this.lTitle.TabIndex = 1;
+            this.lTitle.Text = "New Local Driving License Application";
             // 
-            // label6
+            // personInfoUser1
             // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Georgia", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(168, 228);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(111, 21);
-            this.label6.TabIndex = 1;
-            this.label6.Text = "Created By";
+            this.personInfoUser1._ID = 0;
+            this.personInfoUser1.Location = new System.Drawing.Point(-4, 76);
+            this.personInfoUser1.Name = "personInfoUser1";
+            this.personInfoUser1.Size = new System.Drawing.Size(967, 339);
+            this.personInfoUser1.TabIndex = 1;
             // 
-            // pictureBox3
+            // filter1
             // 
-            this.pictureBox3.Image = global::DVLD.Properties.Resources.calendar_30_480px;
-            this.pictureBox3.Location = new System.Drawing.Point(301, 94);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(36, 28);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox3.TabIndex = 4;
-            this.pictureBox3.TabStop = false;
-            // 
-            // lApplicationDate
-            // 
-            this.lApplicationDate.AutoSize = true;
-            this.lApplicationDate.Font = new System.Drawing.Font("Georgia", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lApplicationDate.Location = new System.Drawing.Point(371, 94);
-            this.lApplicationDate.Name = "lApplicationDate";
-            this.lApplicationDate.Size = new System.Drawing.Size(50, 21);
-            this.lApplicationDate.TabIndex = 8;
-            this.lApplicationDate.Text = "????";
-            // 
-            // lApplicationFees
-            // 
-            this.lApplicationFees.AutoSize = true;
-            this.lApplicationFees.Font = new System.Drawing.Font("Georgia", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lApplicationFees.Location = new System.Drawing.Point(371, 187);
-            this.lApplicationFees.Name = "lApplicationFees";
-            this.lApplicationFees.Size = new System.Drawing.Size(50, 21);
-            this.lApplicationFees.TabIndex = 8;
-            this.lApplicationFees.Text = "????";
-            // 
-            // lApplicationUser
-            // 
-            this.lApplicationUser.AutoSize = true;
-            this.lApplicationUser.Font = new System.Drawing.Font("Georgia", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lApplicationUser.Location = new System.Drawing.Point(371, 228);
-            this.lApplicationUser.Name = "lApplicationUser";
-            this.lApplicationUser.Size = new System.Drawing.Size(50, 21);
-            this.lApplicationUser.TabIndex = 8;
-            this.lApplicationUser.Text = "????";
-            // 
-            // cbClassNames
-            // 
-            this.cbClassNames.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cbClassNames.FormattingEnabled = true;
-            this.cbClassNames.Location = new System.Drawing.Point(375, 141);
-            this.cbClassNames.Name = "cbClassNames";
-            this.cbClassNames.Size = new System.Drawing.Size(279, 24);
-            this.cbClassNames.TabIndex = 9;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Georgia", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.Color.Red;
-            this.label5.Location = new System.Drawing.Point(250, 43);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(469, 27);
-            this.label5.TabIndex = 1;
-            this.label5.Text = "New Local Driving License Application";
+            this.filter1.Location = new System.Drawing.Point(6, 0);
+            this.filter1.Name = "filter1";
+            this.filter1.Size = new System.Drawing.Size(947, 70);
+            this.filter1.TabIndex = 0;
             // 
             // frmNewLocalDrivingLicenseApplication
             // 
@@ -346,18 +348,19 @@
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.Savebtn);
-            this.Controls.Add(this.label5);
+            this.Controls.Add(this.lTitle);
             this.Name = "frmNewLocalDrivingLicenseApplication";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmNewLocalDrivingLicenseApplication";
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage2.ResumeLayout(false);
             this.tabPage2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -389,6 +392,6 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.ComboBox cbClassNames;
-        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label lTitle;
     }
 }
