@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DrivinglicenseApplicationInfo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DrivinglicenseApplicationInfo.Designer.cs">
+      <DependentUpon>DrivinglicenseApplicationInfo.cs</DependentUpon>
+    </Compile>
     <Compile Include="Filter.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -162,6 +168,9 @@
     <Compile Include="ucLoginInfo.Designer.cs">
       <DependentUpon>ucLoginInfo.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="DrivinglicenseApplicationInfo.resx">
+      <DependentUpon>DrivinglicenseApplicationInfo.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Filter.resx">
       <DependentUpon>Filter.cs</DependentUpon>
     </EmbeddedResource>
@@ -352,6 +361,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\driver_400px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eye_480px.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -3,24 +3,16 @@
   "WorkspaceRootPath": "F:\\\u062A\u0627\u0633\u064A\u0633 \u0627\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\\u0643\u0648\u0631\u0633 \u0631\u0642\u0645 19 \u0645\u0634\u0631\u0648\u0639 \u0631\u062E\u0635 \u0627\u0644\u0633\u064A\u0627\u0631\u0627\u062A\\DVLD\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A130D878-0542-41CE-A5B1-A7287BB839EF}|DVLD.csproj|f:\\\u062A\u0627\u0633\u064A\u0633 \u0627\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\\u0643\u0648\u0631\u0633 \u0631\u0642\u0645 19 \u0645\u0634\u0631\u0648\u0639 \u0631\u062E\u0635 \u0627\u0644\u0633\u064A\u0627\u0631\u0627\u062A\\dvld\\frmlocaldrivinglicenseapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A130D878-0542-41CE-A5B1-A7287BB839EF}|DVLD.csproj|solutionrelative:frmlocaldrivinglicenseapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A130D878-0542-41CE-A5B1-A7287BB839EF}|DVLD.csproj|f:\\\u062A\u0627\u0633\u064A\u0633 \u0627\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\\u0643\u0648\u0631\u0633 \u0631\u0642\u0645 19 \u0645\u0634\u0631\u0648\u0639 \u0631\u062E\u0635 \u0627\u0644\u0633\u064A\u0627\u0631\u0627\u062A\\dvld\\personinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A130D878-0542-41CE-A5B1-A7287BB839EF}|DVLD.csproj|solutionrelative:personinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{226DCA79-37EE-499F-B3F8-A1E779AB0162}|DVLD-DataAccessLayer\\DVLD-DataAccessLayer.csproj|f:\\\u062A\u0627\u0633\u064A\u0633 \u0627\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\\u0643\u0648\u0631\u0633 \u0631\u0642\u0645 19 \u0645\u0634\u0631\u0648\u0639 \u0631\u062E\u0635 \u0627\u0644\u0633\u064A\u0627\u0631\u0627\u062A\\dvld\\dvld-dataaccesslayer\\clslocaldla_dataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{226DCA79-37EE-499F-B3F8-A1E779AB0162}|DVLD-DataAccessLayer\\DVLD-DataAccessLayer.csproj|solutionrelative:dvld-dataaccesslayer\\clslocaldla_dataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A130D878-0542-41CE-A5B1-A7287BB839EF}|DVLD.csproj|f:\\\u062A\u0627\u0633\u064A\u0633 \u0627\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\\u0643\u0648\u0631\u0633 \u0631\u0642\u0645 19 \u0645\u0634\u0631\u0648\u0639 \u0631\u062E\u0635 \u0627\u0644\u0633\u064A\u0627\u0631\u0627\u062A\\dvld\\personinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A130D878-0542-41CE-A5B1-A7287BB839EF}|DVLD.csproj|solutionrelative:personinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{226DCA79-37EE-499F-B3F8-A1E779AB0162}|DVLD-DataAccessLayer\\DVLD-DataAccessLayer.csproj|f:\\\u062A\u0627\u0633\u064A\u0633 \u0627\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\\u0643\u0648\u0631\u0633 \u0631\u0642\u0645 19 \u0645\u0634\u0631\u0648\u0639 \u0631\u062E\u0635 \u0627\u0644\u0633\u064A\u0627\u0631\u0627\u062A\\dvld\\dvld-dataaccesslayer\\clsapplicationdataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{226DCA79-37EE-499F-B3F8-A1E779AB0162}|DVLD-DataAccessLayer\\DVLD-DataAccessLayer.csproj|solutionrelative:dvld-dataaccesslayer\\clsapplicationdataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87C5365C-F390-4942-BD4B-318C6A33B3FB}|DVLD-BusneissLayer\\DVLD-BusneissLayer.csproj|f:\\\u062A\u0627\u0633\u064A\u0633 \u0627\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\\u0643\u0648\u0631\u0633 \u0631\u0642\u0645 19 \u0645\u0634\u0631\u0648\u0639 \u0631\u062E\u0635 \u0627\u0644\u0633\u064A\u0627\u0631\u0627\u062A\\dvld\\dvld-busneisslayer\\clslocaldla.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87C5365C-F390-4942-BD4B-318C6A33B3FB}|DVLD-BusneissLayer\\DVLD-BusneissLayer.csproj|solutionrelative:dvld-busneisslayer\\clslocaldla.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87C5365C-F390-4942-BD4B-318C6A33B3FB}|DVLD-BusneissLayer\\DVLD-BusneissLayer.csproj|f:\\\u062A\u0627\u0633\u064A\u0633 \u0627\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\\u0643\u0648\u0631\u0633 \u0631\u0642\u0645 19 \u0645\u0634\u0631\u0648\u0639 \u0631\u062E\u0635 \u0627\u0644\u0633\u064A\u0627\u0631\u0627\u062A\\dvld\\dvld-busneisslayer\\clsapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87C5365C-F390-4942-BD4B-318C6A33B3FB}|DVLD-BusneissLayer\\DVLD-BusneissLayer.csproj|solutionrelative:dvld-busneisslayer\\clsapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A130D878-0542-41CE-A5B1-A7287BB839EF}|DVLD.csproj|f:\\\u062A\u0627\u0633\u064A\u0633 \u0627\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\\u0643\u0648\u0631\u0633 \u0631\u0642\u0645 19 \u0645\u0634\u0631\u0648\u0639 \u0631\u062E\u0635 \u0627\u0644\u0633\u064A\u0627\u0631\u0627\u062A\\dvld\\drivinglicenseapplicationinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A130D878-0542-41CE-A5B1-A7287BB839EF}|DVLD.csproj|solutionrelative:drivinglicenseapplicationinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A130D878-0542-41CE-A5B1-A7287BB839EF}|DVLD.csproj|f:\\\u062A\u0627\u0633\u064A\u0633 \u0627\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\\u0643\u0648\u0631\u0633 \u0631\u0642\u0645 19 \u0645\u0634\u0631\u0648\u0639 \u0631\u062E\u0635 \u0627\u0644\u0633\u064A\u0627\u0631\u0627\u062A\\dvld\\frmlocaldrivinglicenseapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -34,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,79 +34,51 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "clsApplication.cs",
-              "DocumentMoniker": "F:\\\u062A\u0627\u0633\u064A\u0633 \u0627\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\\u0643\u0648\u0631\u0633 \u0631\u0642\u0645 19 \u0645\u0634\u0631\u0648\u0639 \u0631\u062E\u0635 \u0627\u0644\u0633\u064A\u0627\u0631\u0627\u062A\\DVLD\\DVLD-BusneissLayer\\clsApplication.cs",
-              "RelativeDocumentMoniker": "DVLD-BusneissLayer\\clsApplication.cs",
-              "ToolTip": "F:\\\u062A\u0627\u0633\u064A\u0633 \u0627\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\\u0643\u0648\u0631\u0633 \u0631\u0642\u0645 19 \u0645\u0634\u0631\u0648\u0639 \u0631\u062E\u0635 \u0627\u0644\u0633\u064A\u0627\u0631\u0627\u062A\\DVLD\\DVLD-BusneissLayer\\clsApplication.cs",
-              "RelativeToolTip": "DVLD-BusneissLayer\\clsApplication.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAA7wDEAAAA8AAAA",
+              "DocumentIndex": 0,
+              "Title": "PersonInfo.cs",
+              "DocumentMoniker": "F:\\\u062A\u0627\u0633\u064A\u0633 \u0627\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\\u0643\u0648\u0631\u0633 \u0631\u0642\u0645 19 \u0645\u0634\u0631\u0648\u0639 \u0631\u062E\u0635 \u0627\u0644\u0633\u064A\u0627\u0631\u0627\u062A\\DVLD\\PersonInfo.cs",
+              "RelativeDocumentMoniker": "PersonInfo.cs",
+              "ToolTip": "F:\\\u062A\u0627\u0633\u064A\u0633 \u0627\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\\u0643\u0648\u0631\u0633 \u0631\u0642\u0645 19 \u0645\u0634\u0631\u0648\u0639 \u0631\u062E\u0635 \u0627\u0644\u0633\u064A\u0627\u0631\u0627\u062A\\DVLD\\PersonInfo.cs",
+              "RelativeToolTip": "PersonInfo.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAxwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T11:32:10.62Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "clsLocalDLA.cs",
-              "DocumentMoniker": "F:\\\u062A\u0627\u0633\u064A\u0633 \u0627\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\\u0643\u0648\u0631\u0633 \u0631\u0642\u0645 19 \u0645\u0634\u0631\u0648\u0639 \u0631\u062E\u0635 \u0627\u0644\u0633\u064A\u0627\u0631\u0627\u062A\\DVLD\\DVLD-BusneissLayer\\clsLocalDLA.cs",
-              "RelativeDocumentMoniker": "DVLD-BusneissLayer\\clsLocalDLA.cs",
-              "ToolTip": "F:\\\u062A\u0627\u0633\u064A\u0633 \u0627\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\\u0643\u0648\u0631\u0633 \u0631\u0642\u0645 19 \u0645\u0634\u0631\u0648\u0639 \u0631\u062E\u0635 \u0627\u0644\u0633\u064A\u0627\u0631\u0627\u062A\\DVLD\\DVLD-BusneissLayer\\clsLocalDLA.cs",
-              "RelativeToolTip": "DVLD-BusneissLayer\\clsLocalDLA.cs",
-              "ViewState": "AQIAADcAAAAAAAAAAAAswHMAAAAxAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T11:26:40.928Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "clsApplicationDataAccess.cs",
-              "DocumentMoniker": "F:\\\u062A\u0627\u0633\u064A\u0633 \u0627\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\\u0643\u0648\u0631\u0633 \u0631\u0642\u0645 19 \u0645\u0634\u0631\u0648\u0639 \u0631\u062E\u0635 \u0627\u0644\u0633\u064A\u0627\u0631\u0627\u062A\\DVLD\\DVLD-DataAccessLayer\\clsApplicationDataAccess.cs",
-              "RelativeDocumentMoniker": "DVLD-DataAccessLayer\\clsApplicationDataAccess.cs",
-              "ToolTip": "F:\\\u062A\u0627\u0633\u064A\u0633 \u0627\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\\u0643\u0648\u0631\u0633 \u0631\u0642\u0645 19 \u0645\u0634\u0631\u0648\u0639 \u0631\u062E\u0635 \u0627\u0644\u0633\u064A\u0627\u0631\u0627\u062A\\DVLD\\DVLD-DataAccessLayer\\clsApplicationDataAccess.cs",
-              "RelativeToolTip": "DVLD-DataAccessLayer\\clsApplicationDataAccess.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAuwF8AAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T11:25:07.442Z",
+              "WhenOpened": "2024-11-17T17:39:35.001Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "clsLocalDLA_DataAccess.cs",
-              "DocumentMoniker": "F:\\\u062A\u0627\u0633\u064A\u0633 \u0627\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\\u0643\u0648\u0631\u0633 \u0631\u0642\u0645 19 \u0645\u0634\u0631\u0648\u0639 \u0631\u062E\u0635 \u0627\u0644\u0633\u064A\u0627\u0631\u0627\u062A\\DVLD\\DVLD-DataAccessLayer\\clsLocalDLA_DataAccess.cs",
-              "RelativeDocumentMoniker": "DVLD-DataAccessLayer\\clsLocalDLA_DataAccess.cs",
-              "ToolTip": "F:\\\u062A\u0627\u0633\u064A\u0633 \u0627\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\\u0643\u0648\u0631\u0633 \u0631\u0642\u0645 19 \u0645\u0634\u0631\u0648\u0639 \u0631\u062E\u0635 \u0627\u0644\u0633\u064A\u0627\u0631\u0627\u062A\\DVLD\\DVLD-DataAccessLayer\\clsLocalDLA_DataAccess.cs",
-              "RelativeToolTip": "DVLD-DataAccessLayer\\clsLocalDLA_DataAccess.cs",
-              "ViewState": "AQIAAJUAAAAAAAAAAAAmwAQBAAAAAAAA",
+              "Title": "PersonInfo.cs [Design]",
+              "DocumentMoniker": "F:\\\u062A\u0627\u0633\u064A\u0633 \u0627\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\\u0643\u0648\u0631\u0633 \u0631\u0642\u0645 19 \u0645\u0634\u0631\u0648\u0639 \u0631\u062E\u0635 \u0627\u0644\u0633\u064A\u0627\u0631\u0627\u062A\\DVLD\\PersonInfo.cs",
+              "RelativeDocumentMoniker": "PersonInfo.cs",
+              "ToolTip": "F:\\\u062A\u0627\u0633\u064A\u0633 \u0627\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\\u0643\u0648\u0631\u0633 \u0631\u0642\u0645 19 \u0645\u0634\u0631\u0648\u0639 \u0631\u062E\u0635 \u0627\u0644\u0633\u064A\u0627\u0631\u0627\u062A\\DVLD\\PersonInfo.cs [Design]",
+              "RelativeToolTip": "PersonInfo.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T11:18:51.88Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-17T17:27:30.238Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "frmLocalDrivingLicenseApplication.cs",
-              "DocumentMoniker": "F:\\\u062A\u0627\u0633\u064A\u0633 \u0627\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\\u0643\u0648\u0631\u0633 \u0631\u0642\u0645 19 \u0645\u0634\u0631\u0648\u0639 \u0631\u062E\u0635 \u0627\u0644\u0633\u064A\u0627\u0631\u0627\u062A\\DVLD\\frmLocalDrivingLicenseApplication.cs",
-              "RelativeDocumentMoniker": "frmLocalDrivingLicenseApplication.cs",
-              "ToolTip": "F:\\\u062A\u0627\u0633\u064A\u0633 \u0627\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\\u0643\u0648\u0631\u0633 \u0631\u0642\u0645 19 \u0645\u0634\u0631\u0648\u0639 \u0631\u062E\u0635 \u0627\u0644\u0633\u064A\u0627\u0631\u0627\u062A\\DVLD\\frmLocalDrivingLicenseApplication.cs",
-              "RelativeToolTip": "frmLocalDrivingLicenseApplication.cs",
-              "ViewState": "AQIAAHYAAAAAAAAAAAAcwLUAAAAJAAAA",
+              "DocumentIndex": 2,
+              "Title": "DrivinglicenseApplicationInfo.cs [Design]",
+              "DocumentMoniker": "F:\\\u062A\u0627\u0633\u064A\u0633 \u0627\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\\u0643\u0648\u0631\u0633 \u0631\u0642\u0645 19 \u0645\u0634\u0631\u0648\u0639 \u0631\u062E\u0635 \u0627\u0644\u0633\u064A\u0627\u0631\u0627\u062A\\DVLD\\DrivinglicenseApplicationInfo.cs",
+              "RelativeDocumentMoniker": "DrivinglicenseApplicationInfo.cs",
+              "ToolTip": "F:\\\u062A\u0627\u0633\u064A\u0633 \u0627\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\\u0643\u0648\u0631\u0633 \u0631\u0642\u0645 19 \u0645\u0634\u0631\u0648\u0639 \u0631\u062E\u0635 \u0627\u0644\u0633\u064A\u0627\u0631\u0627\u062A\\DVLD\\DrivinglicenseApplicationInfo.cs [Design]",
+              "RelativeToolTip": "DrivinglicenseApplicationInfo.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T09:30:43.852Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-17T17:23:09.318Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "frmLocalDrivingLicenseApplication.cs [Design]",
               "DocumentMoniker": "F:\\\u062A\u0627\u0633\u064A\u0633 \u0627\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\\u0643\u0648\u0631\u0633 \u0631\u0642\u0645 19 \u0645\u0634\u0631\u0648\u0639 \u0631\u062E\u0635 \u0627\u0644\u0633\u064A\u0627\u0631\u0627\u062A\\DVLD\\frmLocalDrivingLicenseApplication.cs",
               "RelativeDocumentMoniker": "frmLocalDrivingLicenseApplication.cs",
               "ToolTip": "F:\\\u062A\u0627\u0633\u064A\u0633 \u0627\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\\u0643\u0648\u0631\u0633 \u0631\u0642\u0645 19 \u0645\u0634\u0631\u0648\u0639 \u0631\u062E\u0635 \u0627\u0644\u0633\u064A\u0627\u0631\u0627\u062A\\DVLD\\frmLocalDrivingLicenseApplication.cs [Design]",
               "RelativeToolTip": "frmLocalDrivingLicenseApplication.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T09:30:19.659Z",
+              "WhenOpened": "2024-11-17T16:31:34.996Z",
               "EditorCaption": " [Design]"
             }
           ]
