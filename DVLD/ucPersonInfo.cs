@@ -12,7 +12,7 @@ using static DVLD.frmDVLD;
 
 namespace DVLD
 {
-    public partial class PersonInfo : UserControl
+    public partial class ucPersonInfo : UserControl
     {
         public delegate void DataBackEventHaandler(object sender, int ID);
         public event DataBackEventHaandler DataBack;
@@ -20,7 +20,7 @@ namespace DVLD
 
         public string _NationalNo { get; set; }
 
-        public PersonInfo()
+        public ucPersonInfo()
         {
             InitializeComponent();  
         }

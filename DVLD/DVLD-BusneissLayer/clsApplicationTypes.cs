@@ -26,7 +26,7 @@ namespace DVLD_BusneissLayer
 
         public static DataTable GetAllApplications()
         {
-            return clsManageApplicationsDataAccess.GetAllApplicationsTypes();
+            return clsApplicationsTypesDataAccess.GetAllApplicationsTypes();
         }
 
         public static clsApplicationTypes Find(int id)
@@ -34,7 +34,7 @@ namespace DVLD_BusneissLayer
             string title = "";
             decimal fees = 0;
 
-            if(clsManageApplicationsDataAccess.GetApplicationType(id, ref title, ref fees))
+            if(clsApplicationsTypesDataAccess.GetApplicationType(id, ref title, ref fees))
                 return new clsApplicationTypes(id, title, fees);
             else
                 return null;
@@ -42,7 +42,7 @@ namespace DVLD_BusneissLayer
 
         private bool _Update()
         {
-            return clsManageApplicationsDataAccess.UpdateApplication(this.ID, this.Title, this.Fees);
+            return clsApplicationsTypesDataAccess.UpdateApplication(this.ID, this.Title, this.Fees);
         }
 
         public bool Save()

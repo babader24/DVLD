@@ -1,6 +1,6 @@
 ﻿namespace DVLD
 {
-    partial class Filter
+    partial class ucFilter
     {
         /// <summary> 
         /// Required designer variable.

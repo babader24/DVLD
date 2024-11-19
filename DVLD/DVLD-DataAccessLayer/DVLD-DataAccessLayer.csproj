@@ -43,7 +43,7 @@
   <ItemGroup>
     <Compile Include="clsApplicationDataAccess.cs" />
     <Compile Include="clsLicenseClassesDataAccess.cs" />
-    <Compile Include="clsManageApplicationsDataAccess.cs" />
+    <Compile Include="clsApplicationsTypesDataAccess.cs" />
     <Compile Include="clsPersonDataAccess.cs" />
     <Compile Include="clsDataAccessSetting.cs" />
     <Compile Include="clsTestTypeDataAccess.cs" />

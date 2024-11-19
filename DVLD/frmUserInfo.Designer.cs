@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.personInfo1 = new DVLD.PersonInfo();
+            this.personInfo1 = new DVLD.ucPersonInfo();
             this.ucLoginInfo1 = new DVLD.ucLoginInfo1();
             this.btnClose = new System.Windows.Forms.Button();
             this.SuspendLayout();
@@ -77,7 +77,7 @@
 
         #endregion
 
-        private PersonInfo personInfo1;
+        private ucPersonInfo personInfo1;
         private ucLoginInfo1 ucLoginInfo1;
         private System.Windows.Forms.Button btnClose;
     }

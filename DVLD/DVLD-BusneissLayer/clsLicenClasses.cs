@@ -14,5 +14,10 @@ namespace DVLD_BusneissLayer
         {
             return clsLicenseClassesDataAccess.GatAllLicenseClassesNames();
         }
+
+        public static string GetClassName(int licenseID)
+        {
+            return clsLicenseClassesDataAccess.GetLicenseClassName(licenseID);
+        }
     }
 }

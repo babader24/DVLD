@@ -46,17 +46,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DrivinglicenseApplicationInfo.cs">
+    <Compile Include="frmVisionTestAppointments.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmVisionTestAppointments.Designer.cs">
+      <DependentUpon>frmVisionTestAppointments.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucDrivinglicenseApplicationInfo.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="DrivinglicenseApplicationInfo.Designer.cs">
-      <DependentUpon>DrivinglicenseApplicationInfo.cs</DependentUpon>
+    <Compile Include="ucDrivinglicenseApplicationInfo.Designer.cs">
+      <DependentUpon>ucDrivinglicenseApplicationInfo.cs</DependentUpon>
     </Compile>
-    <Compile Include="Filter.cs">
+    <Compile Include="ucFilter.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Filter.Designer.cs">
-      <DependentUpon>Filter.cs</DependentUpon>
+    <Compile Include="ucFilter.Designer.cs">
+      <DependentUpon>ucFilter.cs</DependentUpon>
     </Compile>
     <Compile Include="frmAddEditPerson.cs">
       <SubType>Form</SubType>
@@ -148,11 +154,11 @@
     <Compile Include="frmUserInfo.Designer.cs">
       <DependentUpon>frmUserInfo.cs</DependentUpon>
     </Compile>
-    <Compile Include="PersonInfo.cs">
+    <Compile Include="ucPersonInfo.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="PersonInfo.Designer.cs">
-      <DependentUpon>PersonInfo.cs</DependentUpon>
+    <Compile Include="ucPersonInfo.Designer.cs">
+      <DependentUpon>ucPersonInfo.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -162,17 +168,26 @@
     <Compile Include="ucAddEdit.Designer.cs">
       <DependentUpon>ucAddEdit.cs</DependentUpon>
     </Compile>
+    <Compile Include="ucApplicationBasicInfo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucApplicationBasicInfo.Designer.cs">
+      <DependentUpon>ucApplicationBasicInfo.cs</DependentUpon>
+    </Compile>
     <Compile Include="ucLoginInfo.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="ucLoginInfo.Designer.cs">
       <DependentUpon>ucLoginInfo.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="DrivinglicenseApplicationInfo.resx">
-      <DependentUpon>DrivinglicenseApplicationInfo.cs</DependentUpon>
+    <EmbeddedResource Include="frmVisionTestAppointments.resx">
+      <DependentUpon>frmVisionTestAppointments.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Filter.resx">
-      <DependentUpon>Filter.cs</DependentUpon>
+    <EmbeddedResource Include="ucDrivinglicenseApplicationInfo.resx">
+      <DependentUpon>ucDrivinglicenseApplicationInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucFilter.resx">
+      <DependentUpon>ucFilter.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmAddEditPerson.resx">
       <DependentUpon>frmAddEditPerson.cs</DependentUpon>
@@ -219,8 +234,8 @@
     <EmbeddedResource Include="frmUserInfo.resx">
       <DependentUpon>frmUserInfo.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="PersonInfo.resx">
-      <DependentUpon>PersonInfo.cs</DependentUpon>
+    <EmbeddedResource Include="ucPersonInfo.resx">
+      <DependentUpon>ucPersonInfo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -234,6 +249,9 @@
     </Compile>
     <EmbeddedResource Include="ucAddEdit.resx">
       <DependentUpon>ucAddEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucApplicationBasicInfo.resx">
+      <DependentUpon>ucApplicationBasicInfo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ucLoginInfo.resx">
       <DependentUpon>ucLoginInfo.cs</DependentUpon>
@@ -364,6 +382,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\eye_480px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pincode_keyboard_480px1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

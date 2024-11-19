@@ -11,14 +11,14 @@ using System.Windows.Forms;
 
 namespace DVLD
 {
-    public partial class Filter : UserControl
+    public partial class ucFilter : UserControl
     {
 
         public delegate void DataBackEventHaandler(object sender, int PersonID);
         public event DataBackEventHaandler dataBack;
 
         clsPerson _Person;
-        public Filter()
+        public ucFilter()
         {
             InitializeComponent();
             Config();

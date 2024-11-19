@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace DVLD_DataAccessLayer
 {
-    public class clsManageApplicationsDataAccess
+    public class clsApplicationsTypesDataAccess
     {
         public static DataTable GetAllApplicationsTypes()
         {

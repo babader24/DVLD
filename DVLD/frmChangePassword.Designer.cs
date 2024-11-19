@@ -36,7 +36,7 @@
             this.tbConfirmPassword = new System.Windows.Forms.TextBox();
             this.tbNewPassword = new System.Windows.Forms.TextBox();
             this.ucLoginInfo1 = new DVLD.ucLoginInfo1();
-            this.personInfo1 = new DVLD.PersonInfo();
+            this.personInfo1 = new DVLD.ucPersonInfo();
             this.btnClose = new System.Windows.Forms.Button();
             this.Savebtn = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -208,7 +208,7 @@
         }
 
         #endregion
-        private PersonInfo personInfo1;
+        private ucPersonInfo personInfo1;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;

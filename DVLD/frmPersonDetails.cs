@@ -26,7 +26,7 @@ namespace DVLD
 
         private void SendID(int PersonID)
         {
-            PersonInfo person = this.Controls.OfType<PersonInfo>().FirstOrDefault();
+            ucPersonInfo person = this.Controls.OfType<ucPersonInfo>().FirstOrDefault();
             if (person != null)
             {
                 person._ID = PersonID;

@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "F:\\\u062A\u0627\u0633\u064A\u0633 \u0627\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\\u0643\u0648\u0631\u0633 \u0631\u0642\u0645 19 \u0645\u0634\u0631\u0648\u0639 \u0631\u062E\u0635 \u0627\u0644\u0633\u064A\u0627\u0631\u0627\u062A\\DVLD\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A130D878-0542-41CE-A5B1-A7287BB839EF}|DVLD.csproj|f:\\\u062A\u0627\u0633\u064A\u0633 \u0627\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\\u0643\u0648\u0631\u0633 \u0631\u0642\u0645 19 \u0645\u0634\u0631\u0648\u0639 \u0631\u062E\u0635 \u0627\u0644\u0633\u064A\u0627\u0631\u0627\u062A\\dvld\\personinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A130D878-0542-41CE-A5B1-A7287BB839EF}|DVLD.csproj|solutionrelative:personinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A130D878-0542-41CE-A5B1-A7287BB839EF}|DVLD.csproj|f:\\\u062A\u0627\u0633\u064A\u0633 \u0627\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\\u0643\u0648\u0631\u0633 \u0631\u0642\u0645 19 \u0645\u0634\u0631\u0648\u0639 \u0631\u062E\u0635 \u0627\u0644\u0633\u064A\u0627\u0631\u0627\u062A\\dvld\\frmvisiontestappointments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A130D878-0542-41CE-A5B1-A7287BB839EF}|DVLD.csproj|solutionrelative:frmvisiontestappointments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A130D878-0542-41CE-A5B1-A7287BB839EF}|DVLD.csproj|f:\\\u062A\u0627\u0633\u064A\u0633 \u0627\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\\u0643\u0648\u0631\u0633 \u0631\u0642\u0645 19 \u0645\u0634\u0631\u0648\u0639 \u0631\u062E\u0635 \u0627\u0644\u0633\u064A\u0627\u0631\u0627\u062A\\dvld\\personinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A130D878-0542-41CE-A5B1-A7287BB839EF}|DVLD.csproj|solutionrelative:personinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A130D878-0542-41CE-A5B1-A7287BB839EF}|DVLD.csproj|f:\\\u062A\u0627\u0633\u064A\u0633 \u0627\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\\u0643\u0648\u0631\u0633 \u0631\u0642\u0645 19 \u0645\u0634\u0631\u0648\u0639 \u0631\u062E\u0635 \u0627\u0644\u0633\u064A\u0627\u0631\u0627\u062A\\dvld\\drivinglicenseapplicationinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A130D878-0542-41CE-A5B1-A7287BB839EF}|DVLD.csproj|solutionrelative:drivinglicenseapplicationinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{A130D878-0542-41CE-A5B1-A7287BB839EF}|DVLD.csproj|f:\\\u062A\u0627\u0633\u064A\u0633 \u0627\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\\u0643\u0648\u0631\u0633 \u0631\u0642\u0645 19 \u0645\u0634\u0631\u0648\u0639 \u0631\u062E\u0635 \u0627\u0644\u0633\u064A\u0627\u0631\u0627\u062A\\dvld\\frmvisiontestappointments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A130D878-0542-41CE-A5B1-A7287BB839EF}|DVLD.csproj|solutionrelative:frmvisiontestappointments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A130D878-0542-41CE-A5B1-A7287BB839EF}|DVLD.csproj|f:\\\u062A\u0627\u0633\u064A\u0633 \u0627\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\\u0643\u0648\u0631\u0633 \u0631\u0642\u0645 19 \u0645\u0634\u0631\u0648\u0639 \u0631\u062E\u0635 \u0627\u0644\u0633\u064A\u0627\u0631\u0627\u062A\\dvld\\frmlocaldrivinglicenseapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{A130D878-0542-41CE-A5B1-A7287BB839EF}|DVLD.csproj|solutionrelative:frmlocaldrivinglicenseapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A130D878-0542-41CE-A5B1-A7287BB839EF}|DVLD.csproj|f:\\\u062A\u0627\u0633\u064A\u0633 \u0627\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\\u0643\u0648\u0631\u0633 \u0631\u0642\u0645 19 \u0645\u0634\u0631\u0648\u0639 \u0631\u062E\u0635 \u0627\u0644\u0633\u064A\u0627\u0631\u0627\u062A\\dvld\\ucapplicationbasicinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A130D878-0542-41CE-A5B1-A7287BB839EF}|DVLD.csproj|solutionrelative:ucapplicationbasicinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A130D878-0542-41CE-A5B1-A7287BB839EF}|DVLD.csproj|f:\\\u062A\u0627\u0633\u064A\u0633 \u0627\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\\u0643\u0648\u0631\u0633 \u0631\u0642\u0645 19 \u0645\u0634\u0631\u0648\u0639 \u0631\u062E\u0635 \u0627\u0644\u0633\u064A\u0627\u0631\u0627\u062A\\dvld\\ucapplicationbasicinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A130D878-0542-41CE-A5B1-A7287BB839EF}|DVLD.csproj|solutionrelative:ucapplicationbasicinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,51 +38,64 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PersonInfo.cs",
-              "DocumentMoniker": "F:\\\u062A\u0627\u0633\u064A\u0633 \u0627\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\\u0643\u0648\u0631\u0633 \u0631\u0642\u0645 19 \u0645\u0634\u0631\u0648\u0639 \u0631\u062E\u0635 \u0627\u0644\u0633\u064A\u0627\u0631\u0627\u062A\\DVLD\\PersonInfo.cs",
-              "RelativeDocumentMoniker": "PersonInfo.cs",
-              "ToolTip": "F:\\\u062A\u0627\u0633\u064A\u0633 \u0627\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\\u0643\u0648\u0631\u0633 \u0631\u0642\u0645 19 \u0645\u0634\u0631\u0648\u0639 \u0631\u062E\u0635 \u0627\u0644\u0633\u064A\u0627\u0631\u0627\u062A\\DVLD\\PersonInfo.cs",
-              "RelativeToolTip": "PersonInfo.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAxwAAAAAAAAAAA",
+              "DocumentIndex": 3,
+              "Title": "ucApplicationBasicInfo.cs [Design]",
+              "DocumentMoniker": "F:\\\u062A\u0627\u0633\u064A\u0633 \u0627\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\\u0643\u0648\u0631\u0633 \u0631\u0642\u0645 19 \u0645\u0634\u0631\u0648\u0639 \u0631\u062E\u0635 \u0627\u0644\u0633\u064A\u0627\u0631\u0627\u062A\\DVLD\\ucApplicationBasicInfo.cs",
+              "RelativeDocumentMoniker": "ucApplicationBasicInfo.cs",
+              "ToolTip": "F:\\\u062A\u0627\u0633\u064A\u0633 \u0627\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\\u0643\u0648\u0631\u0633 \u0631\u0642\u0645 19 \u0645\u0634\u0631\u0648\u0639 \u0631\u062E\u0635 \u0627\u0644\u0633\u064A\u0627\u0631\u0627\u062A\\DVLD\\ucApplicationBasicInfo.cs [Design]",
+              "RelativeToolTip": "ucApplicationBasicInfo.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T17:39:35.001Z",
+              "WhenOpened": "2024-11-19T09:20:55.32Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ucApplicationBasicInfo.cs",
+              "DocumentMoniker": "F:\\\u062A\u0627\u0633\u064A\u0633 \u0627\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\\u0643\u0648\u0631\u0633 \u0631\u0642\u0645 19 \u0645\u0634\u0631\u0648\u0639 \u0631\u062E\u0635 \u0627\u0644\u0633\u064A\u0627\u0631\u0627\u062A\\DVLD\\ucApplicationBasicInfo.cs",
+              "RelativeDocumentMoniker": "ucApplicationBasicInfo.cs",
+              "ToolTip": "F:\\\u062A\u0627\u0633\u064A\u0633 \u0627\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\\u0643\u0648\u0631\u0633 \u0631\u0642\u0645 19 \u0645\u0634\u0631\u0648\u0639 \u0631\u062E\u0635 \u0627\u0644\u0633\u064A\u0627\u0631\u0627\u062A\\DVLD\\ucApplicationBasicInfo.cs",
+              "RelativeToolTip": "ucApplicationBasicInfo.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAQwCYAAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T09:19:07.188Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PersonInfo.cs [Design]",
-              "DocumentMoniker": "F:\\\u062A\u0627\u0633\u064A\u0633 \u0627\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\\u0643\u0648\u0631\u0633 \u0631\u0642\u0645 19 \u0645\u0634\u0631\u0648\u0639 \u0631\u062E\u0635 \u0627\u0644\u0633\u064A\u0627\u0631\u0627\u062A\\DVLD\\PersonInfo.cs",
-              "RelativeDocumentMoniker": "PersonInfo.cs",
-              "ToolTip": "F:\\\u062A\u0627\u0633\u064A\u0633 \u0627\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\\u0643\u0648\u0631\u0633 \u0631\u0642\u0645 19 \u0645\u0634\u0631\u0648\u0639 \u0631\u062E\u0635 \u0627\u0644\u0633\u064A\u0627\u0631\u0627\u062A\\DVLD\\PersonInfo.cs [Design]",
-              "RelativeToolTip": "PersonInfo.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T17:27:30.238Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "DrivinglicenseApplicationInfo.cs [Design]",
-              "DocumentMoniker": "F:\\\u062A\u0627\u0633\u064A\u0633 \u0627\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\\u0643\u0648\u0631\u0633 \u0631\u0642\u0645 19 \u0645\u0634\u0631\u0648\u0639 \u0631\u062E\u0635 \u0627\u0644\u0633\u064A\u0627\u0631\u0627\u062A\\DVLD\\DrivinglicenseApplicationInfo.cs",
-              "RelativeDocumentMoniker": "DrivinglicenseApplicationInfo.cs",
-              "ToolTip": "F:\\\u062A\u0627\u0633\u064A\u0633 \u0627\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\\u0643\u0648\u0631\u0633 \u0631\u0642\u0645 19 \u0645\u0634\u0631\u0648\u0639 \u0631\u062E\u0635 \u0627\u0644\u0633\u064A\u0627\u0631\u0627\u062A\\DVLD\\DrivinglicenseApplicationInfo.cs [Design]",
-              "RelativeToolTip": "DrivinglicenseApplicationInfo.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T17:23:09.318Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "frmLocalDrivingLicenseApplication.cs [Design]",
               "DocumentMoniker": "F:\\\u062A\u0627\u0633\u064A\u0633 \u0627\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\\u0643\u0648\u0631\u0633 \u0631\u0642\u0645 19 \u0645\u0634\u0631\u0648\u0639 \u0631\u062E\u0635 \u0627\u0644\u0633\u064A\u0627\u0631\u0627\u062A\\DVLD\\frmLocalDrivingLicenseApplication.cs",
               "RelativeDocumentMoniker": "frmLocalDrivingLicenseApplication.cs",
               "ToolTip": "F:\\\u062A\u0627\u0633\u064A\u0633 \u0627\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\\u0643\u0648\u0631\u0633 \u0631\u0642\u0645 19 \u0645\u0634\u0631\u0648\u0639 \u0631\u062E\u0635 \u0627\u0644\u0633\u064A\u0627\u0631\u0627\u062A\\DVLD\\frmLocalDrivingLicenseApplication.cs [Design]",
               "RelativeToolTip": "frmLocalDrivingLicenseApplication.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T16:31:34.996Z",
+              "WhenOpened": "2024-11-19T09:03:47.157Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmVisionTestAppointments.cs",
+              "DocumentMoniker": "F:\\\u062A\u0627\u0633\u064A\u0633 \u0627\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\\u0643\u0648\u0631\u0633 \u0631\u0642\u0645 19 \u0645\u0634\u0631\u0648\u0639 \u0631\u062E\u0635 \u0627\u0644\u0633\u064A\u0627\u0631\u0627\u062A\\DVLD\\frmVisionTestAppointments.cs",
+              "RelativeDocumentMoniker": "frmVisionTestAppointments.cs",
+              "ToolTip": "F:\\\u062A\u0627\u0633\u064A\u0633 \u0627\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\\u0643\u0648\u0631\u0633 \u0631\u0642\u0645 19 \u0645\u0634\u0631\u0648\u0639 \u0631\u062E\u0635 \u0627\u0644\u0633\u064A\u0627\u0631\u0627\u062A\\DVLD\\frmVisionTestAppointments.cs",
+              "RelativeToolTip": "frmVisionTestAppointments.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAAACAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T08:55:57.148Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmVisionTestAppointments.cs [Design]",
+              "DocumentMoniker": "F:\\\u062A\u0627\u0633\u064A\u0633 \u0627\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\\u0643\u0648\u0631\u0633 \u0631\u0642\u0645 19 \u0645\u0634\u0631\u0648\u0639 \u0631\u062E\u0635 \u0627\u0644\u0633\u064A\u0627\u0631\u0627\u062A\\DVLD\\frmVisionTestAppointments.cs",
+              "RelativeDocumentMoniker": "frmVisionTestAppointments.cs",
+              "ToolTip": "F:\\\u062A\u0627\u0633\u064A\u0633 \u0627\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\\u0643\u0648\u0631\u0633 \u0631\u0642\u0645 19 \u0645\u0634\u0631\u0648\u0639 \u0631\u062E\u0635 \u0627\u0644\u0633\u064A\u0627\u0631\u0627\u062A\\DVLD\\frmVisionTestAppointments.cs [Design]",
+              "RelativeToolTip": "frmVisionTestAppointments.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T07:57:11.174Z",
               "EditorCaption": " [Design]"
             }
           ]

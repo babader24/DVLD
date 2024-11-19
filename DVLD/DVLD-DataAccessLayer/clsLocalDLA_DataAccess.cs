@@ -256,5 +256,43 @@ namespace DVLD_DataAccessLayer
             }
             return (rowEffected > 0);
         }
+
+        public static int GetPassedTestCountByLDLAID(int lDLAID)
+        {
+            int PassedTestCount;
+
+            SqlConnection connection = new SqlConnection(clsDataAccessSetting.ConnetionString);
+            string query = @"select PassedTestCount from
+                   LocalDrivingLicenseApplications_View where LocalDrivingLicenseApplicationID = @lDLAID";
+
+            SqlCommand command = new SqlCommand(query,connection);
+
+            command.Parameters.AddWithValue("@lDLAID", lDLAID);
+
+            try
+            {
+                connection.Open();
+
+                SqlDataReader reader = command.ExecuteReader();
+
+                if (reader.Read())
+                {
+                    PassedTestCount = (int)reader["PassedTestCount"];
+                }
+                else
+                    PassedTestCount = 1000;
+
+                reader.Close();
+            }
+            catch
+            {
+                return 1000;
+            }
+            finally
+            {
+                connection.Close();
+            }
+            return PassedTestCount;
+        }
     }
 }

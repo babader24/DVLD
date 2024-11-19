@@ -172,6 +172,9 @@ namespace DVLD_BusneissLayer
         }
 
         
-        
+        public static string GetFullName(int ID)
+        {
+            return clsPersonDataAccess.GetFullNameByID(ID);
+        }
     }
 }

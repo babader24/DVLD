@@ -118,5 +118,10 @@ namespace DVLD_BusneissLayer
             return clsLocalDLA_DataAccess.DeleteLDLA(LDLAID);
         }
 
+        public static int PassedTests(int LDLAID)
+        {
+            return clsLocalDLA_DataAccess.GetPassedTestCountByLDLAID(LDLAID);
+        }
+
     }
 }

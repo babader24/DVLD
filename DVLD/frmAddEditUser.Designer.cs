@@ -43,8 +43,8 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
-            this.personInfoUser = new DVLD.PersonInfo();
-            this.filter1 = new DVLD.Filter();
+            this.personInfoUser = new DVLD.ucPersonInfo();
+            this.filter1 = new DVLD.ucFilter();
             this.btnClose = new System.Windows.Forms.Button();
             this.Savebtn = new System.Windows.Forms.Button();
             this.btnNext = new System.Windows.Forms.Button();
@@ -350,8 +350,8 @@
         private System.Windows.Forms.TabControl tabControl1;
         private System.Windows.Forms.TabPage tabPage1;
         private System.Windows.Forms.TabPage tabPage2;
-        private Filter filter1;
-        private PersonInfo personInfoUser;
+        private ucFilter filter1;
+        private ucPersonInfo personInfoUser;
         private System.Windows.Forms.Button btnClose;
         private System.Windows.Forms.Button Savebtn;
         private System.Windows.Forms.Button btnNext;

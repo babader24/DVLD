@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.personInfo = new DVLD.PersonInfo();
+            this.personInfo = new DVLD.ucPersonInfo();
             this.Closebtn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -83,7 +83,7 @@
 
         #endregion
 
-        private PersonInfo personInfo;
+        private ucPersonInfo personInfo;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button Closebtn;
     }

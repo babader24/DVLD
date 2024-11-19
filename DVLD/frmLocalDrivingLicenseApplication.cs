@@ -181,7 +181,10 @@ namespace DVLD
             RefreshData() ;
         }
 
-
-
+        private void sechduleVisonTestToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form frm = new frmVisionTestAppointments((int)dgvApplication.CurrentRow.Cells[0].Value);
+            frm.ShowDialog();
+        }
     }
 }

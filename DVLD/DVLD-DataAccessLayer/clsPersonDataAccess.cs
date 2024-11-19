@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 using System.Data.SqlClient;
 using System.Net;
 using System.Security.Policy;
+using System.ComponentModel;
 
 namespace DVLD_DataAccessLayer
 {
@@ -300,6 +301,45 @@ namespace DVLD_DataAccessLayer
                 IsFound = false;
             }
             return IsFound;
+        }
+
+        public static string GetFullNameByID(int ID)
+        {
+            string fullname;
+
+            SqlConnection connection = new SqlConnection(clsDataAccessSetting.ConnetionString);
+            string query = @"Select FirstName +' ' +SecondName +' '+ ThirdName +' '+ LastName 
+                  as FullName from People where PersonID = @ID";
+
+            SqlCommand command = new SqlCommand(query, connection);
+
+            command.Parameters.AddWithValue("@ID", ID);
+
+            try
+            {
+                connection.Open();
+
+                SqlDataReader reader = command.ExecuteReader();
+
+                if (reader.Read())
+                {
+                    fullname = (string)reader["FullName"];
+                }
+                else
+                    fullname = "False";
+
+                reader.Close();
+            }
+            catch
+            {
+                fullname = "False";
+            }
+            finally
+            {
+                connection.Close();
+            }
+            return fullname;
+
         }
 
         public static DataTable GetAllCountries( )

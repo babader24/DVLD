@@ -51,8 +51,8 @@
             this.btnClose = new System.Windows.Forms.Button();
             this.Savebtn = new System.Windows.Forms.Button();
             this.lTitle = new System.Windows.Forms.Label();
-            this.personInfoUser1 = new DVLD.PersonInfo();
-            this.filter1 = new DVLD.Filter();
+            this.personInfoUser1 = new DVLD.ucPersonInfo();
+            this.filter1 = new DVLD.ucFilter();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
@@ -371,8 +371,8 @@
         private System.Windows.Forms.TabControl tabControl1;
         private System.Windows.Forms.TabPage tabPage1;
         private System.Windows.Forms.Button btnNext;
-        private PersonInfo personInfoUser1;
-        private Filter filter1;
+        private ucPersonInfo personInfoUser1;
+        private ucFilter filter1;
         private System.Windows.Forms.TabPage tabPage2;
         private System.Windows.Forms.Button btnBack;
         private System.Windows.Forms.Label label4;

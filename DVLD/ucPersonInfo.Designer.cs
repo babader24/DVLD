@@ -1,6 +1,6 @@
 ﻿namespace DVLD
 {
-    partial class PersonInfo
+    partial class ucPersonInfo
     {
         /// <summary> 
         /// Required designer variable.
