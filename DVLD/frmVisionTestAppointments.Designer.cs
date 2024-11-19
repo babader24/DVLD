@@ -31,14 +31,14 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.lRecordCount = new System.Windows.Forms.Label();
-            this.dgvApplication = new System.Windows.Forms.DataGridView();
+            this.dgvAppointment = new System.Windows.Forms.DataGridView();
             this.btnAddApplication = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.btnClose = new System.Windows.Forms.Button();
             this.ucApplicationBasicInfo1 = new DVLD.ucApplicationBasicInfo();
             this.ucDrivinglicenseApplicationInfo1 = new DVLD.ucDrivinglicenseApplicationInfo();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvApplication)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvAppointment)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox1
@@ -72,20 +72,20 @@
             this.lRecordCount.TabIndex = 17;
             this.lRecordCount.Text = "#Record : ";
             // 
-            // dgvApplication
+            // dgvAppointment
             // 
-            this.dgvApplication.AllowUserToAddRows = false;
-            this.dgvApplication.AllowUserToDeleteRows = false;
-            this.dgvApplication.BackgroundColor = System.Drawing.Color.White;
-            this.dgvApplication.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvApplication.GridColor = System.Drawing.Color.White;
-            this.dgvApplication.Location = new System.Drawing.Point(21, 618);
-            this.dgvApplication.Name = "dgvApplication";
-            this.dgvApplication.ReadOnly = true;
-            this.dgvApplication.RowHeadersWidth = 51;
-            this.dgvApplication.RowTemplate.Height = 26;
-            this.dgvApplication.Size = new System.Drawing.Size(978, 148);
-            this.dgvApplication.TabIndex = 18;
+            this.dgvAppointment.AllowUserToAddRows = false;
+            this.dgvAppointment.AllowUserToDeleteRows = false;
+            this.dgvAppointment.BackgroundColor = System.Drawing.Color.White;
+            this.dgvAppointment.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvAppointment.GridColor = System.Drawing.Color.White;
+            this.dgvAppointment.Location = new System.Drawing.Point(21, 618);
+            this.dgvAppointment.Name = "dgvAppointment";
+            this.dgvAppointment.ReadOnly = true;
+            this.dgvAppointment.RowHeadersWidth = 51;
+            this.dgvAppointment.RowTemplate.Height = 26;
+            this.dgvAppointment.Size = new System.Drawing.Size(978, 148);
+            this.dgvAppointment.TabIndex = 18;
             // 
             // btnAddApplication
             // 
@@ -143,7 +143,7 @@
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.btnAddApplication);
-            this.Controls.Add(this.dgvApplication);
+            this.Controls.Add(this.dgvAppointment);
             this.Controls.Add(this.lRecordCount);
             this.Controls.Add(this.ucApplicationBasicInfo1);
             this.Controls.Add(this.ucDrivinglicenseApplicationInfo1);
@@ -153,7 +153,7 @@
             this.Name = "frmVisionTestAppointments";
             this.Text = "frmVisionTestAppointments";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvApplication)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvAppointment)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -166,7 +166,7 @@
         private ucDrivinglicenseApplicationInfo ucDrivinglicenseApplicationInfo1;
         private ucApplicationBasicInfo ucApplicationBasicInfo1;
         private System.Windows.Forms.Label lRecordCount;
-        private System.Windows.Forms.DataGridView dgvApplication;
+        private System.Windows.Forms.DataGridView dgvAppointment;
         private System.Windows.Forms.Button btnAddApplication;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button btnClose;

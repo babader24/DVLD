@@ -28,6 +28,8 @@ namespace DVLD
             tbFilter.Visible = false;
             lRecordCount.Text = RecordesCount();
             FillFiltersBox();
+
+
         }
 
         private void DisplayAllLDLA()
@@ -185,6 +187,40 @@ namespace DVLD
         {
             Form frm = new frmVisionTestAppointments((int)dgvApplication.CurrentRow.Cells[0].Value);
             frm.ShowDialog();
+        }
+
+        private void showApplicationDeatailsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form frm = new frmApplicationDetails((int)dgvApplication.CurrentRow.Cells[0].Value);
+            frm.ShowDialog();
+        }
+
+        private void contextMenuStrip1_Opening(object sender, CancelEventArgs e)
+        {
+            if ((int)dgvApplication.CurrentRow.Cells[5].Value == 0)
+            {
+                sechduleVisonTestToolStripMenuItem.Enabled = true;
+                sechduleVisonTestToolStripMenuItem1.Enabled = false;
+                sechduleVisonTestToolStripMenuItem2.Enabled = false;
+            }
+            else if ((int)dgvApplication.CurrentRow.Cells[5].Value == 1)
+            {
+                sechduleVisonTestToolStripMenuItem.Enabled = false;
+                sechduleVisonTestToolStripMenuItem1.Enabled = true;
+                sechduleVisonTestToolStripMenuItem2.Enabled = false;
+            }
+            else if ((int)dgvApplication.CurrentRow.Cells[5].Value == 2)
+            {
+                sechduleVisonTestToolStripMenuItem.Enabled = false;
+                sechduleVisonTestToolStripMenuItem1.Enabled = false;
+                sechduleVisonTestToolStripMenuItem2.Enabled = true;
+            }
+            else if ((int)dgvApplication.CurrentRow.Cells[5].Value == 3)
+            {
+                sechduleVisonTestToolStripMenuItem.Enabled = false;
+                sechduleVisonTestToolStripMenuItem1.Enabled = false;
+                sechduleVisonTestToolStripMenuItem2.Enabled = false;
+            }
         }
     }
 }

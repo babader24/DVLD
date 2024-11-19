@@ -46,6 +46,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frmApplicationDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmApplicationDetails.Designer.cs">
+      <DependentUpon>frmApplicationDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSchduleTest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSchduleTest.Designer.cs">
+      <DependentUpon>frmSchduleTest.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmVisionTestAppointments.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -180,6 +192,18 @@
     <Compile Include="ucLoginInfo.Designer.cs">
       <DependentUpon>ucLoginInfo.cs</DependentUpon>
     </Compile>
+    <Compile Include="ucVisionTest.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucVisionTest.Designer.cs">
+      <DependentUpon>ucVisionTest.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="frmApplicationDetails.resx">
+      <DependentUpon>frmApplicationDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSchduleTest.resx">
+      <DependentUpon>frmSchduleTest.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmVisionTestAppointments.resx">
       <DependentUpon>frmVisionTestAppointments.cs</DependentUpon>
     </EmbeddedResource>
@@ -255,6 +279,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ucLoginInfo.resx">
       <DependentUpon>ucLoginInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucVisionTest.resx">
+      <DependentUpon>ucVisionTest.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

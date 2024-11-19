@@ -42,6 +42,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="clsApplicationDataAccess.cs" />
+    <Compile Include="clsAppointmentDataAccess.cs" />
     <Compile Include="clsLicenseClassesDataAccess.cs" />
     <Compile Include="clsApplicationsTypesDataAccess.cs" />
     <Compile Include="clsPersonDataAccess.cs" />

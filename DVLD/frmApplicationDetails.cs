@@ -10,10 +10,9 @@ using System.Windows.Forms;
 
 namespace DVLD
 {
-    public partial class frmVisionTestAppointments : Form
+    public partial class frmApplicationDetails : Form
     {
-        
-        public frmVisionTestAppointments(int ID)
+        public frmApplicationDetails(int ID)
         {
             InitializeComponent();
             Config(ID);
@@ -30,7 +29,7 @@ namespace DVLD
             ucApplicationBasicInfo1._ID = ID;
             ucApplicationBasicInfo1._LoadDate();
         }
-                  
+
         private void btnClose_Click(object sender, EventArgs e)
         {
             this.Close();
