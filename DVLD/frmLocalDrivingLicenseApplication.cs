@@ -37,6 +37,9 @@ namespace DVLD
             dgvApplication.DataSource = clsLocalDLA.GetAllLDLA();
         }
 
+       
+
+
         private string RecordesCount()
         {
             int count = dgvApplication.Rows.Count;
@@ -185,7 +188,7 @@ namespace DVLD
 
         private void sechduleVisonTestToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Form frm = new frmVisionTestAppointments((int)dgvApplication.CurrentRow.Cells[0].Value);
+            Form frm = new frmTestAppointment((int)dgvApplication.CurrentRow.Cells[0].Value,1);
             frm.ShowDialog();
         }
 
@@ -197,7 +200,17 @@ namespace DVLD
 
         private void contextMenuStrip1_Opening(object sender, CancelEventArgs e)
         {
-            if ((int)dgvApplication.CurrentRow.Cells[5].Value == 0)
+
+            if(dgvApplication.CurrentRow.Cells[6].Value.ToString() == "Cancelled")
+            {
+                sechduleVisonTestToolStripMenuItem.Enabled = false;
+                sechduleVisonTestToolStripMenuItem1.Enabled = false;
+                sechduleVisonTestToolStripMenuItem2.Enabled = false;
+                return;
+            }
+        
+
+            if ((int)dgvApplication.CurrentRow.Cells[5].Value == 0 )
             {
                 sechduleVisonTestToolStripMenuItem.Enabled = true;
                 sechduleVisonTestToolStripMenuItem1.Enabled = false;

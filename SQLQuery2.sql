@@ -12,6 +12,12 @@ select PassedTestCount from LocalDrivingLicenseApplications_View where LocalDriv
 
 select * from TestAppointments
 
+select TestAppointmentID, TestTypeID, LocalDrivingLicenseApplicationID,AppointmentDate,PaidFees,CreatedByUserID
+,IsLocked from TestAppointments
+
+insert into TestAppointments (TestTypeID, LocalDrivingLicenseApplicationID,AppointmentDate,PaidFees,CreatedByUserID,IsLocked)
+values ()
+
 select * from TestAppointments_View
 
 select * from Tests

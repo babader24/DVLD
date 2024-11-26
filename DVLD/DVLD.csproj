@@ -58,11 +58,11 @@
     <Compile Include="frmSchduleTest.Designer.cs">
       <DependentUpon>frmSchduleTest.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmVisionTestAppointments.cs">
+    <Compile Include="frmTestAppointment.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmVisionTestAppointments.Designer.cs">
-      <DependentUpon>frmVisionTestAppointments.cs</DependentUpon>
+    <Compile Include="frmTestAppointment.Designer.cs">
+      <DependentUpon>frmTestAppointment.cs</DependentUpon>
     </Compile>
     <Compile Include="ucDrivinglicenseApplicationInfo.cs">
       <SubType>UserControl</SubType>
@@ -204,8 +204,8 @@
     <EmbeddedResource Include="frmSchduleTest.resx">
       <DependentUpon>frmSchduleTest.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmVisionTestAppointments.resx">
-      <DependentUpon>frmVisionTestAppointments.cs</DependentUpon>
+    <EmbeddedResource Include="frmTestAppointment.resx">
+      <DependentUpon>frmTestAppointment.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ucDrivinglicenseApplicationInfo.resx">
       <DependentUpon>ucDrivinglicenseApplicationInfo.cs</DependentUpon>
