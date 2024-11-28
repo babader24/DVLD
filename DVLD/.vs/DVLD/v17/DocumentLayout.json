@@ -3,36 +3,8 @@
   "WorkspaceRootPath": "F:\\\u062A\u0627\u0633\u064A\u0633 \u0627\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\\u0643\u0648\u0631\u0633 \u0631\u0642\u0645 19 \u0645\u0634\u0631\u0648\u0639 \u0631\u062E\u0635 \u0627\u0644\u0633\u064A\u0627\u0631\u0627\u062A\\DVLD\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{87C5365C-F390-4942-BD4B-318C6A33B3FB}|DVLD-BusneissLayer\\DVLD-BusneissLayer.csproj|f:\\\u062A\u0627\u0633\u064A\u0633 \u0627\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\\u0643\u0648\u0631\u0633 \u0631\u0642\u0645 19 \u0645\u0634\u0631\u0648\u0639 \u0631\u062E\u0635 \u0627\u0644\u0633\u064A\u0627\u0631\u0627\u062A\\dvld\\dvld-busneisslayer\\clsappointments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87C5365C-F390-4942-BD4B-318C6A33B3FB}|DVLD-BusneissLayer\\DVLD-BusneissLayer.csproj|solutionrelative:dvld-busneisslayer\\clsappointments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87C5365C-F390-4942-BD4B-318C6A33B3FB}|DVLD-BusneissLayer\\DVLD-BusneissLayer.csproj|F:\\\u062A\u0627\u0633\u064A\u0633 \u0627\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\\u0643\u0648\u0631\u0633 \u0631\u0642\u0645 19 \u0645\u0634\u0631\u0648\u0639 \u0631\u062E\u0635 \u0627\u0644\u0633\u064A\u0627\u0631\u0627\u062A\\DVLD\\dvld-busneisslayer\\clsapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87C5365C-F390-4942-BD4B-318C6A33B3FB}|DVLD-BusneissLayer\\DVLD-BusneissLayer.csproj|solutionrelative:dvld-busneisslayer\\clsapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{226DCA79-37EE-499F-B3F8-A1E779AB0162}|DVLD-DataAccessLayer\\DVLD-DataAccessLayer.csproj|F:\\\u062A\u0627\u0633\u064A\u0633 \u0627\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\\u0643\u0648\u0631\u0633 \u0631\u0642\u0645 19 \u0645\u0634\u0631\u0648\u0639 \u0631\u062E\u0635 \u0627\u0644\u0633\u064A\u0627\u0631\u0627\u062A\\DVLD\\dvld-dataaccesslayer\\clsappointmentdataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{226DCA79-37EE-499F-B3F8-A1E779AB0162}|DVLD-DataAccessLayer\\DVLD-DataAccessLayer.csproj|solutionrelative:dvld-dataaccesslayer\\clsappointmentdataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A130D878-0542-41CE-A5B1-A7287BB839EF}|DVLD.csproj|F:\\\u062A\u0627\u0633\u064A\u0633 \u0627\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\\u0643\u0648\u0631\u0633 \u0631\u0642\u0645 19 \u0645\u0634\u0631\u0648\u0639 \u0631\u062E\u0635 \u0627\u0644\u0633\u064A\u0627\u0631\u0627\u062A\\DVLD\\frmschduletest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A130D878-0542-41CE-A5B1-A7287BB839EF}|DVLD.csproj|solutionrelative:frmschduletest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A130D878-0542-41CE-A5B1-A7287BB839EF}|DVLD.csproj|F:\\\u062A\u0627\u0633\u064A\u0633 \u0627\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\\u0643\u0648\u0631\u0633 \u0631\u0642\u0645 19 \u0645\u0634\u0631\u0648\u0639 \u0631\u062E\u0635 \u0627\u0644\u0633\u064A\u0627\u0631\u0627\u062A\\DVLD\\frmschduletest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A130D878-0542-41CE-A5B1-A7287BB839EF}|DVLD.csproj|solutionrelative:frmschduletest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A130D878-0542-41CE-A5B1-A7287BB839EF}|DVLD.csproj|F:\\\u062A\u0627\u0633\u064A\u0633 \u0627\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\\u0643\u0648\u0631\u0633 \u0631\u0642\u0645 19 \u0645\u0634\u0631\u0648\u0639 \u0631\u062E\u0635 \u0627\u0644\u0633\u064A\u0627\u0631\u0627\u062A\\DVLD\\frmlocaldrivinglicenseapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A130D878-0542-41CE-A5B1-A7287BB839EF}|DVLD.csproj|solutionrelative:frmlocaldrivinglicenseapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A130D878-0542-41CE-A5B1-A7287BB839EF}|DVLD.csproj|F:\\\u062A\u0627\u0633\u064A\u0633 \u0627\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\\u0643\u0648\u0631\u0633 \u0631\u0642\u0645 19 \u0645\u0634\u0631\u0648\u0639 \u0631\u062E\u0635 \u0627\u0644\u0633\u064A\u0627\u0631\u0627\u062A\\DVLD\\frmtestappointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A130D878-0542-41CE-A5B1-A7287BB839EF}|DVLD.csproj|solutionrelative:frmtestappointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A130D878-0542-41CE-A5B1-A7287BB839EF}|DVLD.csproj|F:\\\u062A\u0627\u0633\u064A\u0633 \u0627\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\\u0643\u0648\u0631\u0633 \u0631\u0642\u0645 19 \u0645\u0634\u0631\u0648\u0639 \u0631\u062E\u0635 \u0627\u0644\u0633\u064A\u0627\u0631\u0627\u062A\\DVLD\\frmtestappointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A130D878-0542-41CE-A5B1-A7287BB839EF}|DVLD.csproj|solutionrelative:frmtestappointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A130D878-0542-41CE-A5B1-A7287BB839EF}|DVLD.csproj|F:\\\u062A\u0627\u0633\u064A\u0633 \u0627\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\\u0643\u0648\u0631\u0633 \u0631\u0642\u0645 19 \u0645\u0634\u0631\u0648\u0639 \u0631\u062E\u0635 \u0627\u0644\u0633\u064A\u0627\u0631\u0627\u062A\\DVLD\\ucvisiontest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -41,6 +13,18 @@
     {
       "AbsoluteMoniker": "D:0:0:{A130D878-0542-41CE-A5B1-A7287BB839EF}|DVLD.csproj|F:\\\u062A\u0627\u0633\u064A\u0633 \u0627\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\\u0643\u0648\u0631\u0633 \u0631\u0642\u0645 19 \u0645\u0634\u0631\u0648\u0639 \u0631\u062E\u0635 \u0627\u0644\u0633\u064A\u0627\u0631\u0627\u062A\\DVLD\\frmlocaldrivinglicenseapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A130D878-0542-41CE-A5B1-A7287BB839EF}|DVLD.csproj|solutionrelative:frmlocaldrivinglicenseapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A130D878-0542-41CE-A5B1-A7287BB839EF}|DVLD.csproj|F:\\\u062A\u0627\u0633\u064A\u0633 \u0627\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\\u0643\u0648\u0631\u0633 \u0631\u0642\u0645 19 \u0645\u0634\u0631\u0648\u0639 \u0631\u062E\u0635 \u0627\u0644\u0633\u064A\u0627\u0631\u0627\u062A\\DVLD\\frmtestappointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A130D878-0542-41CE-A5B1-A7287BB839EF}|DVLD.csproj|solutionrelative:frmtestappointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A130D878-0542-41CE-A5B1-A7287BB839EF}|DVLD.csproj|F:\\\u062A\u0627\u0633\u064A\u0633 \u0627\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\\u0643\u0648\u0631\u0633 \u0631\u0642\u0645 19 \u0645\u0634\u0631\u0648\u0639 \u0631\u062E\u0635 \u0627\u0644\u0633\u064A\u0627\u0631\u0627\u062A\\DVLD\\frmtestappointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A130D878-0542-41CE-A5B1-A7287BB839EF}|DVLD.csproj|solutionrelative:frmtestappointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A130D878-0542-41CE-A5B1-A7287BB839EF}|DVLD.csproj|F:\\\u062A\u0627\u0633\u064A\u0633 \u0627\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\\u0643\u0648\u0631\u0633 \u0631\u0642\u0645 19 \u0645\u0634\u0631\u0648\u0639 \u0631\u062E\u0635 \u0627\u0644\u0633\u064A\u0627\u0631\u0627\u062A\\DVLD\\frmschduletest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A130D878-0542-41CE-A5B1-A7287BB839EF}|DVLD.csproj|solutionrelative:frmschduletest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,120 +42,78 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "clsApplication.cs",
-              "DocumentMoniker": "F:\\\u062A\u0627\u0633\u064A\u0633 \u0627\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\\u0643\u0648\u0631\u0633 \u0631\u0642\u0645 19 \u0645\u0634\u0631\u0648\u0639 \u0631\u062E\u0635 \u0627\u0644\u0633\u064A\u0627\u0631\u0627\u062A\\DVLD\\DVLD-BusneissLayer\\clsApplication.cs",
-              "RelativeDocumentMoniker": "DVLD-BusneissLayer\\clsApplication.cs",
-              "ToolTip": "F:\\\u062A\u0627\u0633\u064A\u0633 \u0627\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\\u0643\u0648\u0631\u0633 \u0631\u0642\u0645 19 \u0645\u0634\u0631\u0648\u0639 \u0631\u062E\u0635 \u0627\u0644\u0633\u064A\u0627\u0631\u0627\u062A\\DVLD\\DVLD-BusneissLayer\\clsApplication.cs",
-              "RelativeToolTip": "DVLD-BusneissLayer\\clsApplication.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAwwD4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T14:36:21.282Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "clsAppointments.cs",
-              "DocumentMoniker": "F:\\\u062A\u0627\u0633\u064A\u0633 \u0627\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\\u0643\u0648\u0631\u0633 \u0631\u0642\u0645 19 \u0645\u0634\u0631\u0648\u0639 \u0631\u062E\u0635 \u0627\u0644\u0633\u064A\u0627\u0631\u0627\u062A\\DVLD\\DVLD-BusneissLayer\\clsAppointments.cs",
-              "RelativeDocumentMoniker": "DVLD-BusneissLayer\\clsAppointments.cs",
-              "ToolTip": "F:\\\u062A\u0627\u0633\u064A\u0633 \u0627\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\\u0643\u0648\u0631\u0633 \u0631\u0642\u0645 19 \u0645\u0634\u0631\u0648\u0639 \u0631\u062E\u0635 \u0627\u0644\u0633\u064A\u0627\u0631\u0627\u062A\\DVLD\\DVLD-BusneissLayer\\clsAppointments.cs",
-              "RelativeToolTip": "DVLD-BusneissLayer\\clsAppointments.cs",
-              "ViewState": "AQIAAEcAAAAAAAAAAAAAAD8AAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T13:50:35.34Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "clsAppointmentDataAccess.cs",
-              "DocumentMoniker": "F:\\\u062A\u0627\u0633\u064A\u0633 \u0627\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\\u0643\u0648\u0631\u0633 \u0631\u0642\u0645 19 \u0645\u0634\u0631\u0648\u0639 \u0631\u062E\u0635 \u0627\u0644\u0633\u064A\u0627\u0631\u0627\u062A\\DVLD\\DVLD-DataAccessLayer\\clsAppointmentDataAccess.cs",
-              "RelativeDocumentMoniker": "DVLD-DataAccessLayer\\clsAppointmentDataAccess.cs",
-              "ToolTip": "F:\\\u062A\u0627\u0633\u064A\u0633 \u0627\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\\u0643\u0648\u0631\u0633 \u0631\u0642\u0645 19 \u0645\u0634\u0631\u0648\u0639 \u0631\u062E\u0635 \u0627\u0644\u0633\u064A\u0627\u0631\u0627\u062A\\DVLD\\DVLD-DataAccessLayer\\clsAppointmentDataAccess.cs",
-              "RelativeToolTip": "DVLD-DataAccessLayer\\clsAppointmentDataAccess.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAiwH8AAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T14:25:53.935Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "frmSchduleTest.cs",
               "DocumentMoniker": "F:\\\u062A\u0627\u0633\u064A\u0633 \u0627\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\\u0643\u0648\u0631\u0633 \u0631\u0642\u0645 19 \u0645\u0634\u0631\u0648\u0639 \u0631\u062E\u0635 \u0627\u0644\u0633\u064A\u0627\u0631\u0627\u062A\\DVLD\\frmSchduleTest.cs",
               "RelativeDocumentMoniker": "frmSchduleTest.cs",
               "ToolTip": "F:\\\u062A\u0627\u0633\u064A\u0633 \u0627\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\\u0643\u0648\u0631\u0633 \u0631\u0642\u0645 19 \u0645\u0634\u0631\u0648\u0639 \u0631\u062E\u0635 \u0627\u0644\u0633\u064A\u0627\u0631\u0627\u062A\\DVLD\\frmSchduleTest.cs",
               "RelativeToolTip": "frmSchduleTest.cs",
-              "ViewState": "AQIAAC0AAAAAAAAAAAAwwFMAAAAAAAAA",
+              "ViewState": "AQIAADkAAAAAAAAAAAAvwBkAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T08:49:51.269Z"
+              "WhenOpened": "2024-11-24T08:49:51.269Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 2,
               "Title": "frmLocalDrivingLicenseApplication.cs",
               "DocumentMoniker": "F:\\\u062A\u0627\u0633\u064A\u0633 \u0627\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\\u0643\u0648\u0631\u0633 \u0631\u0642\u0645 19 \u0645\u0634\u0631\u0648\u0639 \u0631\u062E\u0635 \u0627\u0644\u0633\u064A\u0627\u0631\u0627\u062A\\DVLD\\frmLocalDrivingLicenseApplication.cs",
               "RelativeDocumentMoniker": "frmLocalDrivingLicenseApplication.cs",
               "ToolTip": "F:\\\u062A\u0627\u0633\u064A\u0633 \u0627\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\\u0643\u0648\u0631\u0633 \u0631\u0642\u0645 19 \u0645\u0634\u0631\u0648\u0639 \u0631\u062E\u0635 \u0627\u0644\u0633\u064A\u0627\u0631\u0627\u062A\\DVLD\\frmLocalDrivingLicenseApplication.cs",
               "RelativeToolTip": "frmLocalDrivingLicenseApplication.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAuwCcAAAAHAAAA",
+              "ViewState": "AQIAAJgAAAAAAAAAAAAewL8AAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T06:21:44.463Z"
+              "WhenOpened": "2024-11-24T06:21:44.463Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 1,
               "Title": "ucVisionTest.cs [Design]",
               "DocumentMoniker": "F:\\\u062A\u0627\u0633\u064A\u0633 \u0627\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\\u0643\u0648\u0631\u0633 \u0631\u0642\u0645 19 \u0645\u0634\u0631\u0648\u0639 \u0631\u062E\u0635 \u0627\u0644\u0633\u064A\u0627\u0631\u0627\u062A\\DVLD\\ucVisionTest.cs",
               "RelativeDocumentMoniker": "ucVisionTest.cs",
               "ToolTip": "F:\\\u062A\u0627\u0633\u064A\u0633 \u0627\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\\u0643\u0648\u0631\u0633 \u0631\u0642\u0645 19 \u0645\u0634\u0631\u0648\u0639 \u0631\u062E\u0635 \u0627\u0644\u0633\u064A\u0627\u0631\u0627\u062A\\DVLD\\ucVisionTest.cs [Design]",
               "RelativeToolTip": "ucVisionTest.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T11:28:17.122Z"
+              "WhenOpened": "2024-11-19T11:28:17.122Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "frmSchduleTest.cs [Design]",
               "DocumentMoniker": "F:\\\u062A\u0627\u0633\u064A\u0633 \u0627\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\\u0643\u0648\u0631\u0633 \u0631\u0642\u0645 19 \u0645\u0634\u0631\u0648\u0639 \u0631\u062E\u0635 \u0627\u0644\u0633\u064A\u0627\u0631\u0627\u062A\\DVLD\\frmSchduleTest.cs",
               "RelativeDocumentMoniker": "frmSchduleTest.cs",
               "ToolTip": "F:\\\u062A\u0627\u0633\u064A\u0633 \u0627\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\\u0643\u0648\u0631\u0633 \u0631\u0642\u0645 19 \u0645\u0634\u0631\u0648\u0639 \u0631\u062E\u0635 \u0627\u0644\u0633\u064A\u0627\u0631\u0627\u062A\\DVLD\\frmSchduleTest.cs [Design]",
               "RelativeToolTip": "frmSchduleTest.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T11:27:49.728Z"
+              "WhenOpened": "2024-11-19T11:27:49.728Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "frmLocalDrivingLicenseApplication.cs [Design]",
-              "DocumentMoniker": "F:\\\u062A\u0627\u0633\u064A\u0633 \u0627\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\\u0643\u0648\u0631\u0633 \u0631\u0642\u0645 19 \u0645\u0634\u0631\u0648\u0639 \u0631\u062E\u0635 \u0627\u0644\u0633\u064A\u0627\u0631\u0627\u062A\\DVLD\\frmLocalDrivingLicenseApplication.cs",
-              "RelativeDocumentMoniker": "frmLocalDrivingLicenseApplication.cs",
-              "ToolTip": "F:\\\u062A\u0627\u0633\u064A\u0633 \u0627\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\\u0643\u0648\u0631\u0633 \u0631\u0642\u0645 19 \u0645\u0634\u0631\u0648\u0639 \u0631\u062E\u0635 \u0627\u0644\u0633\u064A\u0627\u0631\u0627\u062A\\DVLD\\frmLocalDrivingLicenseApplication.cs [Design]",
-              "RelativeToolTip": "frmLocalDrivingLicenseApplication.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T09:03:47.157Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 3,
               "Title": "frmTestAppointment.cs",
               "DocumentMoniker": "F:\\\u062A\u0627\u0633\u064A\u0633 \u0627\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\\u0643\u0648\u0631\u0633 \u0631\u0642\u0645 19 \u0645\u0634\u0631\u0648\u0639 \u0631\u062E\u0635 \u0627\u0644\u0633\u064A\u0627\u0631\u0627\u062A\\DVLD\\frmTestAppointment.cs",
               "RelativeDocumentMoniker": "frmTestAppointment.cs",
               "ToolTip": "F:\\\u062A\u0627\u0633\u064A\u0633 \u0627\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\\u0643\u0648\u0631\u0633 \u0631\u0642\u0645 19 \u0645\u0634\u0631\u0648\u0639 \u0631\u062E\u0635 \u0627\u0644\u0633\u064A\u0627\u0631\u0627\u062A\\DVLD\\frmTestAppointment.cs",
               "RelativeToolTip": "frmTestAppointment.cs",
-              "ViewState": "AQIAADYAAAAAAAAAAAAgwFwAAABHAAAA",
+              "ViewState": "AQIAAHYAAAAAAAAAAAAswIcAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T08:55:57.148Z"
+              "WhenOpened": "2024-11-19T08:55:57.148Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "frmTestAppointment.cs [Design]",
               "DocumentMoniker": "F:\\\u062A\u0627\u0633\u064A\u0633 \u0627\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\\u0643\u0648\u0631\u0633 \u0631\u0642\u0645 19 \u0645\u0634\u0631\u0648\u0639 \u0631\u062E\u0635 \u0627\u0644\u0633\u064A\u0627\u0631\u0627\u062A\\DVLD\\frmTestAppointment.cs",
               "RelativeDocumentMoniker": "frmTestAppointment.cs",
               "ToolTip": "F:\\\u062A\u0627\u0633\u064A\u0633 \u0627\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\\u0643\u0648\u0631\u0633 \u0631\u0642\u0645 19 \u0645\u0634\u0631\u0648\u0639 \u0631\u062E\u0635 \u0627\u0644\u0633\u064A\u0627\u0631\u0627\u062A\\DVLD\\frmTestAppointment.cs [Design]",
               "RelativeToolTip": "frmTestAppointment.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T07:57:11.174Z"
+              "WhenOpened": "2024-11-19T07:57:11.174Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }

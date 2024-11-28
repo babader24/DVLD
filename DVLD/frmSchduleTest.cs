@@ -8,12 +8,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static DVLD.frmDVLD;
 
 namespace DVLD
 {
     public partial class frmSchduleTest : Form
     {
         int _LDLAID, _TestType, _ID;
+        bool IsRetakeTest;
+        clsAppointments _Appointment;
         public frmSchduleTest(int id, int LDLAID, int testType)
         {
             InitializeComponent();
@@ -32,25 +35,56 @@ namespace DVLD
         private void loadData()
         {
             clsLocalDLA _LocalDLA = clsLocalDLA.Find(_LDLAID);
-            
-            if (_LocalDLA != null)
+            _Appointment = clsAppointments.Find(_ID);
+
+            lLDLAID.Text = _LocalDLA.LDLAID.ToString();
+            lLicenseClass.Text = clsLicenClasses.GetClassName(_LocalDLA.LicenceID);
+            lApplicant.Text = clsPerson.GetFullName(_LocalDLA.ApplicantPersonID);
+            lTrails.Text = clsAppointments.GetAllAppointments(_LDLAID, _TestType).Rows.Count.ToString();
+            dtpDate.Text = DateTime.Now.ToString();
+
+            //get the Test Cost From TestType Table 
+            lFees.Text = Convert.ToInt32(clsTestType.GetAllTests().Rows[_TestType - 1][3]).ToString();
+
+            //lReFees.Text = (Convert.ToInt32(lTrails.Text) == 0 ? 0 : 5).ToString();
+            lReFees.Text = "0";
+            lTotalFees.Text = (Convert.ToInt32(lFees.Text) + Convert.ToInt32(lReFees.Text)).ToString();
+
+
+            if (_Appointment == null)
             {
-
-
-                lLDLAID.Text = _LocalDLA.LDLAID.ToString();
-                lLicenseClass.Text = clsLicenClasses.GetClassName(_LocalDLA.LicenceID);
-                lApplicant.Text = clsPerson.GetFullName(_LocalDLA.ApplicantPersonID);
-                lTrails.Text = clsAppointments.GetAllAppointments(_LDLAID,_TestType).Rows.Count.ToString();
-                dtpDate.Text = DateTime.Now.ToString();
-                
-                //get the Test Cost From TestType Table 
-                lFees.Text = Convert.ToInt32(clsTestType.GetAllTests().Rows[_TestType - 1][3]).ToString();
-
-                lReFees.Text = (Convert.ToInt32(lTrails.Text) == 0 ? 0 : 5).ToString();
-                lTotalFees.Text = (Convert.ToInt32(lFees.Text) + Convert.ToInt32(lReFees.Text)).ToString();
-
-                lReTestID.Text = _ID == -1 ?"N/A" : _ID.ToString();
+                _Appointment = new clsAppointments();
             }
+            else
+            {
+                dtpDate.Text = _Appointment.AppointmentDate.ToString();
+                
+            }
+
+            IsRetakeTest = clsAppointments.ShouldRetakeTest(_LDLAID);
+
+           if (IsRetakeTest)
+            {
+                lTitle.Text = "Schdule Retake Test";
+                lReFees.Text = clsApplicationTypes.GetFees(8).ToString();
+
+            }
+
+
+
+
+                //lReTestID.Text = _ID == -1 ?"N/A" : _ID.ToString();
+            
+
+            if(clsAppointments.IsTestLocked(_ID))
+            {
+                lLockedTitle.Visible = true;
+                Savebtn.Enabled = false;
+                dtpDate.Enabled = false;
+            }
+
+
+
         }
 
         private void selectTest(int testType)
@@ -81,6 +115,22 @@ namespace DVLD
 
         private void Savebtn_Click(object sender, EventArgs e)
         {
+
+            _Appointment.TestType = _TestType;
+            _Appointment.LDLA_ID = _LDLAID;
+            _Appointment.AppointmentDate = dtpDate.Value;
+            _Appointment.Fees = Convert.ToDecimal(lTotalFees.Text);
+            _Appointment.UserID = Globals._gUser.userID;
+            _Appointment.IsLocked = false;
+
+            if( _Appointment.Save())
+            {
+                MessageBox.Show("Save Successfully","Save", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                this.Close();
+            }
+            else
+                MessageBox.Show("Save Faild", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
 
         }
 

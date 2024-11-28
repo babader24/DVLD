@@ -61,6 +61,7 @@
             this.lTitle = new System.Windows.Forms.Label();
             this.pbMainPhoto = new System.Windows.Forms.PictureBox();
             this.btnClose = new System.Windows.Forms.Button();
+            this.lLockedTitle = new System.Windows.Forms.Label();
             this.gbTestName.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.gbReTest.SuspendLayout();
@@ -77,6 +78,7 @@
             // 
             // gbTestName
             // 
+            this.gbTestName.Controls.Add(this.lLockedTitle);
             this.gbTestName.Controls.Add(this.pictureBox1);
             this.gbTestName.Controls.Add(this.label1);
             this.gbTestName.Controls.Add(this.lLDLAID);
@@ -426,7 +428,7 @@
             this.lTitle.AutoSize = true;
             this.lTitle.Font = new System.Drawing.Font("Georgia", 18F, System.Drawing.FontStyle.Bold);
             this.lTitle.ForeColor = System.Drawing.Color.Red;
-            this.lTitle.Location = new System.Drawing.Point(236, 156);
+            this.lTitle.Location = new System.Drawing.Point(233, 142);
             this.lTitle.Name = "lTitle";
             this.lTitle.Size = new System.Drawing.Size(210, 35);
             this.lTitle.TabIndex = 3;
@@ -435,7 +437,7 @@
             // pbMainPhoto
             // 
             this.pbMainPhoto.Image = global::DVLD.Properties.Resources.eye_480px;
-            this.pbMainPhoto.Location = new System.Drawing.Point(261, 23);
+            this.pbMainPhoto.Location = new System.Drawing.Point(259, 9);
             this.pbMainPhoto.Name = "pbMainPhoto";
             this.pbMainPhoto.Size = new System.Drawing.Size(163, 130);
             this.pbMainPhoto.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -453,6 +455,18 @@
             this.btnClose.TabIndex = 17;
             this.btnClose.UseVisualStyleBackColor = false;
             // 
+            // lLockedTitle
+            // 
+            this.lLockedTitle.AutoSize = true;
+            this.lLockedTitle.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lLockedTitle.ForeColor = System.Drawing.Color.Red;
+            this.lLockedTitle.Location = new System.Drawing.Point(84, 177);
+            this.lLockedTitle.Name = "lLockedTitle";
+            this.lLockedTitle.Size = new System.Drawing.Size(512, 21);
+            this.lLockedTitle.TabIndex = 33;
+            this.lLockedTitle.Text = "Person sat already for this Appointment. this test is locked";
+            this.lLockedTitle.Visible = false;
+            // 
             // frmSchduleTest
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
@@ -460,6 +474,7 @@
             this.ClientSize = new System.Drawing.Size(709, 769);
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.gbTestName);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "frmSchduleTest";
             this.Text = "frmSchduleTest";
             this.gbTestName.ResumeLayout(false);
@@ -515,5 +530,6 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label lLDLAID;
+        private System.Windows.Forms.Label lLockedTitle;
     }
 }

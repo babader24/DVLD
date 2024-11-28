@@ -99,6 +99,29 @@ namespace DVLD_BusneissLayer
             return false;            
         } 
 
+        public static bool IsTestLocked(int testAppointmentID)
+        {
+            return clsAppointmentDataAccess.IsLocked(testAppointmentID);
+        }
+
+        public static clsAppointments Find(int testAppointmentID)
+        {
+            int testTypeID = -1, LDLAid = -1, userID = -1;
+            decimal fees = 0;
+            DateTime appointmentDate = DateTime.Now;
+            bool isLocked=false;
+
+            if(clsAppointmentDataAccess.FindAppointment(testAppointmentID,ref testTypeID, ref LDLAid,
+             ref appointmentDate, ref fees, ref userID, ref isLocked))
+                return new clsAppointments(testAppointmentID,testTypeID,appointmentDate,LDLAid,fees,userID,isLocked);
+
+            else return null;
+        }
+
+        public static bool ShouldRetakeTest(int LDLAID)
+        {
+            return clsAppointmentDataAccess.IsRetakeTest(LDLAID);
+        }
 
     }
 }

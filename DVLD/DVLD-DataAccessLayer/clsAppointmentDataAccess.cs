@@ -29,7 +29,7 @@ namespace DVLD_DataAccessLayer
 
                 SqlDataReader reader = command.ExecuteReader();
 
-                if(reader.Read())
+                if(reader.HasRows)
                 {
                     dt.Load(reader);
                 }
@@ -127,5 +127,119 @@ namespace DVLD_DataAccessLayer
             }
             return (rowEffected > 1);
         }
+
+        public static bool IsLocked(int TestAppointmentID)
+        {
+            bool IsLocked;
+
+            SqlConnection connection = new SqlConnection(clsDataAccessSetting.ConnetionString);
+            string query = "select Found=1  from TestAppointments where IsLocked = 1 and TestAppointmentID = @TestAppointmentID";
+
+            SqlCommand command = new SqlCommand(query,connection);
+
+            command.Parameters.AddWithValue("@TestAppointmentID", TestAppointmentID);
+
+            try
+            {
+                connection.Open();
+
+                SqlDataReader reader = command.ExecuteReader();
+
+                IsLocked = reader.HasRows;
+
+                reader.Close();
+            }
+            catch
+            {
+                return false;
+            }
+            finally
+            {
+                connection.Close();
+            }
+            return IsLocked;
+
+        }
+
+        public static bool FindAppointment(int TestAppointmentID,ref int testType, ref int LDAD_ID, ref DateTime AppointmentDate, ref decimal Fees,
+            ref int UserID, ref bool IsLocked)
+        {
+            bool isFound;
+
+            SqlConnection connection = new SqlConnection(clsDataAccessSetting.ConnetionString);
+            string query = @"select TestTypeID, LocalDrivingLicenseApplicationID, AppointmentDate, PaidFees,CreatedByUserID,
+                IsLocked from TestAppointments where TestAppointmentID = @TestAppointmentID";
+
+            SqlCommand command = new SqlCommand(query,connection);
+
+            command.Parameters.AddWithValue("@TestAppointmentID", TestAppointmentID);
+
+            try
+            {
+                connection.Open();
+
+                SqlDataReader reader = command.ExecuteReader();
+
+                if(reader.Read())
+                {
+                    isFound = true;
+
+                    testType = (int)reader["TestTypeID"];
+                    LDAD_ID = (int)reader["LocalDrivingLicenseApplicationID"];
+                    AppointmentDate = (DateTime)reader["AppointmentDate"];
+                    Fees = (decimal)reader["PaidFees"];
+                    UserID = (int)reader["CreatedByUserID"];
+                    IsLocked = (bool)reader["IsLocked"];
+                }
+                else
+                    isFound = false;
+
+                reader.Close();
+            }
+            catch
+            {
+                return false;
+            }
+            finally
+            {
+                connection.Close();
+            }
+            return isFound;
+
+        }
+
+        public static bool IsRetakeTest(int LDLAID)
+        {
+            bool IsLocked;
+
+            SqlConnection connection = new SqlConnection(clsDataAccessSetting.ConnetionString);
+            string query = "select Found=1  from TestAppointments where IsLocked = 1 and LocalDrivingLicenseApplicationID = @LDLAID";
+
+            SqlCommand command = new SqlCommand(query, connection);
+
+            command.Parameters.AddWithValue("@LDLAID", LDLAID);
+
+            try
+            {
+                connection.Open();
+
+                SqlDataReader reader = command.ExecuteReader();
+
+                IsLocked = reader.HasRows;
+
+                reader.Close();
+            }
+            catch
+            {
+                return false;
+            }
+            finally
+            {
+                connection.Close();
+            }
+            return IsLocked;
+
+        }
+
     }
 }

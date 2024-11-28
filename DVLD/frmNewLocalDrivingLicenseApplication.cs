@@ -109,7 +109,7 @@ namespace DVLD
 
         private void btnNext_Click(object sender, EventArgs e)
         {
-            if (_LDLA.ApplicantPersonID != -1 || _Mode == enMode.updatMode)
+            if (_LDLA.ApplicantPersonID != -1 && _Mode == enMode.updatMode)
             {
 
                 allowTabChange = true;

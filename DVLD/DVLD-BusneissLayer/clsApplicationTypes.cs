@@ -49,5 +49,10 @@ namespace DVLD_BusneissLayer
         {
             return _Update();
         }
+
+        public static decimal GetFees(int id)
+        {
+            return clsApplicationsTypesDataAccess.GetApplicationFeesByID(id);
+        }
     }
 }

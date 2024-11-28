@@ -39,6 +39,15 @@ namespace DVLD
             selectTest(_TestTypeID);
             laodAppointments(_LDLA_ID,_TestTypeID);
             lRecordCount.Text = RecordesCount();
+
+
+            dgvAppointment.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
+            dgvAppointment.MultiSelect = false;
+            dgvAppointment.Columns[0].Width = 100;
+            dgvAppointment.Columns[1].Width = 200;
+            dgvAppointment.Columns[2].Width = 200;
+            dgvAppointment.Columns[3].Width = 200;
+            
         }
 
         private void laodAppointments(int LDLA_ID, int testType)
@@ -85,6 +94,18 @@ namespace DVLD
 
         }
 
+        private bool checkActiveAppointment()
+        {
+            foreach (DataGridViewRow dr in dgvAppointment.Rows)
+            {
+                
+                if ((bool)dr.Cells["IsLocked"].Value == false)                
+                    return false;                
+            }
+
+            return true;
+        }
+
         private void btnClose_Click(object sender, EventArgs e)
         {
             this.Close();
@@ -92,10 +113,27 @@ namespace DVLD
 
         private void btnAddAppintment_Click(object sender, EventArgs e)
         {
-            Form frm = new frmSchduleTest(-1, _LDLA_ID, _TestTypeID);
+
+            if(checkActiveAppointment())
+            {
+                Form frm = new frmSchduleTest(-1, _LDLA_ID, _TestTypeID);
+                frm.ShowDialog();
+
+                RefrishData(_LDLA_ID,_TestTypeID);
+            }
+            else
+                MessageBox.Show("This Person has already an active appointment you can't set add appointments if there was an open one",
+                     "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
+
+        }
+
+        private void editTestToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form frm = new frmSchduleTest((int)dgvAppointment.CurrentRow.Cells[0].Value, _LDLA_ID, _TestTypeID);
             frm.ShowDialog();
 
-            RefrishData(_LDLA_ID,_TestTypeID);
+            RefrishData(_LDLA_ID, _TestTypeID);
         }
     }
 }
