@@ -241,5 +241,44 @@ namespace DVLD_DataAccessLayer
             }
             return PersonID;
         }
+
+        public static int GetLDLAIDByLocalLicense(int licenseId)
+        {
+            int LDLAID;
+
+            SqlConnection connection = new SqlConnection(clsDataAccessSetting.ConnetionString);
+            string query = @"select LocalDrivingLicenseApplicationID from LocalDrivingLicenseApplications inner join Licenses
+                on LocalDrivingLicenseApplications.ApplicationID = Licenses.ApplicationID
+                where LicenseID = @licenseId";
+
+            SqlCommand command = new SqlCommand(query, connection);
+
+            command.Parameters.AddWithValue("@licenseId", licenseId);
+
+            try
+            {
+                connection.Open();
+
+                SqlDataReader reader = command.ExecuteReader();
+
+                if (reader.Read())
+                {
+                    LDLAID = (int)reader["LocalDrivingLicenseApplicationID"];
+                }
+                else
+                    LDLAID = 0;
+
+                reader.Close();
+            }
+            catch
+            {
+                LDLAID = 0;
+            }
+            finally
+            {
+                connection.Close();
+            }
+            return LDLAID;
+        }
     }
 }

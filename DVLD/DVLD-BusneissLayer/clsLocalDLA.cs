@@ -123,5 +123,10 @@ namespace DVLD_BusneissLayer
             return clsLocalDLA_DataAccess.GetPassedTestCountByLDLAID(LDLAID);
         }
 
+        public static int GetLicenseID(int LDLAID)
+        {
+            return clsLocalDLA_DataAccess.GetLicenseIdByLDLA(LDLAID);
+        }
+
     }
 }

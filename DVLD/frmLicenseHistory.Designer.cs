@@ -227,6 +227,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.personInfoLicense);
             this.Controls.Add(this.filterLicense);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "frmLicenseHistory";
             this.Text = "frmLicenseHistory";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

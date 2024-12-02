@@ -105,5 +105,18 @@ namespace DVLD
             Form frm = new frmNewInternationalLicense();
             frm.ShowDialog();
         }
+
+        private void interNationalLicenseApplicationToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+            Form frm = new frmInternationalLicenseApplication();
+            frm.ShowDialog();
+        }
+
+        private void renewDrivingLicenseToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form frm = new frmRenewLicenseApplication();
+            frm.ShowDialog();
+        }
     }
 }

@@ -125,7 +125,10 @@ namespace DVLD_BusneissLayer
             return clsLicensesDataAccess.GetPersonNameByLicenseID(LicenseID);
         }
 
-
+        public static int GetLDLA(int LicenseID)
+        {
+            return clsLicensesDataAccess.GetLDLAIDByLocalLicense(LicenseID);
+        }
 
     }
 }

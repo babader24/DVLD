@@ -99,6 +99,8 @@ namespace DVLD
                 case 0: return "0 Faild";
 
                 case 1: return "First Time";
+
+                case 2: return "Renew";
             }
             return "All Faild";
 

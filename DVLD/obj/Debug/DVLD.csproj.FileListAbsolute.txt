@@ -55,3 +55,7 @@ F:\تاسيس ابو هدهود\كورس رقم 19 مشروع رخص السيا�
 F:\تاسيس ابو هدهود\كورس رقم 19 مشروع رخص السيارات\DVLD\obj\Debug\DVLD.frmLicenseHistory.resources
 F:\تاسيس ابو هدهود\كورس رقم 19 مشروع رخص السيارات\DVLD\obj\Debug\DVLD.frmNewInternationalLicense.resources
 F:\تاسيس ابو هدهود\كورس رقم 19 مشروع رخص السيارات\DVLD\obj\Debug\DVLD.ucLicenseFilter.resources
+F:\تاسيس ابو هدهود\كورس رقم 19 مشروع رخص السيارات\DVLD\obj\Debug\DVLD.frmInternationalDriverInfo.resources
+F:\تاسيس ابو هدهود\كورس رقم 19 مشروع رخص السيارات\DVLD\obj\Debug\DVLD.ucInternationalDriverInfo.resources
+F:\تاسيس ابو هدهود\كورس رقم 19 مشروع رخص السيارات\DVLD\obj\Debug\DVLD.frmInternationalLicenseApplication.resources
+F:\تاسيس ابو هدهود\كورس رقم 19 مشروع رخص السيارات\DVLD\obj\Debug\DVLD.frmRenewLicenseApplication.resources

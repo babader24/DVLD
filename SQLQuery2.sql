@@ -36,6 +36,8 @@ Select FirstName +' ' +SecondName +' '+ ThirdName +' '+ LastName as FullName fro
 select ClassName from LicenseClasses where LicenseClassID = 7
 
 
+select * from LicenseClasses
+
 select found = 1  from Tests where TestAppointmentID =6
 
 select TestAppointmentID as AppointmentID, AppointmentDate, PaidFees, IsLocked
@@ -94,3 +96,33 @@ Select * from Licenses WHERE ApplicationID = 2070
 Select LicenseID, ApplicationID, ClassName, IssueDate, ExpirationDate, IsActive from Licenses 
 inner join LicenseClasses on Licenses.LicenseClass = LicenseClasses.LicenseClassID
 WHERE DriverID = 8
+
+select PersonID from Licenses inner join Drivers on Licenses.DriverID = Drivers.DriverID
+where LicenseID = 19
+
+select * from InternationalLicenses
+
+select InternationalLicenseID as 'Int.LicenseID', InternationalLicenses.ApplicationID, IssuedUsingLocalLicenseID as 'L.LicenseID', InternationalLicenses.IssueDate,
+InternationalLicenses.ExpirationDate, InternationalLicenses.IsActive from InternationalLicenses 
+inner join Licenses
+on InternationalLicenses.DriverID = Licenses.DriverID
+where LicenseID = 19
+
+
+select Found = 1 from InternationalLicenses where IssuedUsingLocalLicenseID = 17
+
+select InternationalLicenseID from InternationalLicenses inner join Licenses
+on InternationalLicenses.DriverID = Licenses.DriverID
+where LicenseID = 19
+
+select LocalDrivingLicenseApplicationID from LocalDrivingLicenseApplications inner join Licenses
+                on LocalDrivingLicenseApplications.ApplicationID = Licenses.ApplicationID
+                where LicenseID = 19
+
+
+select InternationalLicenseID as 'Int.LicenseID', InternationalLicenses.ApplicationID,DriverID, IssuedUsingLocalLicenseID as 'L.LicenseID', InternationalLicenses.IssueDate,
+InternationalLicenses.ExpirationDate, InternationalLicenses.IsActive from InternationalLicenses 
+
+update Licenses 
+set ExpirationDate = '2014-12-01'
+where LicenseID = 18
