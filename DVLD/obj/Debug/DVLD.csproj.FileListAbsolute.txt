@@ -46,5 +46,12 @@ F:\تاسيس ابو هدهود\كورس رقم 19 مشروع رخص السيا�
 F:\تاسيس ابو هدهود\كورس رقم 19 مشروع رخص السيارات\DVLD\obj\Debug\DVLD.ucApplicationBasicInfo.resources
 F:\تاسيس ابو هدهود\كورس رقم 19 مشروع رخص السيارات\DVLD\obj\Debug\DVLD.frmApplicationDetails.resources
 F:\تاسيس ابو هدهود\كورس رقم 19 مشروع رخص السيارات\DVLD\obj\Debug\DVLD.frmSchduleTest.resources
-F:\تاسيس ابو هدهود\كورس رقم 19 مشروع رخص السيارات\DVLD\obj\Debug\DVLD.ucVisionTest.resources
 F:\تاسيس ابو هدهود\كورس رقم 19 مشروع رخص السيارات\DVLD\obj\Debug\DVLD.frmTestAppointment.resources
+F:\تاسيس ابو هدهود\كورس رقم 19 مشروع رخص السيارات\DVLD\obj\Debug\DVLD.frmTakeTest.resources
+F:\تاسيس ابو هدهود\كورس رقم 19 مشروع رخص السيارات\DVLD\obj\Debug\DVLD.frmIssueDrivingLicenseFirstTime.resources
+F:\تاسيس ابو هدهود\كورس رقم 19 مشروع رخص السيارات\DVLD\obj\Debug\DVLD.frmDrivers.resources
+F:\تاسيس ابو هدهود\كورس رقم 19 مشروع رخص السيارات\DVLD\obj\Debug\DVLD.ucDriverlicenseInfo.resources
+F:\تاسيس ابو هدهود\كورس رقم 19 مشروع رخص السيارات\DVLD\obj\Debug\DVLD.frmDrivingLicenseInfo.resources
+F:\تاسيس ابو هدهود\كورس رقم 19 مشروع رخص السيارات\DVLD\obj\Debug\DVLD.frmLicenseHistory.resources
+F:\تاسيس ابو هدهود\كورس رقم 19 مشروع رخص السيارات\DVLD\obj\Debug\DVLD.frmNewInternationalLicense.resources
+F:\تاسيس ابو هدهود\كورس رقم 19 مشروع رخص السيارات\DVLD\obj\Debug\DVLD.ucLicenseFilter.resources

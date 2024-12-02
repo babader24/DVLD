@@ -193,6 +193,16 @@ namespace DVLD.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap driver1_400px {
+            get {
+                object obj = ResourceManager.GetObject("driver1_400px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap edit_property_480px {
             get {
                 object obj = ResourceManager.GetObject("edit_property_480px", resourceCulture);

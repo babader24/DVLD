@@ -132,7 +132,7 @@ namespace DVLD_DataAccessLayer
 
                 SqlDataReader reader = command.ExecuteReader();
 
-                if (reader.HasRows)
+                if (reader.Read())
 
                     fees = (decimal)reader["ApplicationFees"];
                 

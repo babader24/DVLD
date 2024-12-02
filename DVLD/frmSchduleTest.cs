@@ -15,8 +15,10 @@ namespace DVLD
     public partial class frmSchduleTest : Form
     {
         int _LDLAID, _TestType, _ID;
-        bool IsRetakeTest;
+        
+
         clsAppointments _Appointment;
+        clsLocalDLA _LocalDLA;
         public frmSchduleTest(int id, int LDLAID, int testType)
         {
             InitializeComponent();
@@ -34,7 +36,7 @@ namespace DVLD
 
         private void loadData()
         {
-            clsLocalDLA _LocalDLA = clsLocalDLA.Find(_LDLAID);
+            _LocalDLA = clsLocalDLA.Find(_LDLAID);
             _Appointment = clsAppointments.Find(_ID);
 
             lLDLAID.Text = _LocalDLA.LDLAID.ToString();
@@ -51,6 +53,17 @@ namespace DVLD
             lTotalFees.Text = (Convert.ToInt32(lFees.Text) + Convert.ToInt32(lReFees.Text)).ToString();
 
 
+            if (_ID == -2 || _Appointment != null)
+            {
+                lTitle.Text = "Schdule Retake Test";
+                lReFees.Text = Convert.ToInt32(clsApplicationTypes.GetFees(8)).ToString();
+                lTotalFees.Text = (Convert.ToInt32(lFees.Text) + Convert.ToInt32(lReFees.Text)).ToString();
+
+                if(_ID != -1 && _ID != -2)
+                    lReTestID.Text = _ID.ToString();
+
+            }
+
             if (_Appointment == null)
             {
                 _Appointment = new clsAppointments();
@@ -58,25 +71,14 @@ namespace DVLD
             else
             {
                 dtpDate.Text = _Appointment.AppointmentDate.ToString();
-                
-            }
-
-            IsRetakeTest = clsAppointments.ShouldRetakeTest(_LDLAID);
-
-           if (IsRetakeTest)
-            {
-                lTitle.Text = "Schdule Retake Test";
-                lReFees.Text = clsApplicationTypes.GetFees(8).ToString();
 
             }
 
 
-
-
-                //lReTestID.Text = _ID == -1 ?"N/A" : _ID.ToString();
             
 
-            if(clsAppointments.IsTestLocked(_ID))
+
+            if (clsAppointments.IsTestLocked(_ID))
             {
                 lLockedTitle.Visible = true;
                 Savebtn.Enabled = false;
@@ -85,7 +87,7 @@ namespace DVLD
 
 
 
-        }
+        }        
 
         private void selectTest(int testType)
         {
@@ -132,6 +134,11 @@ namespace DVLD
                 MessageBox.Show("Save Faild", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
 
 
+        }
+
+        private void btnClose_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
 
     }

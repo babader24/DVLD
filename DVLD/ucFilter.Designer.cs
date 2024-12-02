@@ -123,7 +123,7 @@
         #endregion
 
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.TextBox tbFindPerson;
+        public System.Windows.Forms.TextBox tbFindPerson;
         private System.Windows.Forms.ComboBox cbFindPerson;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox picFindPerson;

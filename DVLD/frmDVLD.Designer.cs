@@ -129,6 +129,7 @@
             this.interNationalLicenseToolStripMenuItem.Name = "interNationalLicenseToolStripMenuItem";
             this.interNationalLicenseToolStripMenuItem.Size = new System.Drawing.Size(352, 56);
             this.interNationalLicenseToolStripMenuItem.Text = "InterNational License";
+            this.interNationalLicenseToolStripMenuItem.Click += new System.EventHandler(this.interNationalLicenseToolStripMenuItem_Click);
             // 
             // renewDrivingLicenseToolStripMenuItem
             // 
@@ -230,6 +231,7 @@
             this.driversToolStripMenuItem.Name = "driversToolStripMenuItem";
             this.driversToolStripMenuItem.Size = new System.Drawing.Size(150, 54);
             this.driversToolStripMenuItem.Text = "Drivers";
+            this.driversToolStripMenuItem.Click += new System.EventHandler(this.driversToolStripMenuItem_Click);
             // 
             // usersToolStripMenuItem
             // 

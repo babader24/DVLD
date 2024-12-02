@@ -16,7 +16,8 @@ namespace DVLD_DataAccessLayer
 
             SqlConnection connection = new SqlConnection(clsDataAccessSetting.ConnetionString);
             string query = @"select TestAppointmentID as AppointmentID, AppointmentDate, PaidFees, IsLocked
-            from TestAppointments where LocalDrivingLicenseApplicationID = @DLApp and TestTypeID = @testType";
+            from TestAppointments where LocalDrivingLicenseApplicationID = @DLApp and TestTypeID = @testType
+            order by TestAppointmentID  DESC";
 
             SqlCommand command = new SqlCommand(query, connection);
 
@@ -29,7 +30,7 @@ namespace DVLD_DataAccessLayer
 
                 SqlDataReader reader = command.ExecuteReader();
 
-                if(reader.HasRows)
+                if (reader.HasRows)
                 {
                     dt.Load(reader);
                 }
@@ -46,6 +47,7 @@ namespace DVLD_DataAccessLayer
             return dt;
         }
 
+
         public static int AddNewAppointment(int testType, int LDAD_ID, DateTime AppointmentDate, decimal Fees,
             int UserID, bool IsLocked)
         {
@@ -56,7 +58,7 @@ namespace DVLD_DataAccessLayer
             values (@testType,@LDAD_ID,@AppointmentDate,@Fees,@UserID,@IsLocked);
                 Select Scope_identity();";
 
-            SqlCommand command = new SqlCommand(query,connection);
+            SqlCommand command = new SqlCommand(query, connection);
 
             command.Parameters.AddWithValue("@testType", testType);
             command.Parameters.AddWithValue("@LDAD_ID", LDAD_ID);
@@ -71,7 +73,7 @@ namespace DVLD_DataAccessLayer
 
                 object result = command.ExecuteScalar();
 
-                if(result != null && int.TryParse(result.ToString(), out int resultID))
+                if (result != null && int.TryParse(result.ToString(), out int resultID))
                 {
                     TestAppointmentID = resultID;
                 }
@@ -81,9 +83,9 @@ namespace DVLD_DataAccessLayer
             {
                 //
             }
-            finally 
+            finally
             {
-                connection.Close(); 
+                connection.Close();
             }
             return TestAppointmentID;
         }
@@ -98,7 +100,7 @@ namespace DVLD_DataAccessLayer
             string query = @"Update TestAppointments Set TestTypeID = @testType, LocalDrivingLicenseApplicationID = @LDAD_ID,
                 AppointmentDate = @AppointmentDate,PaidFees = @Fees,CreatedByUserID = @UserID,IsLocked =@IsLocked 
                 where TestAppointmentID = @TestAppointmentID";
-            
+
 
             SqlCommand command = new SqlCommand(query, connection);
 
@@ -125,7 +127,7 @@ namespace DVLD_DataAccessLayer
             {
                 connection.Close();
             }
-            return (rowEffected > 1);
+            return (rowEffected > 0);
         }
 
         public static bool IsLocked(int TestAppointmentID)
@@ -135,7 +137,7 @@ namespace DVLD_DataAccessLayer
             SqlConnection connection = new SqlConnection(clsDataAccessSetting.ConnetionString);
             string query = "select Found=1  from TestAppointments where IsLocked = 1 and TestAppointmentID = @TestAppointmentID";
 
-            SqlCommand command = new SqlCommand(query,connection);
+            SqlCommand command = new SqlCommand(query, connection);
 
             command.Parameters.AddWithValue("@TestAppointmentID", TestAppointmentID);
 
@@ -161,7 +163,7 @@ namespace DVLD_DataAccessLayer
 
         }
 
-        public static bool FindAppointment(int TestAppointmentID,ref int testType, ref int LDAD_ID, ref DateTime AppointmentDate, ref decimal Fees,
+        public static bool FindAppointment(int TestAppointmentID, ref int testType, ref int LDAD_ID, ref DateTime AppointmentDate, ref decimal Fees,
             ref int UserID, ref bool IsLocked)
         {
             bool isFound;
@@ -170,7 +172,7 @@ namespace DVLD_DataAccessLayer
             string query = @"select TestTypeID, LocalDrivingLicenseApplicationID, AppointmentDate, PaidFees,CreatedByUserID,
                 IsLocked from TestAppointments where TestAppointmentID = @TestAppointmentID";
 
-            SqlCommand command = new SqlCommand(query,connection);
+            SqlCommand command = new SqlCommand(query, connection);
 
             command.Parameters.AddWithValue("@TestAppointmentID", TestAppointmentID);
 
@@ -180,7 +182,7 @@ namespace DVLD_DataAccessLayer
 
                 SqlDataReader reader = command.ExecuteReader();
 
-                if(reader.Read())
+                if (reader.Read())
                 {
                     isFound = true;
 
@@ -208,16 +210,50 @@ namespace DVLD_DataAccessLayer
 
         }
 
-        public static bool IsRetakeTest(int LDLAID)
+         public static bool IsRetakeTest(int TestAppointmentID)
+         {
+             bool rowEffected;
+
+             SqlConnection connection = new SqlConnection(clsDataAccessSetting.ConnetionString);
+             string query = "select found = 1  from Tests where TestAppointmentID =@testAppointmentID";
+
+             SqlCommand command = new SqlCommand(query, connection);
+
+             command.Parameters.AddWithValue("@testAppointmentID", TestAppointmentID);
+
+             try
+             {
+                 connection.Open();
+
+                 SqlDataReader reader = command.ExecuteReader();
+
+                rowEffected = reader.HasRows;
+
+                 reader.Close();
+             }
+             catch
+             {
+                 return false;
+             }
+             finally
+             {
+                 connection.Close();
+             }
+             return rowEffected;
+
+         } 
+
+
+        public static bool IsPassTest(int TestAppointmentID)
         {
-            bool IsLocked;
+            bool IsPassed;
 
             SqlConnection connection = new SqlConnection(clsDataAccessSetting.ConnetionString);
-            string query = "select Found=1  from TestAppointments where IsLocked = 1 and LocalDrivingLicenseApplicationID = @LDLAID";
+            string query = "select Found=1  from Tests where TestAppointmentID =@TestAppointmentID and TestResult = 1";
 
             SqlCommand command = new SqlCommand(query, connection);
 
-            command.Parameters.AddWithValue("@LDLAID", LDLAID);
+            command.Parameters.AddWithValue("@TestAppointmentID", TestAppointmentID);
 
             try
             {
@@ -225,7 +261,7 @@ namespace DVLD_DataAccessLayer
 
                 SqlDataReader reader = command.ExecuteReader();
 
-                IsLocked = reader.HasRows;
+                IsPassed = reader.HasRows;
 
                 reader.Close();
             }
@@ -237,9 +273,7 @@ namespace DVLD_DataAccessLayer
             {
                 connection.Close();
             }
-            return IsLocked;
-
+            return IsPassed;
         }
-
     }
 }

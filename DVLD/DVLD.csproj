@@ -52,17 +52,59 @@
     <Compile Include="frmApplicationDetails.Designer.cs">
       <DependentUpon>frmApplicationDetails.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmDrivers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDrivers.Designer.cs">
+      <DependentUpon>frmDrivers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDrivingLicenseInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDrivingLicenseInfo.Designer.cs">
+      <DependentUpon>frmDrivingLicenseInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmIssueDrivingLicenseFirstTime.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmIssueDrivingLicenseFirstTime.Designer.cs">
+      <DependentUpon>frmIssueDrivingLicenseFirstTime.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLicenseHistory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLicenseHistory.Designer.cs">
+      <DependentUpon>frmLicenseHistory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmNewInternationalLicense.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNewInternationalLicense.Designer.cs">
+      <DependentUpon>frmNewInternationalLicense.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmSchduleTest.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmSchduleTest.Designer.cs">
       <DependentUpon>frmSchduleTest.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmTakeTest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTakeTest.Designer.cs">
+      <DependentUpon>frmTakeTest.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmTestAppointment.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmTestAppointment.Designer.cs">
       <DependentUpon>frmTestAppointment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucDriverlicenseInfo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucDriverlicenseInfo.Designer.cs">
+      <DependentUpon>ucDriverlicenseInfo.cs</DependentUpon>
     </Compile>
     <Compile Include="ucDrivinglicenseApplicationInfo.cs">
       <SubType>UserControl</SubType>
@@ -166,6 +208,12 @@
     <Compile Include="frmUserInfo.Designer.cs">
       <DependentUpon>frmUserInfo.cs</DependentUpon>
     </Compile>
+    <Compile Include="ucLicenseFilter.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucLicenseFilter.Designer.cs">
+      <DependentUpon>ucLicenseFilter.cs</DependentUpon>
+    </Compile>
     <Compile Include="ucPersonInfo.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -192,20 +240,35 @@
     <Compile Include="ucLoginInfo.Designer.cs">
       <DependentUpon>ucLoginInfo.cs</DependentUpon>
     </Compile>
-    <Compile Include="ucVisionTest.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="ucVisionTest.Designer.cs">
-      <DependentUpon>ucVisionTest.cs</DependentUpon>
-    </Compile>
     <EmbeddedResource Include="frmApplicationDetails.resx">
       <DependentUpon>frmApplicationDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDrivers.resx">
+      <DependentUpon>frmDrivers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDrivingLicenseInfo.resx">
+      <DependentUpon>frmDrivingLicenseInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmIssueDrivingLicenseFirstTime.resx">
+      <DependentUpon>frmIssueDrivingLicenseFirstTime.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLicenseHistory.resx">
+      <DependentUpon>frmLicenseHistory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNewInternationalLicense.resx">
+      <DependentUpon>frmNewInternationalLicense.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmSchduleTest.resx">
       <DependentUpon>frmSchduleTest.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmTakeTest.resx">
+      <DependentUpon>frmTakeTest.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmTestAppointment.resx">
       <DependentUpon>frmTestAppointment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucDriverlicenseInfo.resx">
+      <DependentUpon>ucDriverlicenseInfo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ucDrivinglicenseApplicationInfo.resx">
       <DependentUpon>ucDrivinglicenseApplicationInfo.cs</DependentUpon>
@@ -258,6 +321,9 @@
     <EmbeddedResource Include="frmUserInfo.resx">
       <DependentUpon>frmUserInfo.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ucLicenseFilter.resx">
+      <DependentUpon>ucLicenseFilter.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ucPersonInfo.resx">
       <DependentUpon>ucPersonInfo.cs</DependentUpon>
     </EmbeddedResource>
@@ -279,9 +345,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ucLoginInfo.resx">
       <DependentUpon>ucLoginInfo.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="ucVisionTest.resx">
-      <DependentUpon>ucVisionTest.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -412,6 +475,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\pincode_keyboard_480px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\driver1_400px.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

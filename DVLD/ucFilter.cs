@@ -18,6 +18,7 @@ namespace DVLD
         public event DataBackEventHaandler dataBack;
 
         clsPerson _Person;
+        
         public ucFilter()
         {
             InitializeComponent();

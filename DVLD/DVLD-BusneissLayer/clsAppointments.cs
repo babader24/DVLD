@@ -118,10 +118,17 @@ namespace DVLD_BusneissLayer
             else return null;
         }
 
-        public static bool ShouldRetakeTest(int LDLAID)
+        public static bool ShouldRetakeTest(int TestAppointmentID)
         {
-            return clsAppointmentDataAccess.IsRetakeTest(LDLAID);
+            return clsAppointmentDataAccess.IsRetakeTest(TestAppointmentID);
         }
+
+        public static bool IsPassTest(int testAppointmentID)
+        {
+            return clsAppointmentDataAccess.IsPassTest(testAppointmentID);
+        }
+
+
 
     }
 }

@@ -41,13 +41,21 @@ namespace DVLD
             lRecordCount.Text = RecordesCount();
 
 
+            dgvSettings();
+
+
+        }
+        private void dgvSettings()
+        {
             dgvAppointment.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
             dgvAppointment.MultiSelect = false;
-            dgvAppointment.Columns[0].Width = 100;
-            dgvAppointment.Columns[1].Width = 200;
-            dgvAppointment.Columns[2].Width = 200;
-            dgvAppointment.Columns[3].Width = 200;
-            
+            if(dgvAppointment.Rows.Count > 0 )
+            {
+                dgvAppointment.Columns[0].Width = 100;
+                dgvAppointment.Columns[1].Width = 200;
+                dgvAppointment.Columns[2].Width = 200;
+                dgvAppointment.Columns[3].Width = 200;
+            }
         }
 
         private void laodAppointments(int LDLA_ID, int testType)
@@ -58,7 +66,9 @@ namespace DVLD
         private void RefrishData(int LDLA_ID, int testType)
         {
             dgvAppointment.DataSource = null;
-            dgvAppointment.DataSource = clsAppointments.GetAllAppointments(LDLA_ID, testType);
+            laodAppointments(LDLA_ID, testType);
+
+            dgvSettings();
         }
 
         private string RecordesCount()
@@ -113,11 +123,34 @@ namespace DVLD
 
         private void btnAddAppintment_Click(object sender, EventArgs e)
         {
-
-            if(checkActiveAppointment())
+            if(dgvAppointment.Rows.Count > 0)
             {
-                Form frm = new frmSchduleTest(-1, _LDLA_ID, _TestTypeID);
-                frm.ShowDialog();
+                if ((clsAppointments.IsPassTest((int)dgvAppointment.CurrentRow.Cells[0].Value)))
+                {
+                    MessageBox.Show("This Person  already Passed the test  you can't  add appointments for him",
+                    "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    return;
+
+                }
+            }
+           
+
+
+            if (checkActiveAppointment())
+            {
+                if(dgvAppointment.Rows.Count >=1)
+                {
+                    Form frm = new frmSchduleTest(-2, _LDLA_ID, _TestTypeID);
+                    frm.ShowDialog();
+                }
+                    
+                else
+                {
+                    Form frm = new frmSchduleTest(-1, _LDLA_ID, _TestTypeID);
+                    frm.ShowDialog();
+                }
+                
+               
 
                 RefrishData(_LDLA_ID,_TestTypeID);
             }
@@ -134,6 +167,22 @@ namespace DVLD
             frm.ShowDialog();
 
             RefrishData(_LDLA_ID, _TestTypeID);
+        }
+
+        private void takeTestToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if((bool)dgvAppointment.CurrentRow.Cells[3].Value == true)
+            {
+                MessageBox.Show("This Person  already Take the test ",
+               "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
+            Form frm = new frmTakeTest((int)dgvAppointment.CurrentRow.Cells[0].Value, _LDLA_ID, _TestTypeID);
+            frm.ShowDialog();
+
+            RefrishData(_LDLA_ID, _TestTypeID);
+
         }
     }
 }

@@ -78,6 +78,82 @@ namespace DVLD_DataAccessLayer
             }
             return licenseClassName;
         }
-        
+
+        public static byte GetLicenseValidityLength(int licenseId)
+        {
+            byte licenseValidityLength;
+
+            SqlConnection connection = new SqlConnection(clsDataAccessSetting.ConnetionString);
+            string query = "select DefaultValidityLength from LicenseClasses where LicenseClassID = @licenseId";
+
+            SqlCommand command = new SqlCommand(query, connection);
+
+            command.Parameters.AddWithValue("@licenseId", licenseId);
+
+            try
+            {
+                connection.Open();
+
+                SqlDataReader reader = command.ExecuteReader();
+
+                if (reader.Read())
+                {
+                    licenseValidityLength = (byte)reader["DefaultValidityLength"];
+                }
+                else
+                    licenseValidityLength = 0;
+
+                reader.Close();
+            }
+            catch
+            {
+                licenseValidityLength = 0;
+            }
+            finally
+            {
+                connection.Close();
+            }
+            return licenseValidityLength;
+        }
+
+        public static decimal GetLicenseClassFess(int licenseId)
+        {
+            decimal licenseClassFess;
+
+            SqlConnection connection = new SqlConnection(clsDataAccessSetting.ConnetionString);
+            string query = "select ClassFees from LicenseClasses where LicenseClassID = @licenseId";
+
+            SqlCommand command = new SqlCommand(query, connection);
+
+            command.Parameters.AddWithValue("@licenseId", licenseId);
+
+            try
+            {
+                connection.Open();
+
+                SqlDataReader reader = command.ExecuteReader();
+
+                if (reader.Read())
+                {
+                    licenseClassFess = (decimal)reader["ClassFees"];
+                }
+                else
+                    licenseClassFess = 0;
+
+                reader.Close();
+            }
+            catch
+            {
+                licenseClassFess = 0;
+            }
+            finally
+            {
+                connection.Close();
+            }
+            return licenseClassFess;
+        }
+
+
+
     }
 }

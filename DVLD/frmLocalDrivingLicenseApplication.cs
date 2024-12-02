@@ -35,10 +35,7 @@ namespace DVLD
         private void DisplayAllLDLA()
         {
             dgvApplication.DataSource = clsLocalDLA.GetAllLDLA();
-        }
-
-       
-
+        }      
 
         private string RecordesCount()
         {
@@ -190,50 +187,113 @@ namespace DVLD
         {
             Form frm = new frmTestAppointment((int)dgvApplication.CurrentRow.Cells[0].Value,1);
             frm.ShowDialog();
+
+            RefreshData();
         }
 
         private void showApplicationDeatailsToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Form frm = new frmApplicationDetails((int)dgvApplication.CurrentRow.Cells[0].Value);
             frm.ShowDialog();
+
+            RefreshData();
         }
 
         private void contextMenuStrip1_Opening(object sender, CancelEventArgs e)
         {
 
-            if(dgvApplication.CurrentRow.Cells[6].Value.ToString() == "Cancelled")
-            {
-                sechduleVisonTestToolStripMenuItem.Enabled = false;
-                sechduleVisonTestToolStripMenuItem1.Enabled = false;
-                sechduleVisonTestToolStripMenuItem2.Enabled = false;
-                return;
-            }
-        
+
+
 
             if ((int)dgvApplication.CurrentRow.Cells[5].Value == 0 )
             {
                 sechduleVisonTestToolStripMenuItem.Enabled = true;
-                sechduleVisonTestToolStripMenuItem1.Enabled = false;
-                sechduleVisonTestToolStripMenuItem2.Enabled = false;
+                sechduleWrittenTestToolStripMenuItem1.Enabled = false;
+                sechduleٍStreetTestToolStripMenuItem2.Enabled = false;
+                showPersonLicensesHistoryToolStripMenuItem.Enabled = false;
             }
             else if ((int)dgvApplication.CurrentRow.Cells[5].Value == 1)
             {
                 sechduleVisonTestToolStripMenuItem.Enabled = false;
-                sechduleVisonTestToolStripMenuItem1.Enabled = true;
-                sechduleVisonTestToolStripMenuItem2.Enabled = false;
+                sechduleWrittenTestToolStripMenuItem1.Enabled = true;
+                sechduleٍStreetTestToolStripMenuItem2.Enabled = false;
+                showPersonLicensesHistoryToolStripMenuItem.Enabled = false;
             }
             else if ((int)dgvApplication.CurrentRow.Cells[5].Value == 2)
             {
                 sechduleVisonTestToolStripMenuItem.Enabled = false;
-                sechduleVisonTestToolStripMenuItem1.Enabled = false;
-                sechduleVisonTestToolStripMenuItem2.Enabled = true;
+                sechduleWrittenTestToolStripMenuItem1.Enabled = false;
+                sechduleٍStreetTestToolStripMenuItem2.Enabled = true;
+                showPersonLicensesHistoryToolStripMenuItem.Enabled = false;
             }
             else if ((int)dgvApplication.CurrentRow.Cells[5].Value == 3)
             {
-                sechduleVisonTestToolStripMenuItem.Enabled = false;
-                sechduleVisonTestToolStripMenuItem1.Enabled = false;
-                sechduleVisonTestToolStripMenuItem2.Enabled = false;
+                sechduleIssueToolStripMenuItem.Enabled = false;
+                showLicenseToolStripMenuItem.Enabled = true;
+                sechduleٍStreetTestToolStripMenuItem2.Enabled = false;
+                showPersonLicensesHistoryToolStripMenuItem.Enabled = false;
             }
+
+
+            if (dgvApplication.CurrentRow.Cells[6].Value.ToString() == "Completed")
+            {
+                editApplicationToolStripMenuItem.Enabled = false;
+                deleteApplicationToolStripMenuItem.Enabled = false;
+                cancelApplicationToolStripMenuItem.Enabled = false;
+                sechduleIssueToolStripMenuItem.Enabled = false;
+                showLicenseToolStripMenuItem.Enabled = false;
+                showPersonLicensesHistoryToolStripMenuItem.Enabled = true;
+
+            }
+
+            if (dgvApplication.CurrentRow.Cells[6].Value.ToString() == "Cancelled")
+            {
+                editApplicationToolStripMenuItem.Enabled = false;
+                deleteApplicationToolStripMenuItem.Enabled = true;
+                cancelApplicationToolStripMenuItem.Enabled = false;
+                sechduleIssueToolStripMenuItem.Enabled = false;
+                showLicenseToolStripMenuItem.Enabled = false;
+                showPersonLicensesHistoryToolStripMenuItem.Enabled = false;
+
+
+            }
+        }
+
+        private void sechduleWrittenTestToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            Form frm = new frmTestAppointment((int)dgvApplication.CurrentRow.Cells[0].Value, 2);
+            frm.ShowDialog();
+
+            RefreshData();
+        }
+
+        private void sechduleٍStreetTestToolStripMenuItem2_Click(object sender, EventArgs e)
+        {
+            Form frm = new frmTestAppointment((int)dgvApplication.CurrentRow.Cells[0].Value, 3);
+            frm.ShowDialog();
+
+            RefreshData();
+        }
+
+        private void showLicenseToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form frm = new frmIssueDrivingLicenseFirstTime((int)dgvApplication.CurrentRow.Cells[0].Value);
+            frm.ShowDialog();
+
+            RefreshData();
+
+        }
+
+        private void showPersonLicensesHistoryToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form frm = new frmDrivingLicenseInfo((int)dgvApplication.CurrentRow.Cells[0].Value);
+            frm.ShowDialog();
+        }
+
+        private void showPersonLicensesHistoryToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            Form frm = new frmLicenseHistory((int)dgvApplication.CurrentRow.Cells[0].Value);
+            frm.ShowDialog();
         }
     }
 }

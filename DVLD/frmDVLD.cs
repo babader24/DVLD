@@ -93,5 +93,17 @@ namespace DVLD
             Form frm = new frmLocalDrivingLicenseApplication();
             frm.ShowDialog();
         }
+
+        private void driversToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form frm = new frmDrivers();
+            frm.ShowDialog();
+        }
+
+        private void interNationalLicenseToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form frm = new frmNewInternationalLicense();
+            frm.ShowDialog();
+        }
     }
 }
