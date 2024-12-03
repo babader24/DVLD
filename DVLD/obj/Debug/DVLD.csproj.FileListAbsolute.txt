@@ -60,3 +60,6 @@ F:\تاسيس ابو هدهود\كورس رقم 19 مشروع رخص السيا�
 F:\تاسيس ابو هدهود\كورس رقم 19 مشروع رخص السيارات\DVLD\obj\Debug\DVLD.frmInternationalLicenseApplication.resources
 F:\تاسيس ابو هدهود\كورس رقم 19 مشروع رخص السيارات\DVLD\obj\Debug\DVLD.frmRenewLicenseApplication.resources
 F:\تاسيس ابو هدهود\كورس رقم 19 مشروع رخص السيارات\DVLD\obj\Debug\DVLD.frmReplacmentForDamegedOrLost.resources
+F:\تاسيس ابو هدهود\كورس رقم 19 مشروع رخص السيارات\DVLD\obj\Debug\DVLD.frmDetainLicense.resources
+F:\تاسيس ابو هدهود\كورس رقم 19 مشروع رخص السيارات\DVLD\obj\Debug\DVLD.frmReleseDetainedLicense.resources
+F:\تاسيس ابو هدهود\كورس رقم 19 مشروع رخص السيارات\DVLD\obj\Debug\DVLD.frmManageDetainedLicenses.resources

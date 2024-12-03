@@ -65,7 +65,7 @@ namespace DVLD
                 lDateOfBirth.Text = person.BirthDate.ToString("dd/MM/yyyy");
                 lDriverID.Text = License.DriverID.ToString();
                 lExpairationDate.Text = License.ExpirationDate.ToString("dd/MM/yyyy");
-                lIsDetained.Text = (!License.IsActive ? "Yes" : "No");
+                lIsDetained.Text = (clsDetainedLicenses.IsLicenseDetained(License.LicenseID) ? "Yes" : "No");
 
                 if (person.Gendor == 0)
                 {

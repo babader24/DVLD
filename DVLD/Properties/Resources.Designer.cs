@@ -393,6 +393,16 @@ namespace DVLD.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap no_access_480px {
+            get {
+                object obj = ResourceManager.GetObject("no_access_480px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap orcid_512px {
             get {
                 object obj = ResourceManager.GetObject("orcid_512px", resourceCulture);
@@ -526,6 +536,16 @@ namespace DVLD.Properties {
         internal static System.Drawing.Bitmap smart_card_480px {
             get {
                 object obj = ResourceManager.GetObject("smart_card_480px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap srop {
+            get {
+                object obj = ResourceManager.GetObject("srop", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

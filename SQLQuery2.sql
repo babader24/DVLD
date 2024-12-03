@@ -125,4 +125,35 @@ InternationalLicenses.ExpirationDate, InternationalLicenses.IsActive from Intern
 
 update Licenses 
 set ExpirationDate = '2014-12-01'
-where LicenseID = 18
+where LicenseID = 19
+ 
+ update Licenses 
+set IsActive = 0
+where LicenseID =28
+
+ select * from Licenses
+
+  select * from DetainedLicenses
+
+  select DetainID, LicenseID, DetainDate,FineFees,CreatedByUserID, IsReleased,  ReleaseDate, ReleasedByUserID, ReleaseApplicationID from DetainedLicenses
+
+insert into DetainedLicenses (LicenseID, DetainDate,FineFees,CreatedByUserID, IsReleased,  ReleaseDate, ReleasedByUserID, ReleaseApplicationID )
+values (LicenseID, DetainDate,FineFees,CreatedByUserID, IsReleased,  ReleaseDate, ReleasedByUserID, ReleaseApplicationID )
+
+select SCOPE_IDENTITY();
+  select *from Drivers_View
+
+select DetainID, DetainedLicenses.LicenseID, DetainDate, IsReleased, FineFees, ReleaseDate,NationalNo, FullName, ReleaseApplicationID from DetainedLicenses
+inner  join Licenses on Licenses.LicenseID = DetainedLicenses.LicenseID
+inner join Drivers_View on Drivers_View.DriverID = Licenses.DriverID;
+
+select Found=1 from DetainedLicenses where IsReleased = 0
+and LicenseID = 153
+
+Select * from DetainedLicenses WHERE LicenseID = 15
+
+select * from Licenses
+
+update DetainedLicenses 
+set IsReleased = 1
+where LicenseID = 29

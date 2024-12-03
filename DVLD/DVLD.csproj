@@ -52,6 +52,12 @@
     <Compile Include="frmApplicationDetails.Designer.cs">
       <DependentUpon>frmApplicationDetails.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmDetainLicense.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDetainLicense.Designer.cs">
+      <DependentUpon>frmDetainLicense.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmDrivers.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -88,11 +94,23 @@
     <Compile Include="frmLicenseHistory.Designer.cs">
       <DependentUpon>frmLicenseHistory.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmManageDetainedLicenses.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmManageDetainedLicenses.Designer.cs">
+      <DependentUpon>frmManageDetainedLicenses.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmNewInternationalLicense.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmNewInternationalLicense.Designer.cs">
       <DependentUpon>frmNewInternationalLicense.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmReleseDetainedLicense.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmReleseDetainedLicense.Designer.cs">
+      <DependentUpon>frmReleseDetainedLicense.cs</DependentUpon>
     </Compile>
     <Compile Include="frmRenewLicenseApplication.cs">
       <SubType>Form</SubType>
@@ -273,6 +291,9 @@
     <EmbeddedResource Include="frmApplicationDetails.resx">
       <DependentUpon>frmApplicationDetails.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmDetainLicense.resx">
+      <DependentUpon>frmDetainLicense.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmDrivers.resx">
       <DependentUpon>frmDrivers.cs</DependentUpon>
     </EmbeddedResource>
@@ -291,8 +312,14 @@
     <EmbeddedResource Include="frmLicenseHistory.resx">
       <DependentUpon>frmLicenseHistory.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmManageDetainedLicenses.resx">
+      <DependentUpon>frmManageDetainedLicenses.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmNewInternationalLicense.resx">
       <DependentUpon>frmNewInternationalLicense.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmReleseDetainedLicense.resx">
+      <DependentUpon>frmReleseDetainedLicense.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmRenewLicenseApplication.resx">
       <DependentUpon>frmRenewLicenseApplication.cs</DependentUpon>
@@ -523,6 +550,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\driver1_400px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\no_access_480px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\srop.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

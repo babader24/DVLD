@@ -125,5 +125,39 @@ namespace DVLD
             frm.ShowDialog();
             
         }
+
+        private void retakeTestToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form frm = new frmLocalDrivingLicenseApplication();
+            frm.ShowDialog();
+        }
+
+        private void detainLicenseToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form frm = new frmDetainLicense();
+            frm.ShowDialog();
+            
+        }
+
+        private void relaseDetainedLicenseToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form frm = new frmReleseDetainedLicense(-1);
+            frm.ShowDialog();
+            
+        }
+
+        private void manageDetainedLicenseToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form frm = new frmManageDetainedLicenses();
+            frm.ShowDialog();
+        }
+
+        private void releaseDetainedDrivingLicenseToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form frm = new frmReleseDetainedLicense(-1);
+            frm.ShowDialog();
+        }
+
+
     }
 }

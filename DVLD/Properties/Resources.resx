@@ -157,6 +157,9 @@
   <data name="enter_key_96px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\enter_key_96px1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="no_access_480px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\no_access_480px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="name_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\name_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -168,6 +171,9 @@
   </data>
   <data name="eye_480px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\eye_480px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="test_passed_500px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\test_passed_500px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="orcid_512px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\orcid_512px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -232,8 +238,8 @@
   <data name="pincode_keyboard_480px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pincode_keyboard_480px1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="test_passed_500px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\test_passed_500px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="driver1_400px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\driver1_400px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="bill_480px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bill_480px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -265,7 +271,7 @@
   <data name="delete_document_480px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\delete_document_480px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="driver1_400px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\driver1_400px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="srop" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\srop.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
