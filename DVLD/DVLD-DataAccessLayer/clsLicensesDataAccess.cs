@@ -100,6 +100,36 @@ namespace DVLD_DataAccessLayer
             return LicenseID;
         }
 
+        public static bool DeActiveLicense(int LiceseID)
+        {
+            int rowsEffected = 0;
+            SqlConnection connection = new SqlConnection(clsDataAccessSetting.ConnetionString);
+
+            string query = @"update Licenses 
+                            set IsActive = 0
+                            where LicenseID = @LiceseID";
+
+            SqlCommand command = new SqlCommand(query, connection);
+
+            command.Parameters.AddWithValue("@LiceseID", LiceseID);
+
+            try
+            {
+                connection.Open();
+
+                rowsEffected = command.ExecuteNonQuery();
+            }
+            catch 
+            {
+                //
+                return false;
+            }
+            finally
+            {
+                connection.Close();
+            }
+            return (rowsEffected > 0);
+        }
 
         public static bool FindLicenseByApplicationID(ref int LicenseID, int ApplicationID, ref int DriverID, ref int LicenseClass, ref DateTime IssueDate,
             ref DateTime ExpirationDate, ref string Notes, ref decimal PaidFees, ref bool IsActive, ref byte IssueReason, ref int CreatedByUserID)

@@ -101,6 +101,10 @@ namespace DVLD
                 case 1: return "First Time";
 
                 case 2: return "Renew";
+
+                case 3: return "Replace Lost License";
+
+                case 4: return "Replace Damaged License";
             }
             return "All Faild";
 

@@ -82,6 +82,10 @@ namespace DVLD_BusneissLayer
             return AddLicense();
         }
 
+        public static bool DeActive(int LiceseID)
+        {
+            return clsLicensesDataAccess.DeActiveLicense(LiceseID);
+        }
 
         public static clsLicenses Find(int applicationID)
         {

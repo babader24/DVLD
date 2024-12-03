@@ -12,11 +12,11 @@ using static DVLD.frmDVLD;
 
 namespace DVLD
 {
-    public partial class frmRenewLicenseApplication : Form
+    public partial class frmReplacmentForDamegedOrLost : Form
     {
         clsLicenses _licenses;
 
-        public frmRenewLicenseApplication()
+        public frmReplacmentForDamegedOrLost()
         {
             InitializeComponent();
             Config();
@@ -31,19 +31,15 @@ namespace DVLD
 
         private void LoadApplicationInfo()
         {
-            lApplicationID.Text = DateTime.Now.ToString("dd/MM/yyyy");
-            lIssueDate.Text = DateTime.Now.ToString("dd/MM/yyyy");
-            lApplicationFees.Text = Convert.ToInt32(clsApplicationTypes.GetFees(2)).ToString();            
+            lApplicationID.Text = DateTime.Now.ToString("dd/MM/yyyy");                      
             lCreatedBy.Text = Globals._gUser.userName;
+            lApplicationFees.Text = "5";
 
         }
 
         private void loadAfterCheckData()
         {
-            lExiprationDate.Text = DateTime.Now.AddYears(1).ToString("dd/MM/yyyy");
             lOldLicenseID.Text = _licenses.LicenseID.ToString();
-            lLicenseFees.Text = Convert.ToInt32(clsLicenClasses.GetLicenseFees(_licenses.LicenseClass)).ToString();
-            lTotalFees.Text = (Convert.ToInt32(lLicenseFees.Text) + Convert.ToInt32(lApplicationFees.Text)).ToString();
         }
 
         private void LoadFormData()
@@ -71,31 +67,19 @@ namespace DVLD
             }
             loadAfterCheckData();
             ucDriverlicenseInfo1._LoadData();
-            
+
 
         }
 
         private bool checkLocalLicense()
         {
-            if (_licenses.IsActive == true)
-            {
-                if (_licenses.ExpirationDate < DateTime.Now)
-                {
-                    return true;
-                }
-                else
-                {
-                    MessageBox.Show("The Local License Is Not Expiard, Please Wait until locale License Expiard!", "Error",
+            if (_licenses.IsActive == true)                           
+                return true;
+                            
+            else            
+                MessageBox.Show("The Local License already Not  Active, You Can't Reblace an Old License! Give us the lastest license", "Error",
                     MessageBoxButtons.OK, MessageBoxIcon.Error);
-
-                }
-            }
-            else
-            {
-                MessageBox.Show("The Local License already Not  Active, You Can't Renew an Old License! Give us the lastest license", "Error",
-                    MessageBoxButtons.OK, MessageBoxIcon.Error);
-
-            }
+            
             return false;
         }
 
@@ -107,12 +91,12 @@ namespace DVLD
         }
 
         private bool Addapplication()
-        {         
+        {
             clsLocalDLA LDLA = new clsLocalDLA();
 
             LDLA.ApplicantPersonID = clsLicenses.GetPersonID(_licenses.LicenseID);
             LDLA.ApplicationDate = DateTime.Now;
-            LDLA.ApplicationTypeID = 2;
+            LDLA.ApplicationTypeID = (rbDamagedLicense.Checked ? 4 : 3);
             LDLA.ApplicationStatus = 3;
             LDLA.LastStatusDate = DateTime.Now;
             LDLA.CreatedByUserID = Globals._gUser.userID;
@@ -136,17 +120,40 @@ namespace DVLD
             newLicense.LicenseClass = _licenses.LicenseClass;
             newLicense.IssueDate = DateTime.Now;
             newLicense.ExpirationDate = DateTime.Now.AddYears(clsLicenClasses.GetValidateLingth(_licenses.LicenseClass));
-            newLicense.Notes = tbNotes.Text == string.Empty ? null : tbNotes.Text;
-            newLicense.PaidFees = Convert.ToDecimal(lTotalFees.Text);
+            newLicense.Notes = null;
+            newLicense.PaidFees = Convert.ToDecimal(lApplicationFees.Text);
             newLicense.IsActive = true;
-            newLicense.IssueReason = 2;
+            newLicense.IssueReason =(byte)(rbDamagedLicense.Checked ? 4 : 3);
             newLicense.CreatedByUserID = Globals._gUser.userID;
 
             newLicense.Save();
 
-            lRenewLicenseID.Text = newLicense.LicenseID.ToString();
+            ReplacedLicenseID.Text = newLicense.LicenseID.ToString();
 
             return (newLicense.LicenseID != -1);
+        }
+
+        private void DamagedLicenseSettings()
+        {
+            lApplicationFees.Text = Convert.ToInt32(clsApplicationTypes.GetFees(4)).ToString();            
+            lTitle.Text = "Replacement For Damaged License";
+            this.Text = "frm Replacement For Damaged License";
+        }
+
+        private void LostLicenseSettings()
+        {
+            lApplicationFees.Text = Convert.ToInt32(clsApplicationTypes.GetFees(3)).ToString();
+            lTitle.Text = "Replacement For Lost License";
+            this.Text = "frm Replacement For Lost License";
+        }
+
+        private void rbLostLicense_CheckedChanged(object sender, EventArgs e)
+        {
+            if (rbDamagedLicense.Checked)
+                DamagedLicenseSettings();
+            else
+                LostLicenseSettings();
+
         }
 
         private void btnClose_Click(object sender, EventArgs e)
@@ -163,7 +170,7 @@ namespace DVLD
                 return;
             }
 
-            if(!deActiveOldLicense())
+            if (!deActiveOldLicense())
             {
                 MessageBox.Show("Can't deactive old license!", "Error",
                           MessageBoxButtons.OK, MessageBoxIcon.Error);
@@ -175,7 +182,7 @@ namespace DVLD
                 if (AddLicense())
                 {
                     MessageBox.Show(@"Application Save and International Issued Successfully your International
-                           License Id = " + lRenewLicenseID.Text + " (-: ", "Save",
+                           License Id = " + ReplacedLicenseID.Text + " (-: ", "Save",
                        MessageBoxButtons.OK, MessageBoxIcon.Information);
 
                     ShowLicenseInfo.Enabled = true;
@@ -194,7 +201,7 @@ namespace DVLD
 
         private void ShowLicenseInfo_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            Form frm = new frmDrivingLicenseInfo(Convert.ToInt32(lRenewLicenseID.Text));
+            Form frm = new frmDrivingLicenseInfo(Convert.ToInt32(ReplacedLicenseID.Text));
             frm.ShowDialog();
         }
 
@@ -206,7 +213,7 @@ namespace DVLD
                            MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
-            Form frm = new frmLicenseHistory(_licenses.LicenseID);
+            Form frm = new frmLicenseHistory(Convert.ToInt32(ReplacedLicenseID.Text));
             frm.ShowDialog();
         }
     }

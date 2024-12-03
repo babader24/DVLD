@@ -14,6 +14,7 @@ namespace DVLD
     public partial class frmLicenseHistory : Form
     {
         clsLocalDLA localDLA;
+        clsLicenses license;
         public frmLicenseHistory(int ID)
         {
             InitializeComponent();
@@ -59,7 +60,7 @@ namespace DVLD
            
             try
             {
-                clsLicenses license = clsLicenses.Find(localDLA.ApplicationID);
+                license = clsLicenses.Find(localDLA.ApplicationID);
                 LoadLocalLicenses(license.DriverID);
                 LoadInternationalLicenses(license.LicenseID);
             }
@@ -122,6 +123,21 @@ namespace DVLD
             return Records;
         }
 
+        private void showLicenseInfoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form frm = new frmDrivingLicenseInfo((int)dgvLocal.CurrentRow.Cells[0].Value);
+            frm.ShowDialog();
+        }
 
+        private void showLicenseInfoToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            Form frm = new frmInternationalDriverInfo((int)dgvInternational.CurrentRow.Cells[0].Value);
+            frm.ShowDialog();
+        }
+
+        private void btnClose_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
