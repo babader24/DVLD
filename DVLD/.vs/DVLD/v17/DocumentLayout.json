@@ -1,16 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "F:\\\u062A\u0627\u0633\u064A\u0633 \u0627\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\\u0643\u0648\u0631\u0633 \u0631\u0642\u0645 19 \u0645\u0634\u0631\u0648\u0639 \u0631\u062E\u0635 \u0627\u0644\u0633\u064A\u0627\u0631\u0627\u062A\\DVLD\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{A130D878-0542-41CE-A5B1-A7287BB839EF}|DVLD.csproj|f:\\\u062A\u0627\u0633\u064A\u0633 \u0627\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\\u0643\u0648\u0631\u0633 \u0631\u0642\u0645 19 \u0645\u0634\u0631\u0648\u0639 \u0631\u062E\u0635 \u0627\u0644\u0633\u064A\u0627\u0631\u0627\u062A\\dvld\\frmmanagedetainedlicenses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A130D878-0542-41CE-A5B1-A7287BB839EF}|DVLD.csproj|solutionrelative:frmmanagedetainedlicenses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A130D878-0542-41CE-A5B1-A7287BB839EF}|DVLD.csproj|f:\\\u062A\u0627\u0633\u064A\u0633 \u0627\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\\u0643\u0648\u0631\u0633 \u0631\u0642\u0645 19 \u0645\u0634\u0631\u0648\u0639 \u0631\u062E\u0635 \u0627\u0644\u0633\u064A\u0627\u0631\u0627\u062A\\dvld\\frmmanagedetainedlicenses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A130D878-0542-41CE-A5B1-A7287BB839EF}|DVLD.csproj|solutionrelative:frmmanagedetainedlicenses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -18,36 +9,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "frmManageDetainedLicenses.cs",
-              "DocumentMoniker": "F:\\\u062A\u0627\u0633\u064A\u0633 \u0627\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\\u0643\u0648\u0631\u0633 \u0631\u0642\u0645 19 \u0645\u0634\u0631\u0648\u0639 \u0631\u062E\u0635 \u0627\u0644\u0633\u064A\u0627\u0631\u0627\u062A\\DVLD\\frmManageDetainedLicenses.cs",
-              "RelativeDocumentMoniker": "frmManageDetainedLicenses.cs",
-              "ToolTip": "F:\\\u062A\u0627\u0633\u064A\u0633 \u0627\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\\u0643\u0648\u0631\u0633 \u0631\u0642\u0645 19 \u0645\u0634\u0631\u0648\u0639 \u0631\u062E\u0635 \u0627\u0644\u0633\u064A\u0627\u0631\u0627\u062A\\DVLD\\frmManageDetainedLicenses.cs",
-              "RelativeToolTip": "frmManageDetainedLicenses.cs",
-              "ViewState": "AQIAAB8AAAAAAAAAAAAEwIUAAABAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T14:56:09.312Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "frmManageDetainedLicenses.cs [Design]",
-              "DocumentMoniker": "F:\\\u062A\u0627\u0633\u064A\u0633 \u0627\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\\u0643\u0648\u0631\u0633 \u0631\u0642\u0645 19 \u0645\u0634\u0631\u0648\u0639 \u0631\u062E\u0635 \u0627\u0644\u0633\u064A\u0627\u0631\u0627\u062A\\DVLD\\frmManageDetainedLicenses.cs",
-              "RelativeDocumentMoniker": "frmManageDetainedLicenses.cs",
-              "ToolTip": "F:\\\u062A\u0627\u0633\u064A\u0633 \u0627\u0628\u0648 \u0647\u062F\u0647\u0648\u062F\\\u0643\u0648\u0631\u0633 \u0631\u0642\u0645 19 \u0645\u0634\u0631\u0648\u0639 \u0631\u062E\u0635 \u0627\u0644\u0633\u064A\u0627\u0631\u0627\u062A\\DVLD\\frmManageDetainedLicenses.cs [Design]",
-              "RelativeToolTip": "frmManageDetainedLicenses.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T10:58:25.457Z",
-              "EditorCaption": " [Design]"
             }
           ]
         }
